@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    
+    <table class="table">
+        <button class="btn btn-secondary">Order by Title</button>
+        <button class="btn btn-secondary mx-2">Order by Album</button>
+        <button class="btn btn-secondary">Order by Year</button>
+        <thead>
+            <tr align="center">
+                <th scope="col">Title</th>
+                <th scope="col">Year</th>
+                <th scope="col">Appears on</th>
+
+            </tr>
+        </thead>
+        <tbody id="id_parent">
+
+        </tbody>
+    </table>
+</body>
+<script>
+      const getData = () => {
+        let tracks=[]
+        fetch('https://muslimgauze-database.herokuapp.com/tracks', {
+                headers: {
+                    'Content-Type': 'application/json',
+                }
+            })
+            .then(function (response) {
+                console.log(response)
+                //return response.text();
+            })}
+            getData()
+</script>
+</html>
