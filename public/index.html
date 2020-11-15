@@ -229,7 +229,7 @@ console.log(tracks)
             .then(function (jsonData) {
                 parseData(jsonData,"title")
             })
-            $("#titlesearchinput").empty()
+            $("#titlesearchinput").val().empty()
         })
    
 
@@ -246,7 +246,7 @@ console.log(tracks)
             .then(function (jsonData) {
                 parseData(jsonData,"title")
             })
-            $("#albumsearchinput").empty()
+            $("#albumsearchinput").val().empty()
 
         })
    
