@@ -154,7 +154,23 @@ console.log(tracks)
 
         $("#searchtitlebtn").on('click',function(){
 
-        fetch(`https://muslimgauze-database.herokuapp.com/titlesearch/${$("#titlesearchinput").val()}/`, {
+        fetch(`https://muslimgauze-database.herokuapp.com/tracks/titlesearch/${$("#titlesearchinput").val()}/`, {
+                headers: {
+                    'Content-Type': 'application/json',
+                }
+            })
+            .then(function (response) {
+                return response.json()
+            })
+            .then(function (jsonData) {
+                parseData(jsonData,"title")
+            })
+        })
+   
+
+        $("#searchalbumbtn").on('click',function(){
+
+        fetch(`https://muslimgauze-database.herokuapp.com/tracks/titlesearch/${$("#albumsearchinput").val()}/`, {
                 headers: {
                     'Content-Type': 'application/json',
                 }
