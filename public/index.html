@@ -20,6 +20,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <style>
+    body{
+        background-image: url(white-gray-background.jpg);
+        font-family: akagi-pro, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	width: 95%;
+    }
     .spinner {
   margin: 100px auto 0;
   width: 70px;
@@ -71,9 +79,8 @@
 }
 </style>
 <body>
-
     <table class="table">
-        <select id="sortmenu">
+        <div class="row my-5 ml-5"><select id="sortmenu"  class="form-control w-25">
             <option value="">Order items by:</option>
             <option value="">-----</option>
             <option value="track">Track title (default)</option>
@@ -81,11 +88,11 @@
             <option value="yearasc">Year of original release (+)</option>
             <option value="yeardesc">Year of original release (-)</option>
           </select>
-        <input id="titlesearchinput" placeholder="Search by title">
+        <input id="titlesearchinput" placeholder="Search by track title">
         <button id="searchtitlebtn" class="btn btn-info">Search</button>
-        <input id="titlesearchinput" placeholder="Search by album">
+        <input id="titlesearchinput" placeholder="Search by album title">
         <button id="searchalbumbtn" id="searchalbum" class="btn btn-info">Search</button>
-        <thead>
+        <thead></div>
             <tr align="center">
                 <th scope="col">Title</th>
 
