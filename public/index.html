@@ -80,7 +80,7 @@
 </style>
 <body>
     <table class="table">
-        <div class="row my-5 ml-5"><select id="sortmenu"  class="form-control w-25">
+        <div class="row my-5"><select id="sortmenu"  class="form-control w-25">
             <option value="">Order items by:</option>
             <option value="">-----</option>
             <option value="track">Track title (default)</option>
@@ -229,6 +229,7 @@ console.log(tracks)
             .then(function (jsonData) {
                 parseData(jsonData,"title")
             })
+            $("#titlesearchinput").empty()
         })
    
 
@@ -245,6 +246,8 @@ console.log(tracks)
             .then(function (jsonData) {
                 parseData(jsonData,"title")
             })
+            $("#albumsearchinput").empty()
+
         })
    
 
