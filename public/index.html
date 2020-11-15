@@ -1,86 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="./javascripts/lodash.js"></script>
+<script src="./javascripts/jquery-3.5.1.min.js"></script>
+<link rel="stylesheet" href="./stylesheets/style.css">
+<link rel="stylesheet" href="./stylesheets/bootstrap.min.css">
+<script src="https://kit.fontawesome.com/bda1266a15.js" crossorigin="anonymous"></script>
+<script type="module" src="./javascripts/app.js"></script>
 </head>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
-</script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js"></script>
-<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<style>
-    body{
-        background-image: url(white-gray-background.jpg);
-        font-family: akagi-pro, sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	font-size: 16px;
-	width: 95%;
-    }
-    .spinner {
-  margin: 100px auto 0;
-  width: 70px;
-  text-align: center;
-  position: absolute;
-  height: 100px;
-    width: 100px;
-    top: 50%;
-    left: 50%;
-    margin-left: -50px;
-    margin-top: -50px;
-    background-size: 100%;
-}
 
-.spinner > div {
-  width: 18px;
-  height: 18px;
-  background-color: #333;
-
-  border-radius: 100%;
-  display: inline-block;
-  -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
-  animation: sk-bouncedelay 1.4s infinite ease-in-out both;
-}
-
-.spinner .bounce1 {
-  -webkit-animation-delay: -0.32s;
-  animation-delay: -0.32s;
-}
-
-.spinner .bounce2 {
-  -webkit-animation-delay: -0.16s;
-  animation-delay: -0.16s;
-}
-
-@-webkit-keyframes sk-bouncedelay {
-  0%, 80%, 100% { -webkit-transform: scale(0) }
-  40% { -webkit-transform: scale(1.0) }
-}
-
-@keyframes sk-bouncedelay {
-  0%, 80%, 100% { 
-    -webkit-transform: scale(0);
-    transform: scale(0);
-  } 40% { 
-    -webkit-transform: scale(1.0);
-    transform: scale(1.0);
-  }
-}
-</style>
 <body>
+    <div class="editmodal" id="editmodal">
+    </div>
     <table class="table">
-        <div class="row my-5"><select id="sortmenu"  class="form-control w-25">
+        <div class="row ml-5 my-3"><select id="sortmenu"  class="form-control w-25">
             <option value="start">Order items by:</option>
             <option value="">-----</option>
             <option value="track">Track title (default)</option>
@@ -88,20 +23,26 @@
             <option value="yearasc">Year of original release (+)</option>
             <option value="yeardesc">Year of original release (-)</option>
           </select>
-        <input id="titlesearchinput" placeholder="Search by track title">
+        <input id="titlesearchinput"  class="ml-3 w-25" placeholder="Search by track title">
         <button id="searchtitlebtn" class="btn btn-info">Search</button>
-        <input id="titlesearchinput" placeholder="Search by album title">
-        <button id="searchalbumbtn" id="searchalbum" class="btn btn-info">Search</button>
-        <thead></div>
-            <tr align="center">
-                <th scope="col">Title</th>
+        <input id="titlesearchinput" class="ml-3 w-25" placeholder="Search by album title">
+        <button id="searchalbumbtn" class="btn btn-info">Search</button>
+        <button id="loginshowbtn" class="ml-5 btn btn-secondary">Login</button>
 
+    </div>
+        <thead>
+            <tr align="center">
+                <th scope="col">Edit</th>
+                <th scope="col">Title</th>
                 <th scope="col">Appears on</th>
                 <th scope="col">Reissue</th>
                 <th scope="col">Reissue</th>
 
             </tr>
         </thead>
+        <div class="row justify-content-center"><div class="pagination">
+
+          </div></div>
         <tbody id="id_parent">
             <div class="spinner">
                 <div class="bounce1"></div>
@@ -109,152 +50,35 @@
                 <div class="bounce3"></div>
             </div>
         </tbody>
-        
+
     </table>
-    
+    <button class="btn btn-info float-right mr-5">ADD TRACK</button>
+
+<div id="usermodal" class="usermodal">
+      <div class="row ml-5 my-3">
+        <span class=""><b><p class="usermessage"></p></b></span>
+
+      <form>
+      <label for="uname" class="ml-2" ><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" id="id_user_input" required>
+      <label for="uname"  class="ml-2" ><b>E-mail</b></label>
+      <input type="text" placeholder="Enter e-mail" id="id_email_input" required>
+      <label for="psw"  class="ml-2" ><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" id="id_pass_input" required>
+  
+      <button type="submit" id="usersubmitbtn" class="btn btn-success">Login</button>
+    </form>
+      <div class="offset-3">
+        <button type="button" class=" cancelloginbtn btn btn-danger"><i
+            class="fas fa-window-close"></i></button>
+      </div>
+</div>
+
+  </div>
+  <div id="popupmodal">
+    <div class="modal__window">
+    </div>
+  </div>
+  
 </body>
-<script>
-            let tracks=[]
-
-    const getData = () => {
-        fetch('https://muslimgauze-database.herokuapp.com/tracks', {
-                headers: {
-                    'Content-Type': 'application/json',
-                }
-            })
-            .then(function (response) {
-                return response.json()
-            })
-            .then(function (jsonData) {
-                parseData(jsonData,"title")
-            })
-    }
-    getData()
-
-const parseData=(_data,_sort,_titlestring,_albumstring)=>{
-if (_sort==="title"){tracks=_.sortBy(_data,_sort)}
-if (_sort==="album"){
-    tracks = _.sortBy(_data,function(item){
-        return[item.releases[0].albumtitle]}
-    )
-}
-if (_sort==="yearasc"){
-    tracks = _.sortBy(_data,function(item){
-        return[item.releases[0].albumyear]}
-    )
-}
-if (_sort==="yeardesc"){
-    tracks = _.sortBy(_data,function(item){
-        return[item.releases[0].albumyear]}
-    ).reverse()
-}
-doTable(tracks)
-console.log(tracks)
-}
-
-    class Track {
-        constructor(_title, _release1title, _release1year, _release1format, _release1catalogue,
-            _release2title="", _release2year="", _release2format="", _release2catalogue="",
-            _release3title="", _release3year="", _release3format="", _release3catalogue=""
-        ) {
-            this.title = _title;
-            this.release1title = _release1title;
-            this.release1year = _release1year;
-            this.release1format = _release1format;
-            this.release1catalogue = _release1catalogue;
-            this.release2title = _release2title;
-            this.release2year = _release2year;
-            this.release2format = _release2format;
-            this.release2catalogue = _release2catalogue;
-            this.release3title = _release3title;
-            this.release3year = _release3year;
-            this.release3format = _release3format;
-            this.release3catalogue = _release3catalogue;
-            this.render()
-        }
-
-        render() {
-            let newTr = $("<tr></tr>")
-            $("#id_parent").append(newTr);
-            $(newTr).append(`
-      <td align="center" class="align-middle">${this.title}</td>
-      <td align="center" class="align-middle">${this.release1title}<br>${this.release1year}<br> ${this.release1format}<br>${this.release1catalogue} </td>
-      <td align="center" class="align-middle">${this.release2title}<br>${this.release2year}<br> ${this.release2format}<br>${this.release2catalogue} </td>
-      <td align="center" class="align-middle">${this.release3title}<br>${this.release3year}<br> ${this.release3format}<br>${this.release3catalogue} </td>
-
-            
-    `)
-        }
-
-    }
-    const doTable = (_data) => {
-        $("#id_parent").empty()
-        $(".spinner").empty()
- 
-        _data.map(item => {
-            let track = new Track(item.title, item.releases[0]?.albumtitle,item.releases[0]?.albumyear,item.releases[0]?.albumformat,item.releases[0]?.albumcatalogue,
-            item.releases[1]?.albumtitle,item?.releases[1]?.albumyear,item?.releases[1]?.albumformat,item?.releases[1]?.albumcatalogue,
-            item?.releases[2]?.albumtitle,item?.releases[2]?.albumyear,item?.releases[2]?.albumformat,item?.releases[2]?.albumcatalogue
-            )
-
-        })
-    }
-
-    
-    document.querySelector("#sortmenu").addEventListener("change", () => {
-        if ($("#sortmenu").val() === "track") {
-            parseData(tracks,"title")
-        }
-    
-        if ($("#sortmenu").val() === "album") {
-            parseData(tracks,"album")
-        }
-        if ($("#sortmenu").val() === "yearasc") {
-            parseData(tracks,"yearasc");
-        }
-        if ($("#sortmenu").val() === "yeardesc") {
-            parseData(tracks,"yeardesc");
-        } })
-
-        $("#searchtitlebtn").on('click',function(){
-
-        fetch(`https://muslimgauze-database.herokuapp.com/tracks/titlesearch/${$("#titlesearchinput").val()}/`, {
-                headers: {
-                    'Content-Type': 'application/json',
-                }
-            })
-            .then(function (response) {
-                return response.json()
-            })
-            .then(function (jsonData) {
-                parseData(jsonData,"title")
-            })
-            $("#titlesearchinput").val('')
-            $("#sortmenu").val('start').change();
-
-        })
-   
-
-        $("#searchalbumbtn").on('click',function(){
-
-        fetch(`https://muslimgauze-database.herokuapp.com/tracks/titlesearch/${$("#albumsearchinput").val()}/`, {
-                headers: {
-                    'Content-Type': 'application/json',
-                }
-            })
-            .then(function (response) {
-                return response.json()
-            })
-            .then(function (jsonData) {
-                parseData(jsonData,"title")
-            })
-            $("#albumsearchinput").val('')
-            $("#sortmenu").val('start').change();
-
-
-        })
-   
-
-</script>
-
 </html>
