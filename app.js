@@ -11,14 +11,17 @@ const cors = require('cors')
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'jade');
-app.all('*', function (req, res, next) {
-  if (!req.get('Origin')) return next();
-  res.set('Access-Control-Allow-Origin', '*');
-  res.header("Access-Control-Allow-Methods", "GET, PUT, POST, DELETE");
-  res.set('Access-Control-Allow-Headers', 'X-Requested-With,Content-Type,x-auth-token');
-  next();
-});
+app.set('view engine', 'jade');header('Access-Control-Allow-Origin: *');
+header("Access-Control-Allow-Methods: HEAD, GET, POST, PUT, PATCH, DELETE, OPTIONS");
+header("Access-Control-Allow-Headers: X-API-KEY, Origin, X-Requested-With, Content-Type, Accept, Access-Control-Request-Method,Access-Control-Request-Headers, Authorization");
+header('Content-Type: application/json');
+$method = $_SERVER['REQUEST_METHOD'];
+if ($method == "OPTIONS") {
+header('Access-Control-Allow-Origin: *');
+header("Access-Control-Allow-Headers: X-API-KEY, Origin, X-Requested-With, Content-Type, Accept, Access-Control-Request-Method,Access-Control-Request-Headers, Authorization");
+header("HTTP/1.1 200 OK");
+die();
+}
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
