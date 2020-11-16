@@ -40,8 +40,7 @@
 
       $("#searchalbumbtn").on('click', function () {
 
-          if ($("#titlesearchinput").val()) {
-
+          if ($("#albumsearchinput").val()) {
               fetch(`https://muslimgauze-database.herokuapp.com/tracks/titlesearch/${$("#albumsearchinput").val()}/`, {
                       headers: {
                           'Content-Type': 'application/json',
