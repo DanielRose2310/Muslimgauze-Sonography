@@ -6,6 +6,7 @@ var logger = require('morgan');
 
 const mongodb = require('./dbs_connected/mongodb')
 const tracksR = require('./routes/tracks');
+const usersR = require('./routes/users');
 const app = express();
 const cors = require('cors')
 
@@ -28,7 +29,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/tracks', tracksR);
-
+app.use('/users',usersR);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));

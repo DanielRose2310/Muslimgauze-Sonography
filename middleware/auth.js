@@ -5,7 +5,7 @@ const authToken = (req, res, next) => {
   // req.header - ניתן לשלוח בכל סוג מיטוד גם גיט ,פוסט,פוט,דיליט
   // והוא מאובטח
   let token = req.header("x-auth-token");
-  if (!token) { return res.status(401).json({ message: "access denied" }) }
+  if (!token) { return res.status(401).json({ message: "Access denied" }) }
   try {
     
     let checkToken = jwt.verify(token, "mytoken");
