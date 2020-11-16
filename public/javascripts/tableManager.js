@@ -16,14 +16,14 @@ import {admin} from './app.js'
     }
 else {        $("#id_parent").empty()
 
-        _data.slice(_page*20,_page*20+20).map(item => {
+        _data.slice(_page*10,_page*10+10).map(item => {
             let track = new Track(item.title, item.releases[0]?.albumtitle,item.releases[0]?.albumyear,item.releases[0]?.albumformat,item.releases[0]?.albumcatalogue,
             item.releases[1]?.albumtitle,item?.releases[1]?.albumyear,item?.releases[1]?.albumformat,item?.releases[1]?.albumcatalogue,
             item?.releases[2]?.albumtitle,item?.releases[2]?.albumyear,item?.releases[2]?.albumformat,item?.releases[2]?.albumcatalogue, item._id
             )
 
         })
-        let pages = Math.floor(_data.length/20)
+        let pages = Math.floor(_data.length/10)
         $(".pagination").empty()
         if (_page>0){$(".pagination").append(`<h5 class="pagin" data-num=0>&laquo;</h5>`)}
         if (_page>3 && pages<_page+3){$(".pagination").append(`<h5 class="pagin" data-num=${_page-4}>${_page-3}</h5>`)}

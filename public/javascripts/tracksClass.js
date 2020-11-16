@@ -113,5 +113,17 @@ export class Track {
 
         }
 
+        fetch(`https://muslimgauze-database.herokuapp.com/albums/cataloguesearch/${this.release1title}/`, {
+                      headers: {
+                          'Content-Type': 'application/json',
+                      }
+                  })
+                  .then(function (response) {
+                      return response.json()
+                  })
+                  .then(function (jsonData) {
+                      console.log(jsonData)
+                  })
+
     }
 }

@@ -6,7 +6,7 @@ const jwt = require("jsonwebtoken");
 const albumSchema = new mongoose.Schema({
   title: String,
   page: String,
-  imagesrc: String
+  src: String
 })
 
 const albumsModel = mongoose.model("albums",albumSchema)
@@ -19,7 +19,7 @@ const validAlbum = (_itemObj) => {
     _id:Joi.any(),
     title:Joi.string(),
     page:Joi.string(),
-    imagesrc:Joi.string,
+    src:Joi.string(),
     
   })
   return schema.validate(_itemObj);

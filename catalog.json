@@ -1,0 +1,1320 @@
+[{
+    "title": "Inhalt",
+    "page": "releases/inhalt.html",
+    "src": "../images/covers/inhalt1.jpg"
+}, {
+    "title": "Inhalt",
+    "page": "releases/inhalt.html",
+    "src": "../images/covers/inhalt2.jpg"
+}, {
+    "title": "Triptych",
+    "page": "releases/triptych.html",
+    "src": "../images/covers/triptych.jpg"
+}, {
+    "title": "Hammer & Sickle",
+    "page": "releases/hammer.html",
+    "src": "../images/covers/hammer.jpg"
+}, {
+    "title": "Piano Room",
+    "page": "releases/piano.html",
+    "src": "../images/covers/piano.jpg"
+}, {
+    "title": "Flajelata",
+    "page": "releases/flajelata.html",
+    "src": "../images/covers/flajelata.jpg"
+}, {
+    "title": "Flajelata",
+    "page": "releases/flajelata.html",
+    "src": "../images/misc/arrowFwd.jpg"
+}, {
+    "title": "Opaques",
+    "page": "releases/opaques.html",
+    "src": "../images/covers/opaques.jpg"
+}, {
+    "title": "Blinded Horses",
+    "page": "releases/blinded.html",
+    "src": "../images/covers/blinded.jpg"
+}, {
+    "title": "Buddhist On Fire",
+    "page": "releases/buddhist.html",
+    "src": "../images/covers/buddhist.jpg"
+}, {
+    "title": "Buddhist On Fire",
+    "page": "releases/buddhist.html",
+    "src": "../images/arrow(trans).jpg"
+}, {
+    "title": "Buddhist On Fire",
+    "page": "releases/buddhist.html",
+    "src": "../images/covers/buddhist.jpg"
+}, {
+    "title": "Buddhist On Fire",
+    "page": "releases/buddhist.html",
+    "src": "../images/arrow(trans).jpg"
+}, {
+    "title": "Jazirat-Ul-Arab",
+    "page": "releases/jazirat.html",
+    "src": "../images/covers/jazirat.jpg"
+}, {
+    "title": "Intifaxa",
+    "page": "releases/intifaxaCas.html",
+    "src": "../images/covers/intifaxaCas.jpg"
+}, {
+    "title": "Iran",
+    "page": "releases/iran2.html",
+    "src": "../images/covers/iran.jpg"
+}, {
+    "title": "Iran",
+    "page": "releases/iran2.html",
+    "src": "../images/covers/iranBack2.jpg"
+}, {
+    "title": "Iran",
+    "page": "releases/iran.html",
+    "src": "../images/covers/iran.jpg"
+}, {
+    "title": "Iran",
+    "page": "releases/iran.html",
+    "src": "../images/covers/iranBack1.jpg"
+}, {
+    "title": "Coup D'Etat",
+    "page": "releases/coupLP.html",
+    "src": "../images/covers/coupLP.jpg"
+}, {
+    "title": "Kabul",
+    "page": "releases/kabul.html",
+    "src": "../images/covers/kabul.jpg"
+}, {
+    "title": "Vote Hezbollah",
+    "page": "releases/vote.html",
+    "src": "../images/covers/vote.jpg"
+}, {
+    "title": "Coup D'Etat / Abu Nidal",
+    "page": "releases/coupCD.html",
+    "src": "../images/covers/coupCD.jpg"
+}, {
+    "title": "Zul'm",
+    "page": "releases/zulm.html",
+    "src": "../images/covers/zulm.jpg"
+}, {
+    "title": "Hamas Arc",
+    "page": "releases/hamas.html",
+    "src": "../images/covers/hamas.jpg"
+}, {
+    "title": "Hamas Arc",
+    "page": "releases/hamas.html",
+    "src": "../images/covers/hamas2.jpg"
+}, {
+    "title": "The Rape Of Palestine",
+    "page": "releases/rape.html",
+    "src": "../images/covers/rape.jpg"
+}, {
+    "title": "Uzi",
+    "page": "releases/uziLP.html",
+    "src": "../images/covers/uziLP.jpg"
+}, {
+    "title": "Hajj",
+    "page": "releases/hajj.html",
+    "src": "../images/covers/hajj.jpg"
+}, {
+    "title": "Abu Nidal",
+    "page": "releases/abu-nidal.html",
+    "src": "../images/covers/abu-nidal.jpg"
+}, {
+    "title": "split",
+    "page": "releases/splitMinus.html",
+    "src": "../images/covers/minus-habens.jpg"
+}, {
+    "title": "Intifaxa",
+    "page": "releases/intifaxaCD.html",
+    "src": "../images/covers/intifaxaCD.jpg"
+}, {
+    "title": "Emak Bakia",
+    "page": "releases/emak.html",
+    "src": "../images/covers/emak.jpg"
+}, {
+    "title": "Hebron Massacre",
+    "page": "releases/hebron.html",
+    "src": "../images/covers/hebron.jpg"
+}, {
+    "title": "Citadel",
+    "page": "releases/citadel.html",
+    "src": "../images/covers/citadel.jpg"
+}, {
+    "title": "Betrayal",
+    "page": "releases/betrayal.html",
+    "src": "../images/covers/betrayal.jpg"
+}, {
+    "title": "Infidel",
+    "page": "releases/infidel.html",
+    "src": "../images/covers/infidel.jpg"
+}, {
+    "title": "Zealot",
+    "page": "releases/zealotCD.html",
+    "src": "../images/covers/zealotCD.jpg"
+}, {
+    "title": "Al-Zulfiquar Shaheed",
+    "page": "releases/al-zulfiquar.html",
+    "src": "../images/covers/al-zulfiquar.jpg"
+}, {
+    "title": "Drugsherpa",
+    "page": "releases/drugsherpa.html",
+    "src": "../images/covers/drugsherpa.jpg"
+}, {
+    "title": "Maroon",
+    "page": "releases/maroon.html",
+    "src": "../images/covers/maroonStamp.jpg"
+}, {
+    "title": "Maroon",
+    "page": "releases/maroon.html",
+    "src": "../images/covers/maroon.jpg"
+}, {
+    "title": "Gun Aramaic",
+    "page": "releases/gun.html",
+    "src": "../images/covers/gun.jpg"
+}, {
+    "title": "Bhutto",
+    "page": "releases/bhutto.html",
+    "src": "../images/covers/bhutto.jpg"
+}, {
+    "title": "Uzi (The Rape Of Palestine)",
+    "page": "releases/uziCD.html",
+    "src": "../images/covers/uziCD.jpg"
+}, {
+    "title": "Salaam Alekum, Bastard",
+    "page": "releases/salaam.html",
+    "src": "../images/covers/salaam.jpg"
+}, {
+    "title": "Nile Quartra",
+    "page": "releases/nile.html",
+    "src": "../images/covers/nile.jpg"
+}, {
+    "title": "Triptych",
+    "page": "releases/triptych.html",
+    "src": "../images/covers/triptych.jpg"
+}, {
+    "title": "Hunting Out With An Aerial Eye",
+    "page": "releases/hunting.html",
+    "src": "../images/covers/hunting.jpg"
+}, {
+    "title": "Extended Play",
+    "page": "releases/extended.html",
+    "src": "../images/covers/extended.jpg"
+}, {
+    "title": "Extended Play",
+    "page": "releases/extended.html",
+    "src": "../images/site/dividerBryn3.jpg"
+}, {
+    "title": "Citadel",
+    "page": "releases/citadelPromo.html",
+    "src": "../images/covers/citadel.jpg"
+}, {
+    "title": "Citadel",
+    "page": "releases/citadelPromo.html",
+    "src": "../images/covers/assemblage1.jpg"
+}, {
+    "title": "Blue Mosque",
+    "page": "releases/blue.html",
+    "src": "../images/covers/blue.jpg"
+}, {
+    "title": "Nadir Of Purdah",
+    "page": "releases/nadir.html",
+    "src": "../images/covers/nadir.jpg"
+}, {
+    "title": "Gun Aramaic Part 2",
+    "page": "releases/gun2.html",
+    "src": "../images/covers/gun2.jpg"
+}, {
+    "title": "Veiled Sisters",
+    "page": "releases/veiled.html",
+    "src": "../images/covers/veiled.jpg"
+}, {
+    "title": "Deceiver",
+    "page": "releases/deceiver.html",
+    "src": "../images/covers/deceiver.jpg"
+}, {
+    "title": "Izlamaphobia",
+    "page": "releases/izlamaphobia.html",
+    "src": "../images/covers/izlamaphobia.jpg"
+}, {
+    "title": "Bandit Queen E.P.",
+    "page": "releases/bandit.html",
+    "src": "../images/covers/bandit.jpg"
+}, {
+    "title": "Azzazin",
+    "page": "releases/azzazin.html",
+    "src": "../images/covers/azzazin.jpg"
+}, {
+    "title": "Iran",
+    "page": "releases/iran3.html",
+    "src": "../images/covers/iran.jpg"
+}, {
+    "title": "Iran",
+    "page": "releases/iran3.html",
+    "src": "../images/covers/iranBack3.jpg"
+}, {
+    "title": "Gulf Between Us",
+    "page": "releases/gulf.html",
+    "src": "../images/covers/gulf.jpg"
+}, {
+    "title": "Narcotic",
+    "page": "releases/narcotic.html",
+    "src": "../images/covers/narcotic.jpg"
+}, {
+    "title": "Fatah Guerrilla",
+    "page": "releases/fatah.html",
+    "src": "../images/covers/fatah.jpg"
+}, {
+    "title": "Beyond The Blue Mosque",
+    "page": "releases/beyond.html",
+    "src": "../images/covers/beyond.jpg"
+}, {
+    "title": "Vampire Of Tehran",
+    "page": "releases/vampire.html",
+    "src": "../images/covers/vampire.jpg"
+}, {
+    "title": "Return Of Black September",
+    "page": "releases/return.html",
+    "src": "../images/covers/return.jpg"
+}, {
+    "title": "No Human Rights For Arabs In Israel",
+    "page": "releases/no.html",
+    "src": "../images/covers/no.jpg"
+}, {
+    "title": "Sandtrafikar",
+    "page": "releases/sandtrafikar.html",
+    "src": "../images/covers/sandtrafikar.jpg"
+}, {
+    "title": "Occupied Territories",
+    "page": "releases/occupied.html",
+    "src": "../images/covers/occupied1.jpg"
+}, {
+    "title": "Occupied Territories",
+    "page": "releases/occupied.html",
+    "src": "../images/covers/occupied2.jpg"
+}, {
+    "title": "Farouk Enjineer",
+    "page": "releases/farouk.html",
+    "src": "../images/covers/farouk.jpg"
+}, {
+    "title": "Jaal Ab Dullah",
+    "page": "releases/jaal.html",
+    "src": "../images/covers/jaal.jpg"
+}, {
+    "title": "Lahore & Marseille",
+    "page": "releases/lahore.html",
+    "src": "../images/covers/lahore.jpg"
+}, {
+    "title": "Mazar-I-Sharif",
+    "page": "releases/mazar.html",
+    "src": "../images/covers/mazar.jpg"
+}, {
+    "title": "Uzi Mahmood",
+    "page": "releases/uzi-mahmood.html",
+    "src": "../images/covers/uzi-mahmood.jpg"
+}, {
+    "title": "United States Of Islam",
+    "page": "releases/united.html",
+    "src": "../images/covers/united.jpg"
+}, {
+    "title": "City Of Djinn",
+    "page": "releases/djinn.html",
+    "src": "../images/covers/djinn.jpg"
+}, {
+    "title": "Satyajit Eye",
+    "page": "releases/satyajit.html",
+    "src": "../images/covers/satyajit.jpg"
+}, {
+    "title": "Silknoose",
+    "page": "releases/silknoose.html",
+    "src": "../images/covers/silknoose.jpg"
+}, {
+    "title": "In Search Of Ahmad Shah Masood",
+    "page": "releases/masood.html",
+    "src": "../images/covers/masood.jpg"
+}, {
+    "title": "Remixs Vol. 2",
+    "page": "releases/remixs2.html",
+    "src": "../images/covers/remixs2.jpg"
+}, {
+    "title": "Uzbekistani Bizzare And Souk",
+    "page": "releases/uzbekistani.html",
+    "src": "../images/covers/uzbekistani.jpg"
+}, {
+    "title": "Zuriff Moussa",
+    "page": "releases/zuriff.html",
+    "src": "../images/covers/zuriff.jpg"
+}, {
+    "title": "Sonar vs Muslimgauze",
+    "page": "releases/sonar.html",
+    "src": "../images/covers/sonar.jpg"
+}, {
+    "title": "Fedayeen",
+    "page": "releases/fedayeen.html",
+    "src": "../images/covers/fedayeen.jpg"
+}, {
+    "title": "Melt",
+    "page": "releases/melt.html",
+    "src": "../images/covers/melt.jpg"
+}, {
+    "title": "Tandoori Dog",
+    "page": "releases/tandoori.html",
+    "src": "../images/covers/tandoori.jpg"
+}, {
+    "title": "Red Crescent Part 3",
+    "page": "releases/red.html",
+    "src": "../images/covers/red.jpg"
+}, {
+    "title": "Dark Thoughts",
+    "page": "releases/dark.html",
+    "src": "../images/covers/dark.jpg"
+}, {
+    "title": "Hussein Mahmood Jeeb Tehar Gass",
+    "page": "releases/hussein.html",
+    "src": "../images/covers/hussein.jpg"
+}, {
+    "title": "Mullah Said",
+    "page": "releases/mullah.html",
+    "src": "../images/covers/mullah.jpg"
+}, {
+    "title": "Arab Quarter",
+    "page": "releases/arab.html",
+    "src": "../images/covers/arab.jpg"
+}, {
+    "title": "Re-mixs Vol 3.",
+    "page": "releases/re-mixs3.html",
+    "src": "../images/covers/re-mixs3.jpg"
+}, {
+    "title": "Observe With Sadiq Bey",
+    "page": "releases/observe.html",
+    "src": "../images/covers/observe.jpg"
+}, {
+    "title": "Azure Deux",
+    "page": "releases/azure.html",
+    "src": "../images/covers/azure.jpg"
+}, {
+    "title": "Zealot",
+    "page": "releases/zealotEP.html",
+    "src": "../images/covers/zealotEP.jpg"
+}, {
+    "title": "At The City Of The Dead",
+    "page": "releases/dead.html",
+    "src": "../images/covers/dead.jpg"
+}, {
+    "title": "Muslimgauze vs Species Of Fishes",
+    "page": "releases/fishes.html",
+    "src": "../images/covers/fishes.jpg"
+}, {
+    "title": "Lo-if India Abuse",
+    "page": "releases/lo-fiCD.html",
+    "src": "../images/covers/lo-fi.jpg"
+}, {
+    "title": "Azad",
+    "page": "releases/azad.html",
+    "src": "../images/covers/azad.jpg"
+}, {
+    "title": "Return To The City Of Djinn",
+    "page": "releases/djinnReturn.html",
+    "src": "../images/covers/djinnReturn.jpg"
+}, {
+    "title": "Hamas Arc",
+    "page": "releases/hamas.html",
+    "src": "../images/covers/hamas.jpg"
+}, {
+    "title": "Hamas Arc",
+    "page": "releases/hamas.html",
+    "src": "../images/covers/hamas2.jpg"
+}, {
+    "title": "Port Said",
+    "page": "releases/port.html",
+    "src": "../images/covers/port.jpg"
+}, {
+    "title": "At The City Of The Dead/Sound Secretion Dub",
+    "page": "releases/deadPromo.html",
+    "src": "../images/covers/dead2.jpg"
+}, {
+    "title": "Deceiver",
+    "page": "releases/deceiver.html",
+    "src": "../images/covers/deceiver.jpg"
+}, {
+    "title": "Hand Of Fatima",
+    "page": "releases/hand.html",
+    "src": "../images/covers/hand.jpg"
+}, {
+    "title": "Mort Aux Vaches",
+    "page": "releases/mort.html",
+    "src": "../images/covers/mort.jpg"
+}, {
+    "title": "Blue Mosque",
+    "page": "releases/blue.html",
+    "src": "../images/covers/blue.jpg"
+}, {
+    "title": "Return Of Black September",
+    "page": "releases/return.html",
+    "src": "../images/covers/return.jpg"
+}, {
+    "title": "Untitled",
+    "page": "releases/untitledSol.html",
+    "src": "../images/covers/untitledSol.jpg"
+}, {
+    "title": "Fakir Sind",
+    "page": "releases/fakir.html",
+    "src": "../images/covers/fakir.jpg"
+}, {
+    "title": "Fatah Guerrilla",
+    "page": "releases/fatah.html",
+    "src": "../images/covers/fatah.jpg"
+}, {
+    "title": "Unfinished Mosque",
+    "page": "releases/unfinished.html",
+    "src": "../images/covers/unfinished.jpg"
+}, {
+    "title": "Ayatollah Dollar",
+    "page": "releases/ayatollah.html",
+    "src": "../images/covers/ayatollahCoin.jpg"
+}, {
+    "title": "New Soul",
+    "page": "releases/new.html",
+    "src": "../images/covers/new.jpg"
+}, {
+    "title": "Lo-if India Abuse",
+    "page": "releases/lo-fiLP.html",
+    "src": "../images/covers/lo-fi.jpg"
+}, {
+    "title": "Year Zero",
+    "page": "releases/year.html",
+    "src": "../images/covers/zero.jpg"
+}, {
+    "title": "Drugsherpa",
+    "page": "releases/drugsherpa.html",
+    "src": "../images/covers/drugsherpa.jpg"
+}, {
+    "title": "Re-mixs",
+    "page": "releases/re-mixs.html",
+    "src": "../images/covers/re-mixs.jpg"
+}, {
+    "title": "Untitled",
+    "page": "releases/untitledKlang.html",
+    "src": "../images/covers/untitledKlang.jpg"
+}, {
+    "title": "Speaking With Hamas",
+    "page": "releases/speaking.html",
+    "src": "../images/covers/speaking.jpg"
+}, {
+    "title": "Syrinjia",
+    "page": "releases/syrinjiaLP.html",
+    "src": "../images/covers/syrinjia.jpg"
+}, {
+    "title": "Box Of Silk And Dogs",
+    "page": "releases/box.html",
+    "src": "../images/covers/box.jpg"
+}, {
+    "title": "Nommos' Return",
+    "page": "releases/nommos.html",
+    "src": "../images/covers/nommos.jpg"
+}, {
+    "title": "Your Mines In Kabul",
+    "page": "releases/your.html",
+    "src": "../images/covers/your.jpg"
+}, {
+    "title": "Jebel Tariq",
+    "page": "releases/jebel.html",
+    "src": "../images/covers/jebel.jpg"
+}, {
+    "title": "Sufiq",
+    "page": "releases/sufiq.html",
+    "src": "../images/covers/sufiq.jpg"
+}, {
+    "title": "Melt",
+    "page": "releases/melt2.html",
+    "src": "../images/covers/melt2.jpg"
+}, {
+    "title": "The Inspirational Sounds Of Muslimgauze",
+    "page": "releases/inspirational.html",
+    "src": "../images/covers/inspirational.jpg"
+}, {
+    "title": "Jebel Tariq",
+    "page": "releases/jebelPromo.html",
+    "src": "../images/covers/jebelPromo.jpg"
+}, {
+    "title": "Kashmiri Queens",
+    "page": "releases/kashmiri.html",
+    "src": "../images/covers/kashmiri.jpg"
+}, {
+    "title": "Abu-Dis",
+    "page": "releases/abu-dis.html",
+    "src": "../images/covers/abu-dis.jpg"
+}, {
+    "title": "Bass Communion v Muslimgauze",
+    "page": "releases/bass.html",
+    "src": "../images/covers/bass.jpg"
+}, {
+    "title": "Bass Communion v Muslimgauze",
+    "page": "releases/bass.html",
+    "src": "../images/covers/bass2.jpg"
+}, {
+    "title": "Completely Oblique",
+    "page": "releases/completelyPromo.html",
+    "src": "../images/covers/completelyPromo.jpg"
+}, {
+    "title": "Veiled Sisters Remix",
+    "page": "releases/veiled-remix.html",
+    "src": "../images/covers/veiled2.jpg"
+}, {
+    "title": "Completely Oblique",
+    "page": "releases/completely.html",
+    "src": "../images/covers/completely.jpg"
+}, {
+    "title": "Sarin Israel Nes Ziona",
+    "page": "releases/sarin.html",
+    "src": "../images/covers/sarin.jpg"
+}, {
+    "title": "Al-Aqsa Intifada",
+    "page": "releases/aqsa.html",
+    "src": "../images/covers/aqsa.jpg"
+}, {
+    "title": "The Suns Of Arqa Mixes",
+    "page": "releases/arqa.html",
+    "src": "../images/covers/arqa.jpg"
+}, {
+    "title": "Hamas Cinema Gaza Strip",
+    "page": "releases/hamas-cinema.html",
+    "src": "../images/covers/hamas-cinema.jpg"
+}, {
+    "title": "Iranair Inflight Magazine",
+    "page": "releases/iranair.html",
+    "src": "../images/covers/iranair.jpg"
+}, {
+    "title": "Alms For Iraq",
+    "page": "releases/alms.html",
+    "src": "../images/covers/alms.jpg"
+}, {
+    "title": "Dar Es Salaam",
+    "page": "releases/dar.html",
+    "src": "../images/covers/dar.jpg"
+}, {
+    "title": "Vampire Of Tehran",
+    "page": "releases/vampire.html",
+    "src": "../images/covers/vampire.jpg"
+}, {
+    "title": "Arabbox",
+    "page": "releases/arabbox.html",
+    "src": "../images/covers/arabboxBox.jpg"
+}, {
+    "title": "Arabbox",
+    "page": "releases/arabbox.html",
+    "src": "../images/covers/arabbox.jpg"
+}, {
+    "title": "Red Madrassa",
+    "page": "releases/madrassa.html",
+    "src": "../images/covers/madrassa.jpg"
+}, {
+    "title": "Dome Of The Rock",
+    "page": "releases/dome.html",
+    "src": "../images/covers/dome.jpg"
+}, {
+    "title": "Bass Communion v Muslimgauze (EP)",
+    "page": "releases/bassEP.html",
+    "src": "../images/covers/bassEP.jpg"
+}, {
+    "title": "Muslimgauze",
+    "page": "releases/muslimgauze.html",
+    "src": "../images/covers/no-title.jpg"
+}, {
+    "title": "Hamas Arc",
+    "page": "releases/hamas.html",
+    "src": "../images/covers/hamas.jpg"
+}, {
+    "title": "Hamas Arc",
+    "page": "releases/hamas.html",
+    "src": "../images/covers/hamas2.jpg"
+}, {
+    "title": "Remixs 1 + 2",
+    "page": "releases/re-mixs1+2.html",
+    "src": "../images/covers/re-mixs1+2.jpg"
+}, {
+    "title": "Beyond The Blue Mosque",
+    "page": "releases/beyond.html",
+    "src": "../images/covers/beyond.jpg"
+}, {
+    "title": "Port Said",
+    "page": "releases/port.html",
+    "src": "../images/covers/port.jpg"
+}, {
+    "title": "From The Edge",
+    "page": "releases/from1.html",
+    "src": "../images/covers/fromEPSide1.jpg"
+}, {
+    "title": "Uzbekistani Bizzare And Souk",
+    "page": "releases/uzbekistani2.html",
+    "src": "../images/covers/uzbekistaniImp1.jpg"
+}, {
+    "title": "Uzbekistani Bizzare And Souk",
+    "page": "releases/uzbekistani2.html",
+    "src": "../images/covers/uzbekistaniImp1a.jpg"
+}, {
+    "title": "Uzbekistani Bizzare And Souk",
+    "page": "releases/uzbekistani2.html",
+    "src": "../images/covers/uzbekistaniImp2.jpg"
+}, {
+    "title": "Izlamaphobia",
+    "page": "releases/izlamaphobia2.html",
+    "src": "../images/covers/izlamaphobiaLP.jpg"
+}, {
+    "title": "Chapter Of Purity",
+    "page": "releases/chapter.html",
+    "src": "../images/covers/chapter.jpg"
+}, {
+    "title": "Chapter Of Purity",
+    "page": "releases/chapter.html",
+    "src": "../images/covers/chapterSilver.jpg"
+}, {
+    "title": "Chapter Of Purity",
+    "page": "releases/chapter.html",
+    "src": "../images/covers/chapterGold.jpg"
+}, {
+    "title": "Maroon",
+    "page": "releases/maroon2.html",
+    "src": "../images/covers/maroon2.jpg"
+}, {
+    "title": "Sandtrafikar",
+    "page": "releases/sandtrafikar2.html",
+    "src": "../images/covers/sandtrafikar2.jpg"
+}, {
+    "title": "Speaking With Hamas",
+    "page": "releases/speaking.html",
+    "src": "../images/covers/speaking.jpg"
+}, {
+    "title": "Classics Selection",
+    "page": "releases/classics.html",
+    "src": "../images/covers/classics.jpg"
+}, {
+    "title": "Dome Of The Rock",
+    "page": "releases/dome.html",
+    "src": "../images/covers/dome.jpg"
+}, {
+    "title": "In Search Of Ahmad Shah Masood",
+    "page": "releases/masood2.html",
+    "src": "../images/covers/masood2.jpg"
+}, {
+    "title": "Vote Hezbollah",
+    "page": "releases/vote2.html",
+    "src": "../images/covers/vote2.jpg"
+}, {
+    "title": "Sufiq",
+    "page": "releases/sufiq.html",
+    "src": "../images/covers/sufiq.jpg"
+}, {
+    "title": "Complete Oblique ",
+    "page": "releases/completeStd.html",
+    "src": "../images/covers/complete.jpg"
+}, {
+    "title": "Uzbekistani Bizzare And Souk",
+    "page": "releases/uzbekistani3.html",
+    "src": "../images/covers/uzbekistaniImp3.jpg"
+}, {
+    "title": "Izlamaphobia",
+    "page": "releases/izlamaphobia3.html",
+    "src": "../images/covers/izlamaphobiaLP.jpg"
+}, {
+    "title": "Jah-Mearab",
+    "page": "releases/jah.html",
+    "src": "../images/covers/jah.jpg"
+}, {
+    "title": "Hamas Cinema Gaza Strip",
+    "page": "releases/hamas-cinema.html",
+    "src": "../images/covers/hamas-cinema.jpg"
+}, {
+    "title": "Occupied Territories",
+    "page": "releases/occupied.html",
+    "src": "../images/covers/occupied1.jpg"
+}, {
+    "title": "Occupied Territories",
+    "page": "releases/occupied.html",
+    "src": "../images/covers/occupied2.jpg"
+}, {
+    "title": "No Human Rights For Arabs In Israel",
+    "page": "releases/no2.html",
+    "src": "../images/covers/noCD.jpg"
+}, {
+    "title": "Syrinjia",
+    "page": "releases/syrinjiaCD2.html",
+    "src": "../images/covers/syrinjia3.jpg"
+}, {
+    "title": "Zuriff Moussa",
+    "page": "releases/zuriff2.html",
+    "src": "../images/covers/zuriff2.jpg"
+}, {
+    "title": "Wish Of The Flayed",
+    "page": "releases/wish.html",
+    "src": "../images/covers/wish.jpg"
+}, {
+    "title": "Return Of Black September",
+    "page": "releases/return3.html",
+    "src": "../images/covers/return.jpg"
+}, {
+    "title": "From The Edge",
+    "page": "releases/from2.html",
+    "src": "../images/covers/from2.jpg"
+}, {
+    "title": "Jebel Tariq",
+    "page": "releases/jebel3.html",
+    "src": "../images/covers/jebel2.jpg"
+}, {
+    "title": "Zuriff Moussa",
+    "page": "releases/zuriff3.html",
+    "src": "../images/covers/zuriff3.jpg"
+}, {
+    "title": "Suns Of Arqa Re-Mixs Muslimgauze",
+    "page": "releases/suns.html",
+    "src": "../images/covers/suns.jpg"
+}, {
+    "title": "Speaker Of Turkish",
+    "page": "releases/speaker2.html",
+    "src": "../images/covers/speaker2.jpg"
+}, {
+    "title": "No Human Rights For Arabs In Israel: The Remix",
+    "page": "releases/no3.html",
+    "src": "../images/covers/noCD.jpg"
+}, {
+    "title": "Jaal Ab Dullah",
+    "page": "releases/jaal.html",
+    "src": "../images/covers/jaal.jpg"
+}, {
+    "title": "Syrinjia",
+    "page": "releases/syrinjiaCD.html",
+    "src": "../images/covers/syrinjiaOuter.jpg"
+}, {
+    "title": "Syrinjia",
+    "page": "releases/syrinjiaCD.html",
+    "src": "../images/covers/syrinjiaPurple.jpg"
+}, {
+    "title": "Syrinjia",
+    "page": "releases/syrinjiaCD.html",
+    "src": "../images/covers/syrinjiaGrey.jpg"
+}, {
+    "title": "Syrinjia",
+    "page": "releases/syrinjiaCD.html",
+    "src": "../images/covers/syrinjiaRed.jpg"
+}, {
+    "title": "Syrinjia",
+    "page": "releases/syrinjiaCD.html",
+    "src": "../images/covers/syrinjiaDkBlue.jpg"
+}, {
+    "title": "Syrinjia",
+    "page": "releases/syrinjiaCD.html",
+    "src": "../images/covers/syrinjiaCream.jpg"
+}, {
+    "title": "Syrinjia",
+    "page": "releases/syrinjiaCD.html",
+    "src": "../images/covers/syrinjiaLtBlue.jpg"
+}, {
+    "title": "Syrinjia",
+    "page": "releases/syrinjiaCD.html",
+    "src": "../images/covers/syrinjiaBrown.jpg"
+}, {
+    "title": "Sulaymaniyah",
+    "page": "releases/sulaymaniyah.html",
+    "src": "../images/covers/sulaymaniyah.jpg"
+}, {
+    "title": "Baghdad",
+    "page": "releases/baghdad.html",
+    "src": "../images/covers/baghdad.jpg"
+}, {
+    "title": "Muslimgauze vs Species Of Fishes",
+    "page": "releases/fishes2.html",
+    "src": "../images/covers/fishes.jpg"
+}, {
+    "title": "Sycophant Of Purdah",
+    "page": "releases/sycophant.html",
+    "src": "../images/covers/sycophant.jpg"
+}, {
+    "title": "Observe With Sadiq Bey",
+    "page": "releases/observe.html",
+    "src": "../images/covers/observe.jpg"
+}, {
+    "title": "Jaagheed Zarb",
+    "page": "releases/jaagheed.html",
+    "src": "../images/covers/jaagheed.jpg"
+}, {
+    "title": "Hussein Mahmood Jeeb Tehar Gass",
+    "page": "releases/husseinLP.html",
+    "src": "../images/covers/husseinLPRed.jpg"
+}, {
+    "title": "Hussein Mahmood Jeeb Tehar Gass",
+    "page": "releases/husseinLP.html",
+    "src": "../images/covers/husseinLPWhite.jpg"
+}, {
+    "title": "Hussein Mahmood Jeeb Tehar Gass",
+    "page": "releases/husseinLP.html",
+    "src": "../images/covers/husseinLPBlack.jpg"
+}, {
+    "title": "Madrass Sitar Burner",
+    "page": "releases/madrass.html",
+    "src": "../images/covers/madrass.jpg"
+}, {
+    "title": "Hummus",
+    "page": "releases/hummus.html",
+    "src": "../images/covers/hummus.jpg"
+}, {
+    "title": "Iran",
+    "page": "releases/iran4.html",
+    "src": "../images/covers/iran.jpg"
+}, {
+    "title": "On-Line Jihad",
+    "page": "releases/jihad.html",
+    "src": "../images/covers/jihad.jpg"
+}, {
+    "title": "Beirut Transister",
+    "page": "releases/beirut.html",
+    "src": "../images/covers/beirut.jpg"
+}, {
+    "title": "BCVSMGCD",
+    "page": "releases/bcvsmgcd.html",
+    "src": "../images/covers/bcvsmgcd.jpg"
+}, {
+    "title": "Camel Through A Needles Eye",
+    "page": "releases/camel.html",
+    "src": "../images/covers/camel.jpg"
+}, {
+    "title": "Lazhareem Ul Leper",
+    "page": "releases/lazhareem.html",
+    "src": "../images/covers/lazhareem.jpg"
+}, {
+    "title": "Armsbazzar",
+    "page": "releases/armsbazzar.html",
+    "src": "../images/covers/armsbazzar.jpg"
+}, {
+    "title": "Azzazin",
+    "page": "releases/azzazin3.html",
+    "src": "../images/covers/azzazin3.jpg"
+}, {
+    "title": "Babylon Iz Iraq",
+    "page": "releases/babylon.html",
+    "src": "../images/covers/babylon.jpg"
+}, {
+    "title": "Untitled",
+    "page": "releases/untitledTMPS.html",
+    "src": "../images/covers/untitledTMPS.jpg"
+}, {
+    "title": "From The Edge ",
+    "page": "releases/from3.html",
+    "src": "../images/covers/fromDeluxe.jpg"
+}, {
+    "title": "Damascus",
+    "page": "releases/damascus.html",
+    "src": "../images/covers/damascus.jpg"
+}, {
+    "title": "Fuck Israel",
+    "page": "releases/fuck.html",
+    "src": "../images/covers/fuck.jpg"
+}, {
+    "title": "Analog Zikr",
+    "page": "releases/analog.html",
+    "src": "../images/covers/analog.jpg"
+}, {
+    "title": "Bryn Jones Speaks",
+    "page": "releases/speaks.html",
+    "src": "../images/covers/speaks.jpg"
+}, {
+    "title": "Arabbox",
+    "page": "releases/arabbox2.html",
+    "src": "../images/covers/arabbox.jpg"
+}, {
+    "title": "Speaker Of Turkish",
+    "page": "releases/speaker.html",
+    "src": "../images/covers/speaker.jpg"
+}, {
+    "title": "Uzi Mahmood",
+    "page": "releases/uzi-mahmood3.html",
+    "src": "../images/covers/uzi-mahood2.jpg"
+}, {
+    "title": "Nadir Of Purdah",
+    "page": "releases/nadir2.html",
+    "src": "../images/covers/nadir2Digipak.jpg"
+}, {
+    "title": "Nadir Of Purdah",
+    "page": "releases/nadir2.html",
+    "src": "../images/covers/nadir2Jewelcase.jpg"
+}, {
+    "title": "In Search Of The Abraham Mosque",
+    "page": "releases/search.html",
+    "src": "../images/covers/search.jpg"
+}, {
+    "title": "Eye For An Eye",
+    "page": "releases/eye.html",
+    "src": "../images/covers/eye.jpg"
+}, {
+    "title": "Complete Oblique ",
+    "page": "releases/completeSub.html",
+    "src": "../images/covers/complete.jpg"
+}, {
+    "title": "Bass Communion v Muslimgauze",
+    "page": "releases/bass.html",
+    "src": "../images/covers/bass.jpg"
+}, {
+    "title": "Bass Communion v Muslimgauze",
+    "page": "releases/bass.html",
+    "src": "../images/covers/bass2.jpg"
+}, {
+    "title": "Martyr Shrapnel",
+    "page": "releases/martyr.html",
+    "src": "../images/covers/martyr1.jpg"
+}, {
+    "title": "Blue Mosque",
+    "page": "releases/blue.html",
+    "src": "../images/covers/blue.jpg"
+}, {
+    "title": "Fedayeen",
+    "page": "releases/fedayeen2.html",
+    "src": "../images/covers/fedayeen2.1.jpg"
+}, {
+    "title": "Fedayeen",
+    "page": "releases/fedayeen2.html",
+    "src": "../images/covers/fedayeen2.2.jpg"
+}, {
+    "title": "Souk Bou Saada",
+    "page": "releases/souk.html",
+    "src": "../images/covers/souk.jpg"
+}, {
+    "title": "Izlamic Songs",
+    "page": "releases/izlamic.html",
+    "src": "../images/covers/izlamic.jpg"
+}, {
+    "title": "Satyajit Eye",
+    "page": "releases/satyajit2.html",
+    "src": "../images/covers/satyajit2.jpg"
+}, {
+    "title": "Satyajit Eye",
+    "page": "releases/satyajit3.html",
+    "src": "../images/covers/satyajit3.jpg"
+}, {
+    "title": "Tandoor Dog",
+    "page": "releases/tandoor.html",
+    "src": "../images/covers/tandoor.jpg"
+}, {
+    "title": "Maroon",
+    "page": "releases/maroonDig.html",
+    "src": "../images/covers/maroonDig.jpg"
+}, {
+    "title": "Turkish Berlina",
+    "page": "releases/turkish.html",
+    "src": "../images/covers/turkish.jpg"
+}, {
+    "title": "Al Jar Zia Audio",
+    "page": "releases/al-jar.html",
+    "src": "../images/covers/al-jar.jpg"
+}, {
+    "title": "Mullah Said",
+    "page": "releases/mullah.html",
+    "src": "../images/covers/mullah.jpg"
+}, {
+    "title": "Uzi Mahmood",
+    "page": "releases/uzi-mahmood2.html",
+    "src": "../images/covers/uzi-mahood2.jpg"
+}, {
+    "title": "A.P Reworks Muslimgauze",
+    "page": "releases/reworks.html",
+    "src": "../images/covers/reworks.jpg"
+}, {
+    "title": "Armsbazzar",
+    "page": "releases/armsbazzar2.html",
+    "src": "../images/covers/armsbazzarBox.jpg"
+}, {
+    "title": "Armsbazzar",
+    "page": "releases/armsbazzar2.html",
+    "src": "../images/covers/armsbazzar.jpg"
+}, {
+    "title": "Cobra Head Soup",
+    "page": "releases/cobra.html",
+    "src": "../images/covers/cobra.jpg"
+}, {
+    "title": "Minaret Speaker ",
+    "page": "releases/minaret2.html",
+    "src": "../images/covers/minaret.jpg"
+}, {
+    "title": "Trial Mixes 1997-1998",
+    "page": "releases/trial.html",
+    "src": "../images/covers/trial.jpg"
+}, {
+    "title": "Abyssinia Selasie",
+    "page": "releases/abyssinia.html",
+    "src": "../images/covers/abyssinia.jpg"
+}, {
+    "title": "Un-used Re-mix's 1994 - 1995",
+    "page": "releases/un-used.html",
+    "src": "../images/covers/un-used.jpg"
+}, {
+    "title": "Silknoose",
+    "page": "releases/silknoose3.html",
+    "src": "../images/covers/silknoose3.jpg"
+}, {
+    "title": "Drugsherpa",
+    "page": "releases/drugsherpa3.html",
+    "src": "../images/covers/drugsherpa3.jpg"
+}, {
+    "title": "Silknoose",
+    "page": "releases/silknoose2.html",
+    "src": "../images/covers/silknooseGreen.jpg"
+}, {
+    "title": "Silknoose",
+    "page": "releases/silknoose2.html",
+    "src": "../images/covers/silknooseOlive.jpg"
+}, {
+    "title": "Silknoose",
+    "page": "releases/silknoose2.html",
+    "src": "../images/covers/silknooseBlack.jpg"
+}, {
+    "title": "Split EP",
+    "page": "releases/splitOptimo2.html",
+    "src": "../images/covers/splitOptimo.jpg"
+}, {
+    "title": "Hunting Out With An Aerial Eye",
+    "page": "releases/hunting2.html",
+    "src": "../images/covers/hunting2.jpg"
+}, {
+    "title": "Deceiver Vol 3 & 4",
+    "page": "releases/deceiver3.html",
+    "src": "../images/covers/deceiver3.jpg"
+}, {
+    "title": "Feel The Hiss",
+    "page": "releases/feel.html",
+    "src": "../images/covers/feel.jpg"
+}, {
+    "title": "Buddhist On Fire",
+    "page": "releases/buddhist2.html",
+    "src": "../images/covers/buddhist2.jpg"
+}, {
+    "title": "Split EP",
+    "page": "releases/splitOptimo.html",
+    "src": "../images/covers/splitOptimo.jpg"
+}, {
+    "title": "Kabul",
+    "page": "releases/kabul2.html",
+    "src": "../images/covers/kabul2.jpg"
+}, {
+    "title": "Blinded Horses",
+    "page": "releases/blinded2.html",
+    "src": "../images/covers/blinded2.jpg"
+}, {
+    "title": "Trial Mixes 1997-1998",
+    "page": "releases/trial3.html",
+    "src": "../images/covers/triaL3.jpg"
+}, {
+    "title": "Jazirat-Ul-Arab",
+    "page": "releases/jazirat2.html",
+    "src": "../images/covers/jazirat2.jpg"
+}, {
+    "title": "Jerusalaam",
+    "page": "releases/jerusalaam.html",
+    "src": "../images/covers/jerusalaam.jpg"
+}, {
+    "title": "Mullah Said",
+    "page": "releases/mullahLP.html",
+    "src": "../images/covers/mullahLP.jpg"
+}, {
+    "title": "Trial Mixes 1997-1998",
+    "page": "releases/trial2.html",
+    "src": "../images/covers/trialBox.jpg"
+}, {
+    "title": "Trial Mixes 1997-1998",
+    "page": "releases/trial2.html",
+    "src": "../images/covers/trial2.jpg"
+}, {
+    "title": "Port Said",
+    "page": "releases/port3.html",
+    "src": "../images/covers/port3.jpg"
+}, {
+    "title": "Ali Zarin",
+    "page": "releases/ali.html",
+    "src": "../images/covers/ali.jpg"
+}, {
+    "title": "Mohammad Ali Jinnah",
+    "page": "releases/mohammad.html",
+    "src": "../images/covers/mohammad.jpg"
+}, {
+    "title": "Hajj",
+    "page": "releases/hajj2.html",
+    "src": "../images/covers/hajj2.jpg"
+}, {
+    "title": "Azzazin",
+    "page": "releases/azzazinLP.html",
+    "src": "../images/covers/azzazinLP.jpg"
+}, {
+    "title": "City Of Djinn",
+    "page": "releases/djinn2.html",
+    "src": "../images/covers/djinn3.jpg"
+}, {
+    "title": "City Of Djinn",
+    "page": "releases/djinn2.html",
+    "src": "../images/covers/djinn2.jpg"
+}, {
+    "title": "Iranair Inflight Magazine",
+    "page": "releases/iranairDig.html",
+    "src": "../images/covers/iranairDig.jpg"
+}, {
+    "title": "Libya Tour Guide",
+    "page": "releases/libya.html",
+    "src": "../images/covers/libya.jpg"
+}, {
+    "title": "Eleven Minarets",
+    "page": "releases/elevenCD.html",
+    "src": "../images/covers/eleven.jpg"
+}, {
+    "title": "Babylon Is Iraq",
+    "page": "releases/babylon2.html",
+    "src": "../images/covers/babylonLP.jpg"
+}, {
+    "title": "Ingaza",
+    "page": "releases/ingaza2.html",
+    "src": "../images/covers/ingazaLP.jpg"
+}, {
+    "title": "Shekel Of Israeli Occupation",
+    "page": "releases/shekel1.html",
+    "src": "../images/covers/shekel(gold).jpg"
+}, {
+    "title": "Vote Hezbollah",
+    "page": "releases/voteLP2.html",
+    "src": "../images/covers/voteLP.jpg"
+}, {
+    "title": "Eleven Minarets",
+    "page": "releases/elevenLP.html",
+    "src": "../images/covers/eleven.jpg"
+}, {
+    "title": "Gun Aramaic Part 2",
+    "page": "releases/gun2LP1.html",
+    "src": "../images/covers/gunLP.jpg"
+}, {
+    "title": "Abu Nidal",
+    "page": "releases/abu-nidal2.html",
+    "src": "../images/covers/abu-nidal2.jpg"
+}, {
+    "title": "Shekel Of Israeli Occupation",
+    "page": "releases/shekel2.html",
+    "src": "../images/covers/shekel(silver).jpg"
+}, {
+    "title": "Amahar",
+    "page": "releases/amahar1.html",
+    "src": "../images/covers/amahar.jpg"
+}, {
+    "title": "Amahar",
+    "page": "releases/amahar2.html",
+    "src": "../images/covers/amaharSpecial.jpg"
+}, {
+    "title": "Shekel Of Israeli Occupation",
+    "page": "releases/shekel3.html",
+    "src": "../images/covers/shekel(silver).jpg"
+}, {
+    "title": "Port Said",
+    "page": "releases/port2.html",
+    "src": "../images/covers/port2.jpg"
+}, {
+    "title": "Return Of Black September",
+    "page": "releases/returnLP.html",
+    "src": "../images/covers/return.jpg"
+}, {
+    "title": "Lalique Gadaffi Handgrenade",
+    "page": "releases/laliqueLP.html",
+    "src": "../images/covers/lalique.jpg"
+}, {
+    "title": "Salaam Alekum, Bastard",
+    "page": "releases/salaam2LP.html",
+    "src": "../images/covers/salaam2.jpg"
+}, {
+    "title": "Vote Hezbollah",
+    "page": "releases/vote4.html",
+    "src": "../images/covers/vote3.jpg"
+}, {
+    "title": "Vote Hezbollah",
+    "page": "releases/vote3.html",
+    "src": "../images/covers/vote3.jpg"
+}, {
+    "title": "Opaques",
+    "page": "releases/opaques2.html",
+    "src": "../images/covers/opaques2.jpg"
+}, {
+    "page": "releases/amahar2.html",
+    "src": "../images/covers/amaharSpecial.jpg"
+}, {
+    "title": "City Of Djinn",
+    "page": "releases/djinn3.html",
+    "src": "../images/covers/djinn4.jpg"
+}, {
+    "title": "Flajelata",
+    "page": "releases/flajelata2.html",
+    "src": "../images/covers/flajelata2.jpg"
+}, {
+    "title": "Gun Aramaic Part 2",
+    "page": "releases/gun2LP2.html",
+    "src": "../images/covers/gunLP.jpg"
+}, {
+    "title": "Al-Zulfiquar Shaheed",
+    "page": "releases/al-zulfiquar2.html",
+    "src": "../images/covers/al-zulfiquar2.jpg"
+}, {
+    "title": "Khan Younis",
+    "page": "releases/khan.html",
+    "src": "../images/covers/khan.jpg"
+}, {
+    "title": "Ryoji Ikeda Re-Mixs",
+    "page": "releases/ikedaDig.html",
+    "src": "../images/covers/ikedaDig.jpg"
+}, {
+    "title": "Al-Zulfiquar Shaheed",
+    "page": "releases/al-zulfiquar3.html",
+    "src": "../images/covers/al-zulfiquar3.jpg"
+}, {
+    "title": "Demo",
+    "page": "releases/demo.html",
+    "src": "../images/covers/demo.jpg"
+}, {
+    "title": "Emak Bakia",
+    "page": "releases/emak4.html",
+    "src": "../images/covers/emakCas.jpg"
+}, {
+    "title": "Techno Arabaqua",
+    "page": "releases/techno.html",
+    "src": "../images/covers/techno.jpg"
+}, {
+    "title": "Abyssinia Selasie ",
+    "page": "releases/abyssiniaDig.html",
+    "src": "../images/covers/abyssiniaDig.jpg"
+}, {
+    "title": "A. P Reworks Two",
+    "page": "releases/reworks2.html",
+    "src": "../images/covers/reworks2.jpg"
+}, {
+    "title": "Emak Bakia",
+    "page": "releases/emak3.html",
+    "src": "../images/covers/emak2.jpg"
+}, {
+    "title": "Port Said",
+    "page": "releases/portDig.html",
+    "src": "../images/covers/portDig.jpg"
+}, {
+    "title": "Vote Hezbollah",
+    "page": "releases/voteLP1.html",
+    "src": "../images/covers/voteLP.jpg"
+}, {
+    "title": "Wish Of The Flayed",
+    "page": "releases/wish2.html",
+    "src": "../images/covers/wish2.jpg"
+}, {
+    "title": "Salaam Alekum, Bastard",
+    "page": "releases/salaam2CD.html",
+    "src": "../images/covers/salaam2.jpg"
+}, {
+    "title": "Emak Bakia",
+    "page": "releases/emak2.html",
+    "src": "../images/covers/emak2.jpg"
+}, {
+    "title": "The Rape Of Palestine",
+    "page": "releases/rape2.html",
+    "src": "../images/covers/rape2.jpg"
+}, {
+    "title": "Complete Oblique ",
+    "page": "releases/completeSub.html",
+    "src": "../images/covers/complete.jpg"
+}, {
+    "title": "Deceiver 3 & 4",
+    "page": "releases/deceiver3Dig.html",
+    "src": "../images/covers/deceiver3Dig.jpg"
+}]
