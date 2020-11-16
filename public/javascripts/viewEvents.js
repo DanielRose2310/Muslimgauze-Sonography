@@ -81,7 +81,7 @@
               user: $("#id_user_input").val(),
               pass: $("#id_pass_input").val()
           }
-          let url = "https://muslimgauze-database.herokuapp.com/users/login/"
+          let url = "http://localhost:3000/users/login/"
           fetch(url, {
                   method: "POST",
                   body: JSON.stringify(dataBody),
@@ -95,7 +95,7 @@
                   if (data.token) {
                       localStorage.setItem("dbtoken", data.token)
                       $(".usermessage").show().html(`Welcome back ${dataBody.user}!`).css('color', 'green').delay(2500).fadeOut();
-                      //location.reload();
+                      location.reload();
                   } else if (Array.isArray(data)) {
                       $(".usermessage").show().html(data[0].message).css('color', 'red').delay(2000).fadeOut();
                   } else if ('message' in data) {
@@ -103,5 +103,37 @@
                   }
               })
       })
+      $("#adminadd").on("click", () => {
+        $(` <div class="add-content">
+    <span id="closeadd" class="mr-auto">&times;</span>
+    <div class="row"><label class="mx-2">Title:</label><input id="titleadd" style="width:400px"></input></div>
+<div class="row my-3">
+<label class="mx-2">Album Title:</label><input style="width:400px"  id="release1titleadd" '></input>
+<label class="mx-2">Album Year:</label><input style="width:80px" type="number" id="release1yearadd" '></input>
+<label class="mx-2">Album Format:</label><input  style="width:80px" id="release1formatadd" '></input> 
+<label class="mx-2">Album Catalogue:</label><input style="width:200px"  id="release1catalogueadd"'></input> 
+</div>
+<div class="row my-3">
+<label class="mx-2">Album Title:</label><input  style="width:400px"  id="release2titleadd"'></input>
+<label class="mx-2">Album Year:</label><input style="width:80px" type="number" id="release2yearadd"'></input>
+<label class="mx-2">Album Format:</label><input  style="width:80px" id="release2formatadd"'></input> 
+<label class="mx-2">Album Catalogue:</label><input style="width:200px"  id="release2catalogueadd" '></input> 
+</div>
+<div class="row my-3">
+<label class="mx-2">Album Title:</label><input  style="width:400px"  id="release3titleadd" '></input>
+<label class="mx-2">Album Year:</label><input style="width:80px" type="number" id="release3yearadd" '></input>
+<label class="mx-2">Album Format:</label><input  style="width:80px" id="release3formatadd" '></input> 
+<label class="mx-2">Album Catalogue:</label><input style="width:200px"  id="release2catalogueadd"'></input> 
+</div>
+<button class="btn btn-success my-3" id="submittrack" style="width:100px";>Submit</button> 
+    </div>
+
+`).appendTo($("#addmodal").fadeIn());
+$('#closeadd').on('click', function() {
+    $(".addmodal").fadeOut();
+    $('.addmodal').empty();
+})
+})
+
 
       }

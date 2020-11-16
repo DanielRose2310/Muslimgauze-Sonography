@@ -7,7 +7,9 @@ import {
 window.onload = () => {
     declareViewEvents()
     getData()
+    doAdmin()
 }
+export let admin=false;
 const getData = () => {
     fetch('https://muslimgauze-database.herokuapp.com/tracks', {
             headers: {
@@ -20,4 +22,10 @@ const getData = () => {
         .then(function (jsonData) {
             parseData(jsonData, "title")
         })
+}
+const doAdmin=()=>{
+    if (localStorage.getItem("dbtoken")){
+        admin=true;
+        $(".adminedit").show();
+    }
 }

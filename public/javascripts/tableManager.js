@@ -1,6 +1,11 @@
 import {Track} from './tracksClass.js'
+import {admin} from './app.js'
     
     export const doTable = (_data,_page=0) => {
+
+        if (admin===true){$("tr").prepend(`<th scope="col">Edit</th>`);
+    $("#adminadd").show()
+    }
         $(".spinner").empty()
         if (!_data.length){$("#popupmodal").hide().fadeIn().css('display','flex')
         $(".modal__window").html(`<h2>No matches found</h2>`)

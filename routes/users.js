@@ -85,7 +85,8 @@ router.post("/login", async (req, res) => {
 
       }
     } catch (err) {
-      res.status(400).json(err[0].message);
+      res.status(400).json(err);
+      console.log(err)
     }
   } else {
     res.status(400).json(valid.error.details);

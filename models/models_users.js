@@ -15,7 +15,7 @@ const userSchema = new mongoose.Schema({
 
 
 const genToken = (_user,_id) => {
-    const token = jwt.sign({name:_name,_id:_id}, "mytoken",{expiresIn:"72h"});
+    const token = jwt.sign({user:_user,_id:_id}, "mytoken",{expiresIn:"72h"});
     return token;
   }
   
