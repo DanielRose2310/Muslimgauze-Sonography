@@ -1,9 +1,10 @@
 import {
     admin
 } from "./app.js"
+import {getRelData} from './apiGets.js'    
 export class Track {
-    constructor(_title, _release1title, _release1year, _release1format, _release1catalogue,
-        _release2title = "", _release2year = "", _release2format = "", _release2catalogue = "",
+    constructor(_title, _release1title, _release1year, _release1format, _release1catalogue, 
+        _release2title = "", _release2year = "", _release2format = "", _release2catalogue = "", 
         _release3title = "", _release3year = "", _release3format = "", _release3catalogue = "", _id
     ) {
         this.title = _title;
@@ -11,10 +12,12 @@ export class Track {
         this.release1year = _release1year;
         this.release1format = _release1format;
         this.release1catalogue = _release1catalogue;
+
         this.release2title = _release2title;
         this.release2year = _release2year;
         this.release2format = _release2format;
         this.release2catalogue = _release2catalogue;
+
         this.release3title = _release3title;
         this.release3year = _release3year;
         this.release3format = _release3format;
@@ -23,16 +26,55 @@ export class Track {
         this.render()
     }
 
-    render() {
-        let newTr = $("<tr></tr>")
-        $("#id_parent").append(newTr);
-        $(newTr).append(`
+    async render() {
+        let album1box;
+        let album2box;
+        let album3box;
+        let rel2href;
+        let rel2img;
+        let rel3href;
+        let rel3img;
 
-            <td align="center" class="align-middle">${this.title}</td>
-      <td align="center" class="align-middle">${this.release1title}<br>${this.release1year}<br> ${this.release1format}<br>${this.release1catalogue} </td>
-      <td align="center" class="align-middle">${this.release2title}<br>${this.release2year}<br> ${this.release2format}<br>${this.release2catalogue} </td>
-      <td align="center" class="align-middle">${this.release3title}<br>${this.release3year}<br> ${this.release3format}<br>${this.release3catalogue} </td>            
-    `)
+        let rel1data = await getRelData(this.release1title)
+        let rel1href = rel1data.data[0]?.page
+        let rel1img = rel1data.data[0]?.src
+        if (this.release2title){
+            let rel2data = await getRelData(this.release2title)
+             rel2href = rel2data.data[0]?.page
+             rel2img = rel2data.data[0]?.src}
+        
+            if (this.release3title){
+            let rel3data = await getRelData(this.release3title)
+             rel3href = rel3data.data[0]?.page
+             rel3img = rel3data.data[0]?.src}
+
+        let newTr = $("<tr></tr>")
+
+        let rowtitle = $(`<td align="center" class="align-middle"><b>${this.title}</b></td>`)
+        newTr.append(rowtitle)
+        $("#id_parent").append(newTr);
+         album1box = $(`<td align="center" id="album1box" class="align-middle"><i> ${this.release1title}</i><br>${this.release1year}<br> ${this.release1format}<br>${this.release1catalogue} </td>`)
+        $(newTr).append(album1box)
+
+        if (this.release2title) {
+             album2box = $(`<td id="box2" align="center" class="align-middle"><i>${this.release2title}</i><br>${this.release2year}<br> ${this.release2format}<br>${this.release2catalogue} </td>`)
+            $(newTr).append(album2box)
+        }
+        if (this.release3title) {
+             album3box = $(`<td id="box3" align="center" class="align-middle"></i>${this.release3title}</i><br>${this.release3year}<br> ${this.release3format}<br>${this.release3catalogue} </td>`)
+            $(newTr).append(album3box)
+        }
+
+        if (rel1href) {
+            $(album1box).append(`<br><a href=${rel1href}>LINK</a><br> <img style="width:100px" src=${rel1img}>`)
+        }
+        if (rel2href) {
+            $(album2box).append(`<br><a href=${rel2href}>LINK</a> <br><img style="width:100px" src=${rel2img}>`)
+        }
+        if (rel3href) {
+            $(album3box).append(`<br><a href=${rel3href}>LINK</a><br> <img style="width:100px" src=${rel3img}>`)
+        }
+
         if (admin === true) {
             let editTd = $(`<td align="center" class="align-middle"></td>`)
             $(newTr).prepend(editTd);
@@ -86,7 +128,6 @@ export class Track {
                             albumcatalogue: $("#release3catalogueedit").val()
                         }]
                     }
-                    console.log(dataBody)
                     let myUrl = "https://muslimgauze-database.herokuapp.com/tracks/edit";
                     fetch(myUrl, {
                             method: "PUT",
@@ -113,17 +154,7 @@ export class Track {
 
         }
 
-        fetch(`https://muslimgauze-database.herokuapp.com/albums/cataloguesearch/${this.release1title}/`, {
-                      headers: {
-                          'Content-Type': 'application/json',
-                      }
-                  })
-                  .then(function (response) {
-                      return response.json()
-                  })
-                  .then(function (jsonData) {
-                      console.log(jsonData)
-                  })
+
 
     }
 }

@@ -1,0 +1,2310 @@
+[{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780cdfd6"
+  },
+  "title": "Inhalt",
+  "page": "http://www.muslimgauze.org/releases/inhalt.html",
+  "src": "http://www.muslimgauze.org/images/covers/inhalt1.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780cdfd7"
+  },
+  "title": "Inhalt",
+  "page": "http://www.muslimgauze.org/releases/inhalt.html",
+  "src": "http://www.muslimgauze.org/images/covers/inhalt2.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780cdfd8"
+  },
+  "title": "Triptych",
+  "page": "http://www.muslimgauze.org/releases/triptych.html",
+  "src": "http://www.muslimgauze.org/images/covers/triptych.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780cdfd9"
+  },
+  "title": "Hammer & Sickle",
+  "page": "http://www.muslimgauze.org/releases/hammer.html",
+  "src": "http://www.muslimgauze.org/images/covers/hammer.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780cdfda"
+  },
+  "title": "Piano Room",
+  "page": "http://www.muslimgauze.org/releases/piano.html",
+  "src": "http://www.muslimgauze.org/images/covers/piano.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780cdfdb"
+  },
+  "title": "Flajelata",
+  "page": "http://www.muslimgauze.org/releases/flajelata.html",
+  "src": "http://www.muslimgauze.org/images/covers/flajelata.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780cdfdc"
+  },
+  "title": "Flajelata",
+  "page": "http://www.muslimgauze.org/releases/flajelata.html",
+  "src": "http://www.muslimgauze.org/images/misc/arrowFwd.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780cdfdd"
+  },
+  "title": "Opaques",
+  "page": "http://www.muslimgauze.org/releases/opaques.html",
+  "src": "http://www.muslimgauze.org/images/covers/opaques.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780cdfde"
+  },
+  "title": "Blinded Horses",
+  "page": "http://www.muslimgauze.org/releases/blinded.html",
+  "src": "http://www.muslimgauze.org/images/covers/blinded.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780cdfdf"
+  },
+  "title": "Buddhist On Fire",
+  "page": "http://www.muslimgauze.org/releases/buddhist.html",
+  "src": "http://www.muslimgauze.org/images/covers/buddhist.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780cdfe0"
+  },
+  "title": "Buddhist On Fire",
+  "page": "http://www.muslimgauze.org/releases/buddhist.html",
+  "src": "http://www.muslimgauze.org/images/arrow(trans).jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780cdfe1"
+  },
+  "title": "Buddhist On Fire",
+  "page": "http://www.muslimgauze.org/releases/buddhist.html",
+  "src": "http://www.muslimgauze.org/images/covers/buddhist.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780cdfe2"
+  },
+  "title": "Buddhist On Fire",
+  "page": "http://www.muslimgauze.org/releases/buddhist.html",
+  "src": "http://www.muslimgauze.org/images/arrow(trans).jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780cdfe3"
+  },
+  "title": "Jazirat-Ul-Arab",
+  "page": "http://www.muslimgauze.org/releases/jazirat.html",
+  "src": "http://www.muslimgauze.org/images/covers/jazirat.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780cdfe4"
+  },
+  "title": "Intifaxa",
+  "page": "http://www.muslimgauze.org/releases/intifaxaCas.html",
+  "src": "http://www.muslimgauze.org/images/covers/intifaxaCas.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780cdfe5"
+  },
+  "title": "Iran",
+  "page": "http://www.muslimgauze.org/releases/iran2.html",
+  "src": "http://www.muslimgauze.org/images/covers/iran.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780cdfe6"
+  },
+  "title": "Iran",
+  "page": "http://www.muslimgauze.org/releases/iran2.html",
+  "src": "http://www.muslimgauze.org/images/covers/iranBack2.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780cdfe7"
+  },
+  "title": "Iran",
+  "page": "http://www.muslimgauze.org/releases/iran.html",
+  "src": "http://www.muslimgauze.org/images/covers/iran.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780cdfe8"
+  },
+  "title": "Iran",
+  "page": "http://www.muslimgauze.org/releases/iran.html",
+  "src": "http://www.muslimgauze.org/images/covers/iranBack1.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780cdfe9"
+  },
+  "title": "Coup D'Etat",
+  "page": "http://www.muslimgauze.org/releases/coupLP.html",
+  "src": "http://www.muslimgauze.org/images/covers/coupLP.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780cdfea"
+  },
+  "title": "Kabul",
+  "page": "http://www.muslimgauze.org/releases/kabul.html",
+  "src": "http://www.muslimgauze.org/images/covers/kabul.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780cdfeb"
+  },
+  "title": "Vote Hezbollah",
+  "page": "http://www.muslimgauze.org/releases/vote.html",
+  "src": "http://www.muslimgauze.org/images/covers/vote.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780cdfec"
+  },
+  "title": "Coup D'Etat / Abu Nidal",
+  "page": "http://www.muslimgauze.org/releases/coupCD.html",
+  "src": "http://www.muslimgauze.org/images/covers/coupCD.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780cdfed"
+  },
+  "title": "Zul'm",
+  "page": "http://www.muslimgauze.org/releases/zulm.html",
+  "src": "http://www.muslimgauze.org/images/covers/zulm.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780cdfee"
+  },
+  "title": "Hamas Arc",
+  "page": "http://www.muslimgauze.org/releases/hamas.html",
+  "src": "http://www.muslimgauze.org/images/covers/hamas.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780cdfef"
+  },
+  "title": "Hamas Arc",
+  "page": "http://www.muslimgauze.org/releases/hamas.html",
+  "src": "http://www.muslimgauze.org/images/covers/hamas2.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780cdff0"
+  },
+  "title": "The Rape Of Palestine",
+  "page": "http://www.muslimgauze.org/releases/rape.html",
+  "src": "http://www.muslimgauze.org/images/covers/rape.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780cdff1"
+  },
+  "title": "Uzi",
+  "page": "http://www.muslimgauze.org/releases/uziLP.html",
+  "src": "http://www.muslimgauze.org/images/covers/uziLP.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780cdff2"
+  },
+  "title": "Hajj",
+  "page": "http://www.muslimgauze.org/releases/hajj.html",
+  "src": "http://www.muslimgauze.org/images/covers/hajj.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780cdff3"
+  },
+  "title": "Abu Nidal",
+  "page": "http://www.muslimgauze.org/releases/abu-nidal.html",
+  "src": "http://www.muslimgauze.org/images/covers/abu-nidal.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780cdff4"
+  },
+  "title": "split",
+  "page": "http://www.muslimgauze.org/releases/splitMinus.html",
+  "src": "http://www.muslimgauze.org/images/covers/minus-habens.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780cdff5"
+  },
+  "title": "Intifaxa",
+  "page": "http://www.muslimgauze.org/releases/intifaxaCD.html",
+  "src": "http://www.muslimgauze.org/images/covers/intifaxaCD.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780cdff6"
+  },
+  "title": "Emak Bakia",
+  "page": "http://www.muslimgauze.org/releases/emak.html",
+  "src": "http://www.muslimgauze.org/images/covers/emak.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780cdff7"
+  },
+  "title": "Hebron Massacre",
+  "page": "http://www.muslimgauze.org/releases/hebron.html",
+  "src": "http://www.muslimgauze.org/images/covers/hebron.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780cdff8"
+  },
+  "title": "Citadel",
+  "page": "http://www.muslimgauze.org/releases/citadel.html",
+  "src": "http://www.muslimgauze.org/images/covers/citadel.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780cdff9"
+  },
+  "title": "Betrayal",
+  "page": "http://www.muslimgauze.org/releases/betrayal.html",
+  "src": "http://www.muslimgauze.org/images/covers/betrayal.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780cdffa"
+  },
+  "title": "Infidel",
+  "page": "http://www.muslimgauze.org/releases/infidel.html",
+  "src": "http://www.muslimgauze.org/images/covers/infidel.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780cdffb"
+  },
+  "title": "Zealot",
+  "page": "http://www.muslimgauze.org/releases/zealotCD.html",
+  "src": "http://www.muslimgauze.org/images/covers/zealotCD.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780cdffc"
+  },
+  "title": "Al-Zulfiquar Shaheed",
+  "page": "http://www.muslimgauze.org/releases/al-zulfiquar.html",
+  "src": "http://www.muslimgauze.org/images/covers/al-zulfiquar.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780cdffd"
+  },
+  "title": "Drugsherpa",
+  "page": "http://www.muslimgauze.org/releases/drugsherpa.html",
+  "src": "http://www.muslimgauze.org/images/covers/drugsherpa.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780cdffe"
+  },
+  "title": "Maroon",
+  "page": "http://www.muslimgauze.org/releases/maroon.html",
+  "src": "http://www.muslimgauze.org/images/covers/maroonStamp.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780cdfff"
+  },
+  "title": "Maroon",
+  "page": "http://www.muslimgauze.org/releases/maroon.html",
+  "src": "http://www.muslimgauze.org/images/covers/maroon.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce000"
+  },
+  "title": "Gun Aramaic",
+  "page": "http://www.muslimgauze.org/releases/gun.html",
+  "src": "http://www.muslimgauze.org/images/covers/gun.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce001"
+  },
+  "title": "Bhutto",
+  "page": "http://www.muslimgauze.org/releases/bhutto.html",
+  "src": "http://www.muslimgauze.org/images/covers/bhutto.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce002"
+  },
+  "title": "Uzi (The Rape Of Palestine)",
+  "page": "http://www.muslimgauze.org/releases/uziCD.html",
+  "src": "http://www.muslimgauze.org/images/covers/uziCD.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce003"
+  },
+  "title": "Salaam Alekum, Bastard",
+  "page": "http://www.muslimgauze.org/releases/salaam.html",
+  "src": "http://www.muslimgauze.org/images/covers/salaam.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce004"
+  },
+  "title": "Nile Quartra",
+  "page": "http://www.muslimgauze.org/releases/nile.html",
+  "src": "http://www.muslimgauze.org/images/covers/nile.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce005"
+  },
+  "title": "Triptych",
+  "page": "http://www.muslimgauze.org/releases/triptych.html",
+  "src": "http://www.muslimgauze.org/images/covers/triptych.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce006"
+  },
+  "title": "Hunting Out With An Aerial Eye",
+  "page": "http://www.muslimgauze.org/releases/hunting.html",
+  "src": "http://www.muslimgauze.org/images/covers/hunting.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce007"
+  },
+  "title": "Extended Play",
+  "page": "http://www.muslimgauze.org/releases/extended.html",
+  "src": "http://www.muslimgauze.org/images/covers/extended.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce008"
+  },
+  "title": "Extended Play",
+  "page": "http://www.muslimgauze.org/releases/extended.html",
+  "src": "http://www.muslimgauze.org/images/site/dividerBryn3.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce009"
+  },
+  "title": "Citadel",
+  "page": "http://www.muslimgauze.org/releases/citadelPromo.html",
+  "src": "http://www.muslimgauze.org/images/covers/citadel.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce00a"
+  },
+  "title": "Citadel",
+  "page": "http://www.muslimgauze.org/releases/citadelPromo.html",
+  "src": "http://www.muslimgauze.org/images/covers/assemblage1.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce00b"
+  },
+  "title": "Blue Mosque",
+  "page": "http://www.muslimgauze.org/releases/blue.html",
+  "src": "http://www.muslimgauze.org/images/covers/blue.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce00c"
+  },
+  "title": "Nadir Of Purdah",
+  "page": "http://www.muslimgauze.org/releases/nadir.html",
+  "src": "http://www.muslimgauze.org/images/covers/nadir.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce00d"
+  },
+  "title": "Gun Aramaic Part 2",
+  "page": "http://www.muslimgauze.org/releases/gun2.html",
+  "src": "http://www.muslimgauze.org/images/covers/gun2.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce00e"
+  },
+  "title": "Veiled Sisters",
+  "page": "http://www.muslimgauze.org/releases/veiled.html",
+  "src": "http://www.muslimgauze.org/images/covers/veiled.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce00f"
+  },
+  "title": "Deceiver",
+  "page": "http://www.muslimgauze.org/releases/deceiver.html",
+  "src": "http://www.muslimgauze.org/images/covers/deceiver.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce010"
+  },
+  "title": "Izlamaphobia",
+  "page": "http://www.muslimgauze.org/releases/izlamaphobia.html",
+  "src": "http://www.muslimgauze.org/images/covers/izlamaphobia.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce011"
+  },
+  "title": "Bandit Queen E.P.",
+  "page": "http://www.muslimgauze.org/releases/bandit.html",
+  "src": "http://www.muslimgauze.org/images/covers/bandit.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce012"
+  },
+  "title": "Azzazin",
+  "page": "http://www.muslimgauze.org/releases/azzazin.html",
+  "src": "http://www.muslimgauze.org/images/covers/azzazin.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce013"
+  },
+  "title": "Iran",
+  "page": "http://www.muslimgauze.org/releases/iran3.html",
+  "src": "http://www.muslimgauze.org/images/covers/iran.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce014"
+  },
+  "title": "Iran",
+  "page": "http://www.muslimgauze.org/releases/iran3.html",
+  "src": "http://www.muslimgauze.org/images/covers/iranBack3.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce015"
+  },
+  "title": "Gulf Between Us",
+  "page": "http://www.muslimgauze.org/releases/gulf.html",
+  "src": "http://www.muslimgauze.org/images/covers/gulf.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce016"
+  },
+  "title": "Narcotic",
+  "page": "http://www.muslimgauze.org/releases/narcotic.html",
+  "src": "http://www.muslimgauze.org/images/covers/narcotic.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce017"
+  },
+  "title": "Fatah Guerrilla",
+  "page": "http://www.muslimgauze.org/releases/fatah.html",
+  "src": "http://www.muslimgauze.org/images/covers/fatah.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce018"
+  },
+  "title": "Beyond The Blue Mosque",
+  "page": "http://www.muslimgauze.org/releases/beyond.html",
+  "src": "http://www.muslimgauze.org/images/covers/beyond.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce019"
+  },
+  "title": "Vampire Of Tehran",
+  "page": "http://www.muslimgauze.org/releases/vampire.html",
+  "src": "http://www.muslimgauze.org/images/covers/vampire.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce01a"
+  },
+  "title": "Return Of Black September",
+  "page": "http://www.muslimgauze.org/releases/return.html",
+  "src": "http://www.muslimgauze.org/images/covers/return.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce01b"
+  },
+  "title": "No Human Rights For Arabs In Israel",
+  "page": "http://www.muslimgauze.org/releases/no.html",
+  "src": "http://www.muslimgauze.org/images/covers/no.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce01c"
+  },
+  "title": "Sandtrafikar",
+  "page": "http://www.muslimgauze.org/releases/sandtrafikar.html",
+  "src": "http://www.muslimgauze.org/images/covers/sandtrafikar.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce01d"
+  },
+  "title": "Occupied Territories",
+  "page": "http://www.muslimgauze.org/releases/occupied.html",
+  "src": "http://www.muslimgauze.org/images/covers/occupied1.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce01e"
+  },
+  "title": "Occupied Territories",
+  "page": "http://www.muslimgauze.org/releases/occupied.html",
+  "src": "http://www.muslimgauze.org/images/covers/occupied2.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce01f"
+  },
+  "title": "Farouk Enjineer",
+  "page": "http://www.muslimgauze.org/releases/farouk.html",
+  "src": "http://www.muslimgauze.org/images/covers/farouk.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce020"
+  },
+  "title": "Jaal Ab Dullah",
+  "page": "http://www.muslimgauze.org/releases/jaal.html",
+  "src": "http://www.muslimgauze.org/images/covers/jaal.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce021"
+  },
+  "title": "Lahore & Marseille",
+  "page": "http://www.muslimgauze.org/releases/lahore.html",
+  "src": "http://www.muslimgauze.org/images/covers/lahore.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce022"
+  },
+  "title": "Mazar-I-Sharif",
+  "page": "http://www.muslimgauze.org/releases/mazar.html",
+  "src": "http://www.muslimgauze.org/images/covers/mazar.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce023"
+  },
+  "title": "Uzi Mahmood",
+  "page": "http://www.muslimgauze.org/releases/uzi-mahmood.html",
+  "src": "http://www.muslimgauze.org/images/covers/uzi-mahmood.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce024"
+  },
+  "title": "United States Of Islam",
+  "page": "http://www.muslimgauze.org/releases/united.html",
+  "src": "http://www.muslimgauze.org/images/covers/united.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce025"
+  },
+  "title": "City Of Djinn",
+  "page": "http://www.muslimgauze.org/releases/djinn.html",
+  "src": "http://www.muslimgauze.org/images/covers/djinn.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce026"
+  },
+  "title": "Satyajit Eye",
+  "page": "http://www.muslimgauze.org/releases/satyajit.html",
+  "src": "http://www.muslimgauze.org/images/covers/satyajit.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce027"
+  },
+  "title": "Silknoose",
+  "page": "http://www.muslimgauze.org/releases/silknoose.html",
+  "src": "http://www.muslimgauze.org/images/covers/silknoose.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce028"
+  },
+  "title": "In Search Of Ahmad Shah Masood",
+  "page": "http://www.muslimgauze.org/releases/masood.html",
+  "src": "http://www.muslimgauze.org/images/covers/masood.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce029"
+  },
+  "title": "Remixs Vol. 2",
+  "page": "http://www.muslimgauze.org/releases/remixs2.html",
+  "src": "http://www.muslimgauze.org/images/covers/remixs2.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce02a"
+  },
+  "title": "Uzbekistani Bizzare And Souk",
+  "page": "http://www.muslimgauze.org/releases/uzbekistani.html",
+  "src": "http://www.muslimgauze.org/images/covers/uzbekistani.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce02b"
+  },
+  "title": "Zuriff Moussa",
+  "page": "http://www.muslimgauze.org/releases/zuriff.html",
+  "src": "http://www.muslimgauze.org/images/covers/zuriff.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce02c"
+  },
+  "title": "Sonar vs Muslimgauze",
+  "page": "http://www.muslimgauze.org/releases/sonar.html",
+  "src": "http://www.muslimgauze.org/images/covers/sonar.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce02d"
+  },
+  "title": "Fedayeen",
+  "page": "http://www.muslimgauze.org/releases/fedayeen.html",
+  "src": "http://www.muslimgauze.org/images/covers/fedayeen.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce02e"
+  },
+  "title": "Melt",
+  "page": "http://www.muslimgauze.org/releases/melt.html",
+  "src": "http://www.muslimgauze.org/images/covers/melt.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce02f"
+  },
+  "title": "Tandoori Dog",
+  "page": "http://www.muslimgauze.org/releases/tandoori.html",
+  "src": "http://www.muslimgauze.org/images/covers/tandoori.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce030"
+  },
+  "title": "Red Crescent Part 3",
+  "page": "http://www.muslimgauze.org/releases/red.html",
+  "src": "http://www.muslimgauze.org/images/covers/red.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce031"
+  },
+  "title": "Dark Thoughts",
+  "page": "http://www.muslimgauze.org/releases/dark.html",
+  "src": "http://www.muslimgauze.org/images/covers/dark.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce032"
+  },
+  "title": "Hussein Mahmood Jeeb Tehar Gass",
+  "page": "http://www.muslimgauze.org/releases/hussein.html",
+  "src": "http://www.muslimgauze.org/images/covers/hussein.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce033"
+  },
+  "title": "Mullah Said",
+  "page": "http://www.muslimgauze.org/releases/mullah.html",
+  "src": "http://www.muslimgauze.org/images/covers/mullah.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce034"
+  },
+  "title": "Arab Quarter",
+  "page": "http://www.muslimgauze.org/releases/arab.html",
+  "src": "http://www.muslimgauze.org/images/covers/arab.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce035"
+  },
+  "title": "Re-mixs Vol 3.",
+  "page": "http://www.muslimgauze.org/releases/re-mixs3.html",
+  "src": "http://www.muslimgauze.org/images/covers/re-mixs3.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce036"
+  },
+  "title": "Observe With Sadiq Bey",
+  "page": "http://www.muslimgauze.org/releases/observe.html",
+  "src": "http://www.muslimgauze.org/images/covers/observe.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce037"
+  },
+  "title": "Azure Deux",
+  "page": "http://www.muslimgauze.org/releases/azure.html",
+  "src": "http://www.muslimgauze.org/images/covers/azure.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce038"
+  },
+  "title": "Zealot",
+  "page": "http://www.muslimgauze.org/releases/zealotEP.html",
+  "src": "http://www.muslimgauze.org/images/covers/zealotEP.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce039"
+  },
+  "title": "At The City Of The Dead",
+  "page": "http://www.muslimgauze.org/releases/dead.html",
+  "src": "http://www.muslimgauze.org/images/covers/dead.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce03a"
+  },
+  "title": "Muslimgauze vs Species Of Fishes",
+  "page": "http://www.muslimgauze.org/releases/fishes.html",
+  "src": "http://www.muslimgauze.org/images/covers/fishes.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce03b"
+  },
+  "title": "Lo-if India Abuse",
+  "page": "http://www.muslimgauze.org/releases/lo-fiCD.html",
+  "src": "http://www.muslimgauze.org/images/covers/lo-fi.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce03c"
+  },
+  "title": "Azad",
+  "page": "http://www.muslimgauze.org/releases/azad.html",
+  "src": "http://www.muslimgauze.org/images/covers/azad.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce03d"
+  },
+  "title": "Return To The City Of Djinn",
+  "page": "http://www.muslimgauze.org/releases/djinnReturn.html",
+  "src": "http://www.muslimgauze.org/images/covers/djinnReturn.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce03e"
+  },
+  "title": "Hamas Arc",
+  "page": "http://www.muslimgauze.org/releases/hamas.html",
+  "src": "http://www.muslimgauze.org/images/covers/hamas.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce03f"
+  },
+  "title": "Hamas Arc",
+  "page": "http://www.muslimgauze.org/releases/hamas.html",
+  "src": "http://www.muslimgauze.org/images/covers/hamas2.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce040"
+  },
+  "title": "Port Said",
+  "page": "http://www.muslimgauze.org/releases/port.html",
+  "src": "http://www.muslimgauze.org/images/covers/port.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce041"
+  },
+  "title": "At The City Of The Dead/Sound Secretion Dub",
+  "page": "http://www.muslimgauze.org/releases/deadPromo.html",
+  "src": "http://www.muslimgauze.org/images/covers/dead2.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce042"
+  },
+  "title": "Deceiver",
+  "page": "http://www.muslimgauze.org/releases/deceiver.html",
+  "src": "http://www.muslimgauze.org/images/covers/deceiver.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce043"
+  },
+  "title": "Hand Of Fatima",
+  "page": "http://www.muslimgauze.org/releases/hand.html",
+  "src": "http://www.muslimgauze.org/images/covers/hand.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce044"
+  },
+  "title": "Mort Aux Vaches",
+  "page": "http://www.muslimgauze.org/releases/mort.html",
+  "src": "http://www.muslimgauze.org/images/covers/mort.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce045"
+  },
+  "title": "Blue Mosque",
+  "page": "http://www.muslimgauze.org/releases/blue.html",
+  "src": "http://www.muslimgauze.org/images/covers/blue.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce046"
+  },
+  "title": "Return Of Black September",
+  "page": "http://www.muslimgauze.org/releases/return.html",
+  "src": "http://www.muslimgauze.org/images/covers/return.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce047"
+  },
+  "title": "Untitled",
+  "page": "http://www.muslimgauze.org/releases/untitledSol.html",
+  "src": "http://www.muslimgauze.org/images/covers/untitledSol.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce048"
+  },
+  "title": "Fakir Sind",
+  "page": "http://www.muslimgauze.org/releases/fakir.html",
+  "src": "http://www.muslimgauze.org/images/covers/fakir.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce049"
+  },
+  "title": "Fatah Guerrilla",
+  "page": "http://www.muslimgauze.org/releases/fatah.html",
+  "src": "http://www.muslimgauze.org/images/covers/fatah.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce04a"
+  },
+  "title": "Unfinished Mosque",
+  "page": "http://www.muslimgauze.org/releases/unfinished.html",
+  "src": "http://www.muslimgauze.org/images/covers/unfinished.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce04b"
+  },
+  "title": "Ayatollah Dollar",
+  "page": "http://www.muslimgauze.org/releases/ayatollah.html",
+  "src": "http://www.muslimgauze.org/images/covers/ayatollahCoin.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce04c"
+  },
+  "title": "New Soul",
+  "page": "http://www.muslimgauze.org/releases/new.html",
+  "src": "http://www.muslimgauze.org/images/covers/new.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce04d"
+  },
+  "title": "Lo-if India Abuse",
+  "page": "http://www.muslimgauze.org/releases/lo-fiLP.html",
+  "src": "http://www.muslimgauze.org/images/covers/lo-fi.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce04e"
+  },
+  "title": "Year Zero",
+  "page": "http://www.muslimgauze.org/releases/year.html",
+  "src": "http://www.muslimgauze.org/images/covers/zero.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce04f"
+  },
+  "title": "Drugsherpa",
+  "page": "http://www.muslimgauze.org/releases/drugsherpa.html",
+  "src": "http://www.muslimgauze.org/images/covers/drugsherpa.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce050"
+  },
+  "title": "Re-mixs",
+  "page": "http://www.muslimgauze.org/releases/re-mixs.html",
+  "src": "http://www.muslimgauze.org/images/covers/re-mixs.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce051"
+  },
+  "title": "Untitled",
+  "page": "http://www.muslimgauze.org/releases/untitledKlang.html",
+  "src": "http://www.muslimgauze.org/images/covers/untitledKlang.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce052"
+  },
+  "title": "Speaking With Hamas",
+  "page": "http://www.muslimgauze.org/releases/speaking.html",
+  "src": "http://www.muslimgauze.org/images/covers/speaking.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce053"
+  },
+  "title": "Syrinjia",
+  "page": "http://www.muslimgauze.org/releases/syrinjiaLP.html",
+  "src": "http://www.muslimgauze.org/images/covers/syrinjia.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce054"
+  },
+  "title": "Box Of Silk And Dogs",
+  "page": "http://www.muslimgauze.org/releases/box.html",
+  "src": "http://www.muslimgauze.org/images/covers/box.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce055"
+  },
+  "title": "Nommos' Return",
+  "page": "http://www.muslimgauze.org/releases/nommos.html",
+  "src": "http://www.muslimgauze.org/images/covers/nommos.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce056"
+  },
+  "title": "Your Mines In Kabul",
+  "page": "http://www.muslimgauze.org/releases/your.html",
+  "src": "http://www.muslimgauze.org/images/covers/your.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce057"
+  },
+  "title": "Jebel Tariq",
+  "page": "http://www.muslimgauze.org/releases/jebel.html",
+  "src": "http://www.muslimgauze.org/images/covers/jebel.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce058"
+  },
+  "title": "Sufiq",
+  "page": "http://www.muslimgauze.org/releases/sufiq.html",
+  "src": "http://www.muslimgauze.org/images/covers/sufiq.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce059"
+  },
+  "title": "Melt",
+  "page": "http://www.muslimgauze.org/releases/melt2.html",
+  "src": "http://www.muslimgauze.org/images/covers/melt2.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce05a"
+  },
+  "title": "The Inspirational Sounds Of Muslimgauze",
+  "page": "http://www.muslimgauze.org/releases/inspirational.html",
+  "src": "http://www.muslimgauze.org/images/covers/inspirational.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce05b"
+  },
+  "title": "Jebel Tariq",
+  "page": "http://www.muslimgauze.org/releases/jebelPromo.html",
+  "src": "http://www.muslimgauze.org/images/covers/jebelPromo.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce05c"
+  },
+  "title": "Kashmiri Queens",
+  "page": "http://www.muslimgauze.org/releases/kashmiri.html",
+  "src": "http://www.muslimgauze.org/images/covers/kashmiri.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce05d"
+  },
+  "title": "Abu-Dis",
+  "page": "http://www.muslimgauze.org/releases/abu-dis.html",
+  "src": "http://www.muslimgauze.org/images/covers/abu-dis.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce05e"
+  },
+  "title": "Bass Communion v Muslimgauze",
+  "page": "http://www.muslimgauze.org/releases/bass.html",
+  "src": "http://www.muslimgauze.org/images/covers/bass.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce05f"
+  },
+  "title": "Bass Communion v Muslimgauze",
+  "page": "http://www.muslimgauze.org/releases/bass.html",
+  "src": "http://www.muslimgauze.org/images/covers/bass2.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce060"
+  },
+  "title": "Completely Oblique",
+  "page": "http://www.muslimgauze.org/releases/completelyPromo.html",
+  "src": "http://www.muslimgauze.org/images/covers/completelyPromo.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce061"
+  },
+  "title": "Veiled Sisters Remix",
+  "page": "http://www.muslimgauze.org/releases/veiled-remix.html",
+  "src": "http://www.muslimgauze.org/images/covers/veiled2.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce062"
+  },
+  "title": "Completely Oblique",
+  "page": "http://www.muslimgauze.org/releases/completely.html",
+  "src": "http://www.muslimgauze.org/images/covers/completely.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce063"
+  },
+  "title": "Sarin Israel Nes Ziona",
+  "page": "http://www.muslimgauze.org/releases/sarin.html",
+  "src": "http://www.muslimgauze.org/images/covers/sarin.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce064"
+  },
+  "title": "Al-Aqsa Intifada",
+  "page": "http://www.muslimgauze.org/releases/aqsa.html",
+  "src": "http://www.muslimgauze.org/images/covers/aqsa.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce065"
+  },
+  "title": "The Suns Of Arqa Mixes",
+  "page": "http://www.muslimgauze.org/releases/arqa.html",
+  "src": "http://www.muslimgauze.org/images/covers/arqa.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce066"
+  },
+  "title": "Hamas Cinema Gaza Strip",
+  "page": "http://www.muslimgauze.org/releases/hamas-cinema.html",
+  "src": "http://www.muslimgauze.org/images/covers/hamas-cinema.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce067"
+  },
+  "title": "Iranair Inflight Magazine",
+  "page": "http://www.muslimgauze.org/releases/iranair.html",
+  "src": "http://www.muslimgauze.org/images/covers/iranair.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce068"
+  },
+  "title": "Alms For Iraq",
+  "page": "http://www.muslimgauze.org/releases/alms.html",
+  "src": "http://www.muslimgauze.org/images/covers/alms.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce069"
+  },
+  "title": "Dar Es Salaam",
+  "page": "http://www.muslimgauze.org/releases/dar.html",
+  "src": "http://www.muslimgauze.org/images/covers/dar.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce06a"
+  },
+  "title": "Vampire Of Tehran",
+  "page": "http://www.muslimgauze.org/releases/vampire.html",
+  "src": "http://www.muslimgauze.org/images/covers/vampire.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce06b"
+  },
+  "title": "Arabbox",
+  "page": "http://www.muslimgauze.org/releases/arabbox.html",
+  "src": "http://www.muslimgauze.org/images/covers/arabboxBox.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce06c"
+  },
+  "title": "Arabbox",
+  "page": "http://www.muslimgauze.org/releases/arabbox.html",
+  "src": "http://www.muslimgauze.org/images/covers/arabbox.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce06d"
+  },
+  "title": "Red Madrassa",
+  "page": "http://www.muslimgauze.org/releases/madrassa.html",
+  "src": "http://www.muslimgauze.org/images/covers/madrassa.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce06e"
+  },
+  "title": "Dome Of The Rock",
+  "page": "http://www.muslimgauze.org/releases/dome.html",
+  "src": "http://www.muslimgauze.org/images/covers/dome.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce06f"
+  },
+  "title": "Bass Communion v Muslimgauze (EP)",
+  "page": "http://www.muslimgauze.org/releases/bassEP.html",
+  "src": "http://www.muslimgauze.org/images/covers/bassEP.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce070"
+  },
+  "title": "[Self-Titled]",
+  "page": "http://www.muslimgauze.org/releases/muslimgauze.html",
+  "src": "http://www.muslimgauze.org/images/covers/no-title.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce071"
+  },
+  "title": "Hamas Arc",
+  "page": "http://www.muslimgauze.org/releases/hamas.html",
+  "src": "http://www.muslimgauze.org/images/covers/hamas.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce072"
+  },
+  "title": "Hamas Arc",
+  "page": "http://www.muslimgauze.org/releases/hamas.html",
+  "src": "http://www.muslimgauze.org/images/covers/hamas2.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce073"
+  },
+  "title": "Remixs 1 + 2",
+  "page": "http://www.muslimgauze.org/releases/re-mixs1+2.html",
+  "src": "http://www.muslimgauze.org/images/covers/re-mixs1+2.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce074"
+  },
+  "title": "Beyond The Blue Mosque",
+  "page": "http://www.muslimgauze.org/releases/beyond.html",
+  "src": "http://www.muslimgauze.org/images/covers/beyond.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce075"
+  },
+  "title": "Port Said",
+  "page": "http://www.muslimgauze.org/releases/port.html",
+  "src": "http://www.muslimgauze.org/images/covers/port.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce076"
+  },
+  "title": "From The Edge",
+  "page": "http://www.muslimgauze.org/releases/from1.html",
+  "src": "http://www.muslimgauze.org/images/covers/fromEPSide1.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce077"
+  },
+  "title": "Uzbekistani Bizzare And Souk",
+  "page": "http://www.muslimgauze.org/releases/uzbekistani2.html",
+  "src": "http://www.muslimgauze.org/images/covers/uzbekistaniImp1.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce078"
+  },
+  "title": "Uzbekistani Bizzare And Souk",
+  "page": "http://www.muslimgauze.org/releases/uzbekistani2.html",
+  "src": "http://www.muslimgauze.org/images/covers/uzbekistaniImp1a.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce079"
+  },
+  "title": "Uzbekistani Bizzare And Souk",
+  "page": "http://www.muslimgauze.org/releases/uzbekistani2.html",
+  "src": "http://www.muslimgauze.org/images/covers/uzbekistaniImp2.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce07a"
+  },
+  "title": "Izlamaphobia",
+  "page": "http://www.muslimgauze.org/releases/izlamaphobia2.html",
+  "src": "http://www.muslimgauze.org/images/covers/izlamaphobiaLP.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce07b"
+  },
+  "title": "Chapter Of Purity",
+  "page": "http://www.muslimgauze.org/releases/chapter.html",
+  "src": "http://www.muslimgauze.org/images/covers/chapter.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce07c"
+  },
+  "title": "Chapter Of Purity",
+  "page": "http://www.muslimgauze.org/releases/chapter.html",
+  "src": "http://www.muslimgauze.org/images/covers/chapterSilver.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce07d"
+  },
+  "title": "Chapter Of Purity",
+  "page": "http://www.muslimgauze.org/releases/chapter.html",
+  "src": "http://www.muslimgauze.org/images/covers/chapterGold.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce07e"
+  },
+  "title": "Maroon",
+  "page": "http://www.muslimgauze.org/releases/maroon2.html",
+  "src": "http://www.muslimgauze.org/images/covers/maroon2.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce07f"
+  },
+  "title": "Sandtrafikar",
+  "page": "http://www.muslimgauze.org/releases/sandtrafikar2.html",
+  "src": "http://www.muslimgauze.org/images/covers/sandtrafikar2.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce080"
+  },
+  "title": "Speaking With Hamas",
+  "page": "http://www.muslimgauze.org/releases/speaking.html",
+  "src": "http://www.muslimgauze.org/images/covers/speaking.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce081"
+  },
+  "title": "Classics Selection",
+  "page": "http://www.muslimgauze.org/releases/classics.html",
+  "src": "http://www.muslimgauze.org/images/covers/classics.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce082"
+  },
+  "title": "Dome Of The Rock",
+  "page": "http://www.muslimgauze.org/releases/dome.html",
+  "src": "http://www.muslimgauze.org/images/covers/dome.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce083"
+  },
+  "title": "In Search Of Ahmad Shah Masood",
+  "page": "http://www.muslimgauze.org/releases/masood2.html",
+  "src": "http://www.muslimgauze.org/images/covers/masood2.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce084"
+  },
+  "title": "Vote Hezbollah",
+  "page": "http://www.muslimgauze.org/releases/vote2.html",
+  "src": "http://www.muslimgauze.org/images/covers/vote2.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce085"
+  },
+  "title": "Sufiq",
+  "page": "http://www.muslimgauze.org/releases/sufiq.html",
+  "src": "http://www.muslimgauze.org/images/covers/sufiq.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce086"
+  },
+  "title": "Complete Oblique ",
+  "page": "http://www.muslimgauze.org/releases/completeStd.html",
+  "src": "http://www.muslimgauze.org/images/covers/complete.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce087"
+  },
+  "title": "Uzbekistani Bizzare And Souk",
+  "page": "http://www.muslimgauze.org/releases/uzbekistani3.html",
+  "src": "http://www.muslimgauze.org/images/covers/uzbekistaniImp3.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce088"
+  },
+  "title": "Izlamaphobia",
+  "page": "http://www.muslimgauze.org/releases/izlamaphobia3.html",
+  "src": "http://www.muslimgauze.org/images/covers/izlamaphobiaLP.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce089"
+  },
+  "title": "Jah-Mearab",
+  "page": "http://www.muslimgauze.org/releases/jah.html",
+  "src": "http://www.muslimgauze.org/images/covers/jah.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce08a"
+  },
+  "title": "Hamas Cinema Gaza Strip",
+  "page": "http://www.muslimgauze.org/releases/hamas-cinema.html",
+  "src": "http://www.muslimgauze.org/images/covers/hamas-cinema.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce08b"
+  },
+  "title": "Occupied Territories",
+  "page": "http://www.muslimgauze.org/releases/occupied.html",
+  "src": "http://www.muslimgauze.org/images/covers/occupied1.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce08c"
+  },
+  "title": "Occupied Territories",
+  "page": "http://www.muslimgauze.org/releases/occupied.html",
+  "src": "http://www.muslimgauze.org/images/covers/occupied2.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce08d"
+  },
+  "title": "No Human Rights For Arabs In Israel",
+  "page": "http://www.muslimgauze.org/releases/no2.html",
+  "src": "http://www.muslimgauze.org/images/covers/noCD.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce08e"
+  },
+  "title": "Syrinjia",
+  "page": "http://www.muslimgauze.org/releases/syrinjiaCD2.html",
+  "src": "http://www.muslimgauze.org/images/covers/syrinjia3.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce08f"
+  },
+  "title": "Zuriff Moussa",
+  "page": "http://www.muslimgauze.org/releases/zuriff2.html",
+  "src": "http://www.muslimgauze.org/images/covers/zuriff2.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce090"
+  },
+  "title": "Wish Of The Flayed",
+  "page": "http://www.muslimgauze.org/releases/wish.html",
+  "src": "http://www.muslimgauze.org/images/covers/wish.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce091"
+  },
+  "title": "Return Of Black September",
+  "page": "http://www.muslimgauze.org/releases/return3.html",
+  "src": "http://www.muslimgauze.org/images/covers/return.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce092"
+  },
+  "title": "From The Edge",
+  "page": "http://www.muslimgauze.org/releases/from2.html",
+  "src": "http://www.muslimgauze.org/images/covers/from2.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce093"
+  },
+  "title": "Jebel Tariq",
+  "page": "http://www.muslimgauze.org/releases/jebel3.html",
+  "src": "http://www.muslimgauze.org/images/covers/jebel2.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce094"
+  },
+  "title": "Zuriff Moussa",
+  "page": "http://www.muslimgauze.org/releases/zuriff3.html",
+  "src": "http://www.muslimgauze.org/images/covers/zuriff3.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce095"
+  },
+  "title": "Suns Of Arqa Re-Mixs Muslimgauze",
+  "page": "http://www.muslimgauze.org/releases/suns.html",
+  "src": "http://www.muslimgauze.org/images/covers/suns.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce096"
+  },
+  "title": "Speaker Of Turkish",
+  "page": "http://www.muslimgauze.org/releases/speaker2.html",
+  "src": "http://www.muslimgauze.org/images/covers/speaker2.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce097"
+  },
+  "title": "No Human Rights For Arabs In Israel: The Remix",
+  "page": "http://www.muslimgauze.org/releases/no3.html",
+  "src": "http://www.muslimgauze.org/images/covers/noCD.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce098"
+  },
+  "title": "Jaal Ab Dullah",
+  "page": "http://www.muslimgauze.org/releases/jaal.html",
+  "src": "http://www.muslimgauze.org/images/covers/jaal.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce099"
+  },
+  "title": "Syrinjia",
+  "page": "http://www.muslimgauze.org/releases/syrinjiaCD.html",
+  "src": "http://www.muslimgauze.org/images/covers/syrinjiaOuter.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce09a"
+  },
+  "title": "Syrinjia",
+  "page": "http://www.muslimgauze.org/releases/syrinjiaCD.html",
+  "src": "http://www.muslimgauze.org/images/covers/syrinjiaPurple.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce09b"
+  },
+  "title": "Syrinjia",
+  "page": "http://www.muslimgauze.org/releases/syrinjiaCD.html",
+  "src": "http://www.muslimgauze.org/images/covers/syrinjiaGrey.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce09c"
+  },
+  "title": "Syrinjia",
+  "page": "http://www.muslimgauze.org/releases/syrinjiaCD.html",
+  "src": "http://www.muslimgauze.org/images/covers/syrinjiaRed.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce09d"
+  },
+  "title": "Syrinjia",
+  "page": "http://www.muslimgauze.org/releases/syrinjiaCD.html",
+  "src": "http://www.muslimgauze.org/images/covers/syrinjiaDkBlue.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce09e"
+  },
+  "title": "Syrinjia",
+  "page": "http://www.muslimgauze.org/releases/syrinjiaCD.html",
+  "src": "http://www.muslimgauze.org/images/covers/syrinjiaCream.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce09f"
+  },
+  "title": "Syrinjia",
+  "page": "http://www.muslimgauze.org/releases/syrinjiaCD.html",
+  "src": "http://www.muslimgauze.org/images/covers/syrinjiaLtBlue.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0a0"
+  },
+  "title": "Syrinjia",
+  "page": "http://www.muslimgauze.org/releases/syrinjiaCD.html",
+  "src": "http://www.muslimgauze.org/images/covers/syrinjiaBrown.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0a1"
+  },
+  "title": "Sulaymaniyah",
+  "page": "http://www.muslimgauze.org/releases/sulaymaniyah.html",
+  "src": "http://www.muslimgauze.org/images/covers/sulaymaniyah.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0a2"
+  },
+  "title": "Baghdad",
+  "page": "http://www.muslimgauze.org/releases/baghdad.html",
+  "src": "http://www.muslimgauze.org/images/covers/baghdad.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0a3"
+  },
+  "title": "Muslimgauze vs Species Of Fishes",
+  "page": "http://www.muslimgauze.org/releases/fishes2.html",
+  "src": "http://www.muslimgauze.org/images/covers/fishes.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0a4"
+  },
+  "title": "Sycophant Of Purdah",
+  "page": "http://www.muslimgauze.org/releases/sycophant.html",
+  "src": "http://www.muslimgauze.org/images/covers/sycophant.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0a5"
+  },
+  "title": "Observe With Sadiq Bey",
+  "page": "http://www.muslimgauze.org/releases/observe.html",
+  "src": "http://www.muslimgauze.org/images/covers/observe.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0a6"
+  },
+  "title": "Jaagheed Zarb",
+  "page": "http://www.muslimgauze.org/releases/jaagheed.html",
+  "src": "http://www.muslimgauze.org/images/covers/jaagheed.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0a7"
+  },
+  "title": "Hussein Mahmood Jeeb Tehar Gass",
+  "page": "http://www.muslimgauze.org/releases/husseinLP.html",
+  "src": "http://www.muslimgauze.org/images/covers/husseinLPRed.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0a8"
+  },
+  "title": "Hussein Mahmood Jeeb Tehar Gass",
+  "page": "http://www.muslimgauze.org/releases/husseinLP.html",
+  "src": "http://www.muslimgauze.org/images/covers/husseinLPWhite.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0a9"
+  },
+  "title": "Hussein Mahmood Jeeb Tehar Gass",
+  "page": "http://www.muslimgauze.org/releases/husseinLP.html",
+  "src": "http://www.muslimgauze.org/images/covers/husseinLPBlack.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0aa"
+  },
+  "title": "Madrass Sitar Burner",
+  "page": "http://www.muslimgauze.org/releases/madrass.html",
+  "src": "http://www.muslimgauze.org/images/covers/madrass.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0ab"
+  },
+  "title": "Hummus",
+  "page": "http://www.muslimgauze.org/releases/hummus.html",
+  "src": "http://www.muslimgauze.org/images/covers/hummus.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0ac"
+  },
+  "title": "Iran",
+  "page": "http://www.muslimgauze.org/releases/iran4.html",
+  "src": "http://www.muslimgauze.org/images/covers/iran.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0ad"
+  },
+  "title": "On-Line Jihad",
+  "page": "http://www.muslimgauze.org/releases/jihad.html",
+  "src": "http://www.muslimgauze.org/images/covers/jihad.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0ae"
+  },
+  "title": "Beirut Transister",
+  "page": "http://www.muslimgauze.org/releases/beirut.html",
+  "src": "http://www.muslimgauze.org/images/covers/beirut.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0af"
+  },
+  "title": "BCVSMGCD",
+  "page": "http://www.muslimgauze.org/releases/bcvsmgcd.html",
+  "src": "http://www.muslimgauze.org/images/covers/bcvsmgcd.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0b0"
+  },
+  "title": "Camel Through A Needles Eye",
+  "page": "http://www.muslimgauze.org/releases/camel.html",
+  "src": "http://www.muslimgauze.org/images/covers/camel.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0b1"
+  },
+  "title": "Lazhareem Ul Leper",
+  "page": "http://www.muslimgauze.org/releases/lazhareem.html",
+  "src": "http://www.muslimgauze.org/images/covers/lazhareem.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0b2"
+  },
+  "title": "Armsbazzar",
+  "page": "http://www.muslimgauze.org/releases/armsbazzar.html",
+  "src": "http://www.muslimgauze.org/images/covers/armsbazzar.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0b3"
+  },
+  "title": "Azzazin",
+  "page": "http://www.muslimgauze.org/releases/azzazin3.html",
+  "src": "http://www.muslimgauze.org/images/covers/azzazin3.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0b4"
+  },
+  "title": "Babylon Iz Iraq",
+  "page": "http://www.muslimgauze.org/releases/babylon.html",
+  "src": "http://www.muslimgauze.org/images/covers/babylon.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0b5"
+  },
+  "title": "Untitled",
+  "page": "http://www.muslimgauze.org/releases/untitledTMPS.html",
+  "src": "http://www.muslimgauze.org/images/covers/untitledTMPS.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0b6"
+  },
+  "title": "From The Edge ",
+  "page": "http://www.muslimgauze.org/releases/from3.html",
+  "src": "http://www.muslimgauze.org/images/covers/fromDeluxe.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0b7"
+  },
+  "title": "Damascus",
+  "page": "http://www.muslimgauze.org/releases/damascus.html",
+  "src": "http://www.muslimgauze.org/images/covers/damascus.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0b8"
+  },
+  "title": "Fuck Israel",
+  "page": "http://www.muslimgauze.org/releases/fuck.html",
+  "src": "http://www.muslimgauze.org/images/covers/fuck.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0b9"
+  },
+  "title": "Analog Zikr",
+  "page": "http://www.muslimgauze.org/releases/analog.html",
+  "src": "http://www.muslimgauze.org/images/covers/analog.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0ba"
+  },
+  "title": "Bryn Jones Speaks",
+  "page": "http://www.muslimgauze.org/releases/speaks.html",
+  "src": "http://www.muslimgauze.org/images/covers/speaks.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0bb"
+  },
+  "title": "Arabbox",
+  "page": "http://www.muslimgauze.org/releases/arabbox2.html",
+  "src": "http://www.muslimgauze.org/images/covers/arabbox.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0bc"
+  },
+  "title": "Speaker Of Turkish",
+  "page": "http://www.muslimgauze.org/releases/speaker.html",
+  "src": "http://www.muslimgauze.org/images/covers/speaker.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0bd"
+  },
+  "title": "Uzi Mahmood",
+  "page": "http://www.muslimgauze.org/releases/uzi-mahmood3.html",
+  "src": "http://www.muslimgauze.org/images/covers/uzi-mahood2.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0be"
+  },
+  "title": "Nadir Of Purdah",
+  "page": "http://www.muslimgauze.org/releases/nadir2.html",
+  "src": "http://www.muslimgauze.org/images/covers/nadir2Digipak.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0bf"
+  },
+  "title": "Nadir Of Purdah",
+  "page": "http://www.muslimgauze.org/releases/nadir2.html",
+  "src": "http://www.muslimgauze.org/images/covers/nadir2Jewelcase.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0c0"
+  },
+  "title": "In Search Of The Abraham Mosque",
+  "page": "http://www.muslimgauze.org/releases/search.html",
+  "src": "http://www.muslimgauze.org/images/covers/search.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0c1"
+  },
+  "title": "Eye For An Eye",
+  "page": "http://www.muslimgauze.org/releases/eye.html",
+  "src": "http://www.muslimgauze.org/images/covers/eye.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0c2"
+  },
+  "title": "Complete Oblique ",
+  "page": "http://www.muslimgauze.org/releases/completeSub.html",
+  "src": "http://www.muslimgauze.org/images/covers/complete.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0c3"
+  },
+  "title": "Bass Communion v Muslimgauze",
+  "page": "http://www.muslimgauze.org/releases/bass.html",
+  "src": "http://www.muslimgauze.org/images/covers/bass.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0c4"
+  },
+  "title": "Bass Communion v Muslimgauze",
+  "page": "http://www.muslimgauze.org/releases/bass.html",
+  "src": "http://www.muslimgauze.org/images/covers/bass2.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0c5"
+  },
+  "title": "Martyr Shrapnel",
+  "page": "http://www.muslimgauze.org/releases/martyr.html",
+  "src": "http://www.muslimgauze.org/images/covers/martyr1.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0c6"
+  },
+  "title": "Blue Mosque",
+  "page": "http://www.muslimgauze.org/releases/blue.html",
+  "src": "http://www.muslimgauze.org/images/covers/blue.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0c7"
+  },
+  "title": "Fedayeen",
+  "page": "http://www.muslimgauze.org/releases/fedayeen2.html",
+  "src": "http://www.muslimgauze.org/images/covers/fedayeen2.1.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0c8"
+  },
+  "title": "Fedayeen",
+  "page": "http://www.muslimgauze.org/releases/fedayeen2.html",
+  "src": "http://www.muslimgauze.org/images/covers/fedayeen2.2.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0c9"
+  },
+  "title": "Souk Bou Saada",
+  "page": "http://www.muslimgauze.org/releases/souk.html",
+  "src": "http://www.muslimgauze.org/images/covers/souk.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0ca"
+  },
+  "title": "Izlamic Songs",
+  "page": "http://www.muslimgauze.org/releases/izlamic.html",
+  "src": "http://www.muslimgauze.org/images/covers/izlamic.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0cb"
+  },
+  "title": "Satyajit Eye",
+  "page": "http://www.muslimgauze.org/releases/satyajit2.html",
+  "src": "http://www.muslimgauze.org/images/covers/satyajit2.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0cc"
+  },
+  "title": "Satyajit Eye",
+  "page": "http://www.muslimgauze.org/releases/satyajit3.html",
+  "src": "http://www.muslimgauze.org/images/covers/satyajit3.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0cd"
+  },
+  "title": "Tandoor Dog",
+  "page": "http://www.muslimgauze.org/releases/tandoor.html",
+  "src": "http://www.muslimgauze.org/images/covers/tandoor.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0ce"
+  },
+  "title": "Maroon",
+  "page": "http://www.muslimgauze.org/releases/maroonDig.html",
+  "src": "http://www.muslimgauze.org/images/covers/maroonDig.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0cf"
+  },
+  "title": "Turkish Berlina",
+  "page": "http://www.muslimgauze.org/releases/turkish.html",
+  "src": "http://www.muslimgauze.org/images/covers/turkish.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0d0"
+  },
+  "title": "Al Jar Zia Audio",
+  "page": "http://www.muslimgauze.org/releases/al-jar.html",
+  "src": "http://www.muslimgauze.org/images/covers/al-jar.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0d1"
+  },
+  "title": "Mullah Said",
+  "page": "http://www.muslimgauze.org/releases/mullah.html",
+  "src": "http://www.muslimgauze.org/images/covers/mullah.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0d2"
+  },
+  "title": "Uzi Mahmood",
+  "page": "http://www.muslimgauze.org/releases/uzi-mahmood2.html",
+  "src": "http://www.muslimgauze.org/images/covers/uzi-mahood2.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0d3"
+  },
+  "title": "A.P Reworks Muslimgauze",
+  "page": "http://www.muslimgauze.org/releases/reworks.html",
+  "src": "http://www.muslimgauze.org/images/covers/reworks.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0d4"
+  },
+  "title": "Armsbazzar",
+  "page": "http://www.muslimgauze.org/releases/armsbazzar2.html",
+  "src": "http://www.muslimgauze.org/images/covers/armsbazzarBox.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0d5"
+  },
+  "title": "Armsbazzar",
+  "page": "http://www.muslimgauze.org/releases/armsbazzar2.html",
+  "src": "http://www.muslimgauze.org/images/covers/armsbazzar.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0d6"
+  },
+  "title": "Cobra Head Soup",
+  "page": "http://www.muslimgauze.org/releases/cobra.html",
+  "src": "http://www.muslimgauze.org/images/covers/cobra.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0d7"
+  },
+  "title": "Minaret Speaker ",
+  "page": "http://www.muslimgauze.org/releases/minaret2.html",
+  "src": "http://www.muslimgauze.org/images/covers/minaret.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0d8"
+  },
+  "title": "Trial Mixes 1997-1998",
+  "page": "http://www.muslimgauze.org/releases/trial.html",
+  "src": "http://www.muslimgauze.org/images/covers/trial.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0d9"
+  },
+  "title": "Abyssinia Selasie",
+  "page": "http://www.muslimgauze.org/releases/abyssinia.html",
+  "src": "http://www.muslimgauze.org/images/covers/abyssinia.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0da"
+  },
+  "title": "Un-used Re-mix's 1994 - 1995",
+  "page": "http://www.muslimgauze.org/releases/un-used.html",
+  "src": "http://www.muslimgauze.org/images/covers/un-used.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0db"
+  },
+  "title": "Silknoose",
+  "page": "http://www.muslimgauze.org/releases/silknoose3.html",
+  "src": "http://www.muslimgauze.org/images/covers/silknoose3.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0dc"
+  },
+  "title": "Drugsherpa",
+  "page": "http://www.muslimgauze.org/releases/drugsherpa3.html",
+  "src": "http://www.muslimgauze.org/images/covers/drugsherpa3.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0dd"
+  },
+  "title": "Silknoose",
+  "page": "http://www.muslimgauze.org/releases/silknoose2.html",
+  "src": "http://www.muslimgauze.org/images/covers/silknooseGreen.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0de"
+  },
+  "title": "Silknoose",
+  "page": "http://www.muslimgauze.org/releases/silknoose2.html",
+  "src": "http://www.muslimgauze.org/images/covers/silknooseOlive.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0df"
+  },
+  "title": "Silknoose",
+  "page": "http://www.muslimgauze.org/releases/silknoose2.html",
+  "src": "http://www.muslimgauze.org/images/covers/silknooseBlack.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0e0"
+  },
+  "title": "Split EP",
+  "page": "http://www.muslimgauze.org/releases/splitOptimo2.html",
+  "src": "http://www.muslimgauze.org/images/covers/splitOptimo.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0e1"
+  },
+  "title": "Hunting Out With An Aerial Eye",
+  "page": "http://www.muslimgauze.org/releases/hunting2.html",
+  "src": "http://www.muslimgauze.org/images/covers/hunting2.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0e2"
+  },
+  "title": "Deceiver Vol 3 & 4",
+  "page": "http://www.muslimgauze.org/releases/deceiver3.html",
+  "src": "http://www.muslimgauze.org/images/covers/deceiver3.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0e3"
+  },
+  "title": "Feel The Hiss",
+  "page": "http://www.muslimgauze.org/releases/feel.html",
+  "src": "http://www.muslimgauze.org/images/covers/feel.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0e4"
+  },
+  "title": "Buddhist On Fire",
+  "page": "http://www.muslimgauze.org/releases/buddhist2.html",
+  "src": "http://www.muslimgauze.org/images/covers/buddhist2.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0e5"
+  },
+  "title": "Split EP",
+  "page": "http://www.muslimgauze.org/releases/splitOptimo.html",
+  "src": "http://www.muslimgauze.org/images/covers/splitOptimo.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0e6"
+  },
+  "title": "Kabul",
+  "page": "http://www.muslimgauze.org/releases/kabul2.html",
+  "src": "http://www.muslimgauze.org/images/covers/kabul2.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0e7"
+  },
+  "title": "Blinded Horses",
+  "page": "http://www.muslimgauze.org/releases/blinded2.html",
+  "src": "http://www.muslimgauze.org/images/covers/blinded2.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0e8"
+  },
+  "title": "Trial Mixes 1997-1998",
+  "page": "http://www.muslimgauze.org/releases/trial3.html",
+  "src": "http://www.muslimgauze.org/images/covers/triaL3.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0e9"
+  },
+  "title": "Jazirat-Ul-Arab",
+  "page": "http://www.muslimgauze.org/releases/jazirat2.html",
+  "src": "http://www.muslimgauze.org/images/covers/jazirat2.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0ea"
+  },
+  "title": "Jerusalaam",
+  "page": "http://www.muslimgauze.org/releases/jerusalaam.html",
+  "src": "http://www.muslimgauze.org/images/covers/jerusalaam.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0eb"
+  },
+  "title": "Mullah Said",
+  "page": "http://www.muslimgauze.org/releases/mullahLP.html",
+  "src": "http://www.muslimgauze.org/images/covers/mullahLP.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0ec"
+  },
+  "title": "Trial Mixes 1997-1998",
+  "page": "http://www.muslimgauze.org/releases/trial2.html",
+  "src": "http://www.muslimgauze.org/images/covers/trialBox.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0ed"
+  },
+  "title": "Trial Mixes 1997-1998",
+  "page": "http://www.muslimgauze.org/releases/trial2.html",
+  "src": "http://www.muslimgauze.org/images/covers/trial2.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0ee"
+  },
+  "title": "Port Said",
+  "page": "http://www.muslimgauze.org/releases/port3.html",
+  "src": "http://www.muslimgauze.org/images/covers/port3.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0ef"
+  },
+  "title": "Ali Zarin",
+  "page": "http://www.muslimgauze.org/releases/ali.html",
+  "src": "http://www.muslimgauze.org/images/covers/ali.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0f0"
+  },
+  "title": "Mohammad Ali Jinnah",
+  "page": "http://www.muslimgauze.org/releases/mohammad.html",
+  "src": "http://www.muslimgauze.org/images/covers/mohammad.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0f1"
+  },
+  "title": "Hajj",
+  "page": "http://www.muslimgauze.org/releases/hajj2.html",
+  "src": "http://www.muslimgauze.org/images/covers/hajj2.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0f2"
+  },
+  "title": "Azzazin",
+  "page": "http://www.muslimgauze.org/releases/azzazinLP.html",
+  "src": "http://www.muslimgauze.org/images/covers/azzazinLP.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0f3"
+  },
+  "title": "City Of Djinn",
+  "page": "http://www.muslimgauze.org/releases/djinn2.html",
+  "src": "http://www.muslimgauze.org/images/covers/djinn3.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0f4"
+  },
+  "title": "City Of Djinn",
+  "page": "http://www.muslimgauze.org/releases/djinn2.html",
+  "src": "http://www.muslimgauze.org/images/covers/djinn2.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0f5"
+  },
+  "title": "Iranair Inflight Magazine",
+  "page": "http://www.muslimgauze.org/releases/iranairDig.html",
+  "src": "http://www.muslimgauze.org/images/covers/iranairDig.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0f6"
+  },
+  "title": "Libya Tour Guide",
+  "page": "http://www.muslimgauze.org/releases/libya.html",
+  "src": "http://www.muslimgauze.org/images/covers/libya.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0f7"
+  },
+  "title": "Eleven Minarets",
+  "page": "http://www.muslimgauze.org/releases/elevenCD.html",
+  "src": "http://www.muslimgauze.org/images/covers/eleven.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0f8"
+  },
+  "title": "Babylon Is Iraq",
+  "page": "http://www.muslimgauze.org/releases/babylon2.html",
+  "src": "http://www.muslimgauze.org/images/covers/babylonLP.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0f9"
+  },
+  "title": "Ingaza",
+  "page": "http://www.muslimgauze.org/releases/ingaza2.html",
+  "src": "http://www.muslimgauze.org/images/covers/ingazaLP.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0fa"
+  },
+  "title": "Shekel Of Israeli Occupation",
+  "page": "http://www.muslimgauze.org/releases/shekel1.html",
+  "src": "http://www.muslimgauze.org/images/covers/shekel(gold).jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0fb"
+  },
+  "title": "Vote Hezbollah",
+  "page": "http://www.muslimgauze.org/releases/voteLP2.html",
+  "src": "http://www.muslimgauze.org/images/covers/voteLP.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0fc"
+  },
+  "title": "Eleven Minarets",
+  "page": "http://www.muslimgauze.org/releases/elevenLP.html",
+  "src": "http://www.muslimgauze.org/images/covers/eleven.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0fd"
+  },
+  "title": "Gun Aramaic Part 2",
+  "page": "http://www.muslimgauze.org/releases/gun2LP1.html",
+  "src": "http://www.muslimgauze.org/images/covers/gunLP.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0fe"
+  },
+  "title": "Abu Nidal",
+  "page": "http://www.muslimgauze.org/releases/abu-nidal2.html",
+  "src": "http://www.muslimgauze.org/images/covers/abu-nidal2.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce0ff"
+  },
+  "title": "Shekel Of Israeli Occupation",
+  "page": "http://www.muslimgauze.org/releases/shekel2.html",
+  "src": "http://www.muslimgauze.org/images/covers/shekel(silver).jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce100"
+  },
+  "title": "Amahar",
+  "page": "http://www.muslimgauze.org/releases/amahar1.html",
+  "src": "http://www.muslimgauze.org/images/covers/amahar.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce101"
+  },
+  "title": "Amahar",
+  "page": "http://www.muslimgauze.org/releases/amahar2.html",
+  "src": "http://www.muslimgauze.org/images/covers/amaharSpecial.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce102"
+  },
+  "title": "Shekel Of Israeli Occupation",
+  "page": "http://www.muslimgauze.org/releases/shekel3.html",
+  "src": "http://www.muslimgauze.org/images/covers/shekel(silver).jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce103"
+  },
+  "title": "Port Said",
+  "page": "http://www.muslimgauze.org/releases/port2.html",
+  "src": "http://www.muslimgauze.org/images/covers/port2.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce104"
+  },
+  "title": "Return Of Black September",
+  "page": "http://www.muslimgauze.org/releases/returnLP.html",
+  "src": "http://www.muslimgauze.org/images/covers/return.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce105"
+  },
+  "title": "Lalique Gadaffi Handgrenade",
+  "page": "http://www.muslimgauze.org/releases/laliqueLP.html",
+  "src": "http://www.muslimgauze.org/images/covers/lalique.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce106"
+  },
+  "title": "Salaam Alekum, Bastard",
+  "page": "http://www.muslimgauze.org/releases/salaam2LP.html",
+  "src": "http://www.muslimgauze.org/images/covers/salaam2.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce107"
+  },
+  "title": "Vote Hezbollah",
+  "page": "http://www.muslimgauze.org/releases/vote4.html",
+  "src": "http://www.muslimgauze.org/images/covers/vote3.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce108"
+  },
+  "title": "Vote Hezbollah",
+  "page": "http://www.muslimgauze.org/releases/vote3.html",
+  "src": "http://www.muslimgauze.org/images/covers/vote3.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce109"
+  },
+  "title": "Opaques",
+  "page": "http://www.muslimgauze.org/releases/opaques2.html",
+  "src": "http://www.muslimgauze.org/images/covers/opaques2.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce10a"
+  },
+  "page": "http://www.muslimgauze.org/releases/amahar2.html",
+  "src": "http://www.muslimgauze.org/images/covers/amaharSpecial.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce10b"
+  },
+  "title": "City Of Djinn",
+  "page": "http://www.muslimgauze.org/releases/djinn3.html",
+  "src": "http://www.muslimgauze.org/images/covers/djinn4.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce10c"
+  },
+  "title": "Flajelata",
+  "page": "http://www.muslimgauze.org/releases/flajelata2.html",
+  "src": "http://www.muslimgauze.org/images/covers/flajelata2.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce10d"
+  },
+  "title": "Gun Aramaic Part 2",
+  "page": "http://www.muslimgauze.org/releases/gun2LP2.html",
+  "src": "http://www.muslimgauze.org/images/covers/gunLP.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce10e"
+  },
+  "title": "Al-Zulfiquar Shaheed",
+  "page": "http://www.muslimgauze.org/releases/al-zulfiquar2.html",
+  "src": "http://www.muslimgauze.org/images/covers/al-zulfiquar2.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce10f"
+  },
+  "title": "Khan Younis",
+  "page": "http://www.muslimgauze.org/releases/khan.html",
+  "src": "http://www.muslimgauze.org/images/covers/khan.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce110"
+  },
+  "title": "Ryoji Ikeda Re-Mixs",
+  "page": "http://www.muslimgauze.org/releases/ikedaDig.html",
+  "src": "http://www.muslimgauze.org/images/covers/ikedaDig.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce111"
+  },
+  "title": "Al-Zulfiquar Shaheed",
+  "page": "http://www.muslimgauze.org/releases/al-zulfiquar3.html",
+  "src": "http://www.muslimgauze.org/images/covers/al-zulfiquar3.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce112"
+  },
+  "title": "Demo",
+  "page": "http://www.muslimgauze.org/releases/demo.html",
+  "src": "http://www.muslimgauze.org/images/covers/demo.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce113"
+  },
+  "title": "Emak Bakia",
+  "page": "http://www.muslimgauze.org/releases/emak4.html",
+  "src": "http://www.muslimgauze.org/images/covers/emakCas.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce114"
+  },
+  "title": "Techno Arabaqua",
+  "page": "http://www.muslimgauze.org/releases/techno.html",
+  "src": "http://www.muslimgauze.org/images/covers/techno.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce115"
+  },
+  "title": "Abyssinia Selasie ",
+  "page": "http://www.muslimgauze.org/releases/abyssiniaDig.html",
+  "src": "http://www.muslimgauze.org/images/covers/abyssiniaDig.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce116"
+  },
+  "title": "A. P Reworks Two",
+  "page": "http://www.muslimgauze.org/releases/reworks2.html",
+  "src": "http://www.muslimgauze.org/images/covers/reworks2.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce117"
+  },
+  "title": "Emak Bakia",
+  "page": "http://www.muslimgauze.org/releases/emak3.html",
+  "src": "http://www.muslimgauze.org/images/covers/emak2.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce118"
+  },
+  "title": "Port Said",
+  "page": "http://www.muslimgauze.org/releases/portDig.html",
+  "src": "http://www.muslimgauze.org/images/covers/portDig.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce119"
+  },
+  "title": "Vote Hezbollah",
+  "page": "http://www.muslimgauze.org/releases/voteLP1.html",
+  "src": "http://www.muslimgauze.org/images/covers/voteLP.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce11a"
+  },
+  "title": "Wish Of The Flayed",
+  "page": "http://www.muslimgauze.org/releases/wish2.html",
+  "src": "http://www.muslimgauze.org/images/covers/wish2.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce11b"
+  },
+  "title": "Salaam Alekum, Bastard",
+  "page": "http://www.muslimgauze.org/releases/salaam2CD.html",
+  "src": "http://www.muslimgauze.org/images/covers/salaam2.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce11c"
+  },
+  "title": "Emak Bakia",
+  "page": "http://www.muslimgauze.org/releases/emak2.html",
+  "src": "http://www.muslimgauze.org/images/covers/emak2.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce11d"
+  },
+  "title": "The Rape Of Palestine",
+  "page": "http://www.muslimgauze.org/releases/rape2.html",
+  "src": "http://www.muslimgauze.org/images/covers/rape2.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce11e"
+  },
+  "title": "Complete Oblique ",
+  "page": "http://www.muslimgauze.org/releases/completeSub.html",
+  "src": "http://www.muslimgauze.org/images/covers/complete.jpg"
+},{
+  "_id": {
+    "$oid": "5fb29ec8a8f1870c780ce11f"
+  },
+  "title": "Deceiver 3 & 4",
+  "page": "http://www.muslimgauze.org/releases/deceiver3Dig.html",
+  "src": "http://www.muslimgauze.org/images/covers/deceiver3Dig.jpg"
+}]
