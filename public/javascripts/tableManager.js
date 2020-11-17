@@ -2,13 +2,9 @@ import {Track} from './tracksClass.js'
 import {admin} from './app.js'
     export const doTable = async (_data,_page=0) => {
 
-        if (admin===true){$("tr").html(`<th scope="col">Edit</th>
-        <th scope="col">Title</th>
-        <th scope="col">Appears on</th>
-        <th scope="col">Reissue</th>
-        <th scope="col">Reissue</th>`);
-    $("#adminadd").show()
-    }
+        if (admin===true){$("#editcol").show();
+            $("#adminadd").show()}
+    
         $(".spinner").empty()
         if (!_data.length){$("#popupmodal").hide().fadeIn().css('display','flex')
         $(".modal__window").html(`<h2>No matches found</h2>`)

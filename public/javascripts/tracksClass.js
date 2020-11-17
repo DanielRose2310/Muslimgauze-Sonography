@@ -59,10 +59,12 @@ export class Track {
         if (this.release2title) {
              album2box = $(`<td id="box2" align="center" class="align-middle"><i>${this.release2title}</i><br>${this.release2year}<br> ${this.release2format}<br>${this.release2catalogue} </td>`)
             $(newTr).append(album2box)
+            $("#reissuecol1").show()
         }
         if (this.release3title) {
              album3box = $(`<td id="box3" align="center" class="align-middle"></i>${this.release3title}</i><br>${this.release3year}<br> ${this.release3format}<br>${this.release3catalogue} </td>`)
             $(newTr).append(album3box)
+            $("#reissuecol2").show()
         }
 
         if (rel1href) {

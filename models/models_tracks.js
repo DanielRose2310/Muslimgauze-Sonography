@@ -22,7 +22,7 @@ const trackSchema = new mongoose.Schema({
       _id:Joi.any(),
       title:Joi.string(),
       alt:Joi.string(),
-      releases:Joi.array().items(Joi.object()),
+      releases:Joi.array().min(3).items(Joi.object()),
       
     })
     return schema.validate(_itemObj);
