@@ -2,7 +2,11 @@ import {Track} from './tracksClass.js'
 import {admin} from './app.js'
     export const doTable = async (_data,_page=0) => {
 
-        if (admin===true){$("tr").prepend(`<th scope="col">Edit</th>`);
+        if (admin===true){$("tr").html(`<th scope="col">Edit</th>
+        <th scope="col">Title</th>
+        <th scope="col">Appears on</th>
+        <th scope="col">Reissue</th>
+        <th scope="col">Reissue</th>`);
     $("#adminadd").show()
     }
         $(".spinner").empty()
