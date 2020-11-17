@@ -41,7 +41,7 @@
       $("#searchalbumbtn").on('click', function () {
 
           if ($("#albumsearchinput").val()) {
-              fetch(`https://muslimgauze-database.herokuapp.com/tracks/titlesearch/${$("#albumsearchinput").val()}/`, {
+              fetch(`https://muslimgauze-database.herokuapp.com/tracks/albumsearch/${$("#albumsearchinput").val()}/`, {
                       headers: {
                           'Content-Type': 'application/json',
                       }
