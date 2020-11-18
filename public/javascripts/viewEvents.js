@@ -1,109 +1,87 @@
       import {
-          parseData
+          parseData,
+          tracks
       } from './tracksManager.js'
+      import {
+          dbSearchTitle,
+          dbSearchAlbum
+      } from './dbCalls.js'
       export const declareViewEvents = () => {
-      document.querySelector("#sortmenu").addEventListener("change", () => {
-          if ($("#sortmenu").val() === "track") {
-              parseData(tracks, "title")
-          }
+          document.querySelector("#sortmenu").addEventListener("change", () => {
+              if ($("#sortmenu").val() === "track") {
+                  parseData(tracks, "title")
+              }
+              if ($("#sortmenu").val() === "album") {
+                  parseData(tracks, "album")
+              }
+              if ($("#sortmenu").val() === "yearasc") {
+                  parseData(tracks, "yearasc");
+              }
+              if ($("#sortmenu").val() === "yeardesc") {
+                  parseData(tracks, "yeardesc");
+              }
+          })
 
-          if ($("#sortmenu").val() === "album") {
-              parseData(tracks, "album")
-          }
-          if ($("#sortmenu").val() === "yearasc") {
-              parseData(tracks, "yearasc");
-          }
-          if ($("#sortmenu").val() === "yeardesc") {
-              parseData(tracks, "yeardesc");
-          }
-      })
+          $("#searchtitlebtn").on('click', function () {
+              if ($("#titlesearchinput").val()) {
+                  dbSearchTitle($("#titlesearchinput").val())
 
-      $("#searchtitlebtn").on('click', function () {
-          if ($("#titlesearchinput").val()) {
-              fetch(`https://muslimgauze-database.herokuapp.com/tracks/titlesearch/${$("#titlesearchinput").val()}/`, {
+              }
+          })
+
+
+          $("#searchalbumbtn").on('click', function () {
+
+              if ($("#albumsearchinput").val()) {
+                  dbSearchAlbum($("#albumsearchinput").val())
+              }
+          })
+
+          $('#loginshowbtn').on('click', function () {
+              if (!localStorage.getItem("dbtoken")) {
+                  $('#usermodal').slideDown();
+              } else {
+                  localStorage.removeItem("dbtoken");
+                  localStorage.removeItem("shoptoken");
+                  localStorage.removeItem("cart");
+                  location.reload();
+              }
+          })
+          $('.cancelloginbtn').on('click', function () {
+              $('.usermodal').slideUp();
+          })
+
+          $("#usersubmitbtn").on('click', function (evt) {
+
+              evt.preventDefault()
+              let dataBody = {
+                  user: $("#id_user_input").val(),
+                  pass: $("#id_pass_input").val()
+              }
+              let url = "http://localhost:3000/users/login/"
+              fetch(url, {
+                      method: "POST",
+                      body: JSON.stringify(dataBody),
                       headers: {
-                          'Content-Type': 'application/json',
+                          'content-type': "application/json"
                       }
                   })
-                  .then(function (response) {
-                      return response.json()
-                  })
-                  .then(function (jsonData) {
-                      parseData(jsonData, "title")
-                  })
-              $("#titlesearchinput").val('')
-              $("#sortmenu").val('start').change();
-
-          }
-      })
-
-
-      $("#searchalbumbtn").on('click', function () {
-
-          if ($("#albumsearchinput").val()) {
-              fetch(`https://muslimgauze-database.herokuapp.com/tracks/albumsearch/${$("#albumsearchinput").val()}/`, {
-                      headers: {
-                          'Content-Type': 'application/json',
+                  .then(resp => resp.json())
+                  .then(data => {
+                      console.log(data)
+                      if (data.token) {
+                          localStorage.setItem("dbtoken", data.token)
+                          $(".usermessage").show().html(`Welcome back ${dataBody.user}!`).css('color', 'green').delay(2500).fadeOut();
+                          location.reload();
+                      } else if (Array.isArray(data)) {
+                          $(".usermessage").show().html(data[0].message).css('color', 'red').delay(2000).fadeOut();
+                      } else if ('message' in data) {
+                          $(".usermessage").show().html(data.message).css('color', 'red').delay(2000).fadeOut();
                       }
                   })
-                  .then(function (response) {
-                      return response.json()
-                  })
-                  .then(function (jsonData) {
-                      parseData(jsonData, "title")
-                  })
-              $("#albumsearchinput").val('')
-              $("#sortmenu").val('start').change();
-
-
-          }
-      })
-
-      $('#loginshowbtn').on('click', function () {
-          if (!localStorage.getItem("dbtoken")) {
-              $('#usermodal').slideDown();
-          } else {
-              localStorage.removeItem("dbtoken");
-              localStorage.removeItem("shoptoken");
-              localStorage.removeItem("cart");
-              location.reload();
-          }
-      })
-      $('.cancelloginbtn').on('click', function () {
-          $('.usermodal').slideUp();
-      })
-
-      $("#usersubmitbtn").on('click', function (evt) {
-
-          evt.preventDefault()
-          let dataBody = {
-              user: $("#id_user_input").val(),
-              pass: $("#id_pass_input").val()
-          }
-          let url = "http://localhost:3000/users/login/"
-          fetch(url, {
-                  method: "POST",
-                  body: JSON.stringify(dataBody),
-                  headers: {
-                      'content-type': "application/json"
-                  }
-              })
-              .then(resp => resp.json())
-              .then(data => {
-                  console.log(data)
-                  if (data.token) {
-                      localStorage.setItem("dbtoken", data.token)
-                      $(".usermessage").show().html(`Welcome back ${dataBody.user}!`).css('color', 'green').delay(2500).fadeOut();
-                      location.reload();
-                  } else if (Array.isArray(data)) {
-                      $(".usermessage").show().html(data[0].message).css('color', 'red').delay(2000).fadeOut();
-                  } else if ('message' in data) {
-                      $(".usermessage").show().html(data.message).css('color', 'red').delay(2000).fadeOut();
-                  }
-              })
-      })
-      $("#adminadd").on("click", () => {
-        $(` <div class="add-content">
+          })
+          $("#adminadd").on("click", () => {
+              $(` <div class="add-content">
     <span id="closeadd" class="mr-auto">&times;</span>
     <div class="row"><label class="mx-2">Title:</label><input id="titleadd" style="width:400px"></input></div>
 <div class="row my-3">
@@ -128,11 +106,11 @@
     </div>
 
 `).appendTo($("#addmodal").fadeIn());
-$('#closeadd').on('click', function() {
-    $(".addmodal").fadeOut();
-    $('.addmodal').empty();
-})
-})
+              $('#closeadd').on('click', function () {
+                  $(".addmodal").fadeOut();
+                  $('.addmodal').empty();
+              })
+          })
 
 
       }

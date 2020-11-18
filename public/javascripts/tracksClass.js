@@ -1,7 +1,7 @@
 import {
     admin
 } from "./app.js"
-import {getRelData} from './apiGets.js'    
+import {getRelData,trackEdit,trackDel} from './dbCalls.js'    
 export class Track {
     constructor(_title, _release1title, _release1year, _release1format, _release1catalogue, 
         _release2title = "", _release2year = "", _release2format = "", _release2catalogue = "", 
@@ -102,15 +102,16 @@ export class Track {
         <label class="mx-2">Album Title:</label><input  style="width:400px"  id="release3titleedit" value='${this.release3title}'></input>
       <label class="mx-2">Album Year:</label><input style="width:80px" type="number" id="release3yearedit" value='${this.release3year}'></input>
     <label class="mx-2">Album Format:</label><input  style="width:80px" id="release3formatedit" value='${this.release3format}'></input> 
-    <label class="mx-2">Album Catalogue:</label><input style="width:200px"  id="release2catalogueedit" value='${this.release3catalogue}'></input> 
+    <label class="mx-2">Album Catalogue:</label><input style="width:200px"  id="release3catalogueedit" value='${this.release3catalogue}'></input> 
 </div>
     <button class="btn btn-success my-3" id="submitedit" style="width:100px";>Submit</button> 
+    <button class="btn btn-danger my-3" id="deledit" style="width:100px";>Delete Track</button> 
             </div>
 
    `).appendTo($("#editmodal").fadeIn());
 
                 $("#submitedit").on("click", (evt) => {
-                    let dataBody = {
+                    let trackBody = {
                         _id: this.id,
                         title: $("#titleedit").val(),
                         releases: [{
@@ -130,24 +131,13 @@ export class Track {
                             albumcatalogue: $("#release3catalogueedit").val()
                         }]
                     }
-                    let myUrl = "https://muslimgauze-database.herokuapp.com/tracks/edit";
-                    fetch(myUrl, {
-                            method: "PUT",
-                            body: JSON.stringify(dataBody),
-                            headers: {
-                                'content-type': "application/json"
-                            }
-                        })
-                        .then(resp => resp.json())
-                        .then(data => {
-                            if (data.ok) {
-                                location.reload()
-                            } else {
-                                alert(data[0].message)
-                            }
-                        })
+                trackEdit(trackBody)
+                }) 
+                $("#deledit").on("click", (evt) => {
+                    $("#deledit").html("Press Again to Confirm").on('click',()=>{
+                            trackDel(this.id)                          
+                    });
                 })
-
                 $('#close').on('click', function closeModal() {
                     $(".editmodal").fadeOut();
                     $('.editmodal').empty();

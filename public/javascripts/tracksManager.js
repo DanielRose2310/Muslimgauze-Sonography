@@ -1,6 +1,6 @@
 import {doTable} from './tableManager.js'
+export let tracks=[]
 export const parseData=(_data,_sort,_titlestring,_albumstring)=>{
-    let tracks=[]
     if (_sort==="title"){tracks=_.sortBy(_data,_sort)}
     if (_sort==="album"){
         tracks = _.sortBy(_data,function(item){
