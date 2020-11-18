@@ -23,7 +23,7 @@ export const doTable = async (_data, _page = 0) => {
 				item.releases[0]?.albumyear,
 				item.releases[0]?.albumformat,
 				item.releases[0]?.albumcatalogue,
-				item.releases[1]?.albumtitle,
+				item?.releases[1]?.albumtitle,
 				item?.releases[1]?.albumyear,
 				item?.releases[1]?.albumformat,
 				item?.releases[1]?.albumcatalogue,

@@ -1,5 +1,42 @@
 import { parseData } from "./tracksManager.js";
 
+export const doLogin = (_data) => {
+	fetch("https://muslimgauze-database.herokuapp.com/login/", {
+		method: "POST",
+		body: JSON.stringify(_data),
+		headers: {
+			"content-type": "application/json",
+		},
+	})
+		.then((resp) => resp.json())
+		.then((data) => {
+			if (data.token) {
+				localStorage.setItem("dbtoken", data.token);
+				$(".usermessage")
+					.show()
+					.html(`Welcome back ${dataBody.user}!`)
+					.css("color", "green")
+					.delay(2500)
+					.fadeOut();
+				location.reload();
+			} else if (Array.isArray(data)) {
+				$(".usermessage")
+					.show()
+					.html(data[0].message)
+					.css("color", "red")
+					.delay(2000)
+					.fadeOut();
+			} else if ("message" in data) {
+				$(".usermessage")
+					.show()
+					.html(data.message)
+					.css("color", "red")
+					.delay(2000)
+					.fadeOut();
+			}
+		});
+};
+
 export const getData = () => {
 	fetch("https://muslimgauze-database.herokuapp.com/tracks", {
 		headers: {

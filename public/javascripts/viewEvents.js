@@ -1,8 +1,7 @@
 import { parseData, tracks } from "./tracksManager.js";
-import { dbSearchTitle, dbSearchAlbum, trackAdd } from "./dbCalls.js";
+import { dbSearchTitle, dbSearchAlbum, trackAdd, doLogin } from "./dbCalls.js";
 export const declareViewEvents = () => {
 	let addopen;
-
 	document.querySelector("#sortmenu").addEventListener("change", () => {
 		if ($("#sortmenu").val() === "track") {
 			parseData(tracks, "title");
@@ -17,19 +16,16 @@ export const declareViewEvents = () => {
 			parseData(tracks, "yeardesc");
 		}
 	});
-
 	$("#searchtitlebtn").on("click", function () {
 		if ($("#titlesearchinput").val()) {
 			dbSearchTitle($("#titlesearchinput").val());
 		}
 	});
-
 	$("#searchalbumbtn").on("click", function () {
 		if ($("#albumsearchinput").val()) {
 			dbSearchAlbum($("#albumsearchinput").val());
 		}
 	});
-
 	$("#loginshowbtn").on("click", function () {
 		if (!localStorage.getItem("dbtoken")) {
 			$("#usermodal").slideDown();
@@ -45,47 +41,16 @@ export const declareViewEvents = () => {
 	});
 
 	$("#usersubmitbtn").on("click", function (evt) {
-		evt.preventDefault();
-		let dataBody = {
-			user: $("#id_user_input").val(),
-			pass: $("#id_pass_input").val(),
-		};
-		let url = "http://localhost:3000/users/login/";
-		fetch(url, {
-			method: "POST",
-			body: JSON.stringify(dataBody),
-			headers: {
-				"content-type": "application/json",
-			},
-		})
-			.then((resp) => resp.json())
-			.then((data) => {
-				if (data.token) {
-					localStorage.setItem("dbtoken", data.token);
-					$(".usermessage")
-						.show()
-						.html(`Welcome back ${dataBody.user}!`)
-						.css("color", "green")
-						.delay(2500)
-						.fadeOut();
-					location.reload();
-				} else if (Array.isArray(data)) {
-					$(".usermessage")
-						.show()
-						.html(data[0].message)
-						.css("color", "red")
-						.delay(2000)
-						.fadeOut();
-				} else if ("message" in data) {
-					$(".usermessage")
-						.show()
-						.html(data.message)
-						.css("color", "red")
-						.delay(2000)
-						.fadeOut();
-				}
-			});
+		if ($("#id_user_input").val() && $("#id_pass_input").val()) {
+			evt.preventDefault();
+			let dataBody = {
+				user: $("#id_user_input").val(),
+				pass: $("#id_pass_input").val(),
+			};
+			doLogin(dataBody);
+		}
 	});
+
 	$("#adminadd").on("click", () => {
 		if (addopen == false) {
 			addopen = true;

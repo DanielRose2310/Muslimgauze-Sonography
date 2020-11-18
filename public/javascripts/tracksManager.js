@@ -5,17 +5,17 @@ export const parseData = (_data, _sort, _titlestring, _albumstring) => {
 		tracks = _.sortBy(_data, _sort);
 	}
 	if (_sort === "album") {
-		tracks = _.sortBy(_data, function (item) {
+		tracks = _.sortBy(_data, (item) => {
 			return [item.releases[0].albumtitle];
 		});
 	}
 	if (_sort === "yearasc") {
-		tracks = _.sortBy(_data, function (item) {
+		tracks = _.sortBy(_data, (item) => {
 			return [item.releases[0].albumyear];
 		});
 	}
 	if (_sort === "yeardesc") {
-		tracks = _.sortBy(_data, function (item) {
+		tracks = _.sortBy(_data, (item) => {
 			return [item.releases[0].albumyear];
 		}).reverse();
 	}
