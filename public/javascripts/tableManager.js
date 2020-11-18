@@ -36,6 +36,7 @@ export const doTable = async (_data, _page = 0) => {
 		});
 		let pages = Math.floor(_data.length / 10);
 		$(".pagination").empty();
+		console.log(_page)
 		if (_page > 0) {
 			$(".pagination").append(`<h5 class="pagin" data-num=0>&laquo;</h5>`);
 		}

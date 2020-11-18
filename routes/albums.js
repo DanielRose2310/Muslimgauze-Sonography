@@ -17,7 +17,7 @@ router.get('/', async (req, res) => {
 });
 
 router.get('/cataloguesearch/:str', async (req, res) => {
-  let searchstring = req.params.str;
+  let searchstring = req.params.str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   await albumsModel.find({
       title: {
         $regex: searchstring,

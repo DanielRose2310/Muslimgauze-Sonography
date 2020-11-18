@@ -15,7 +15,8 @@ export const getData = () => {
 };
 
 export async function getRelData(_ref) {
-	_ref = _ref.replace(/[\[\]\/\:]+/g, " ");
+	_ref = _ref.replace(/[\[\]\:]+/g, "");
+	_ref = _ref.replace(/[\/]+/g, " ");
 
 	if (_ref.split(" ").length > 2) {
 		_ref = _ref.split(" ").splice(0, 2).join(" ");
