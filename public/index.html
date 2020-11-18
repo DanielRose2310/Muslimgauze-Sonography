@@ -1,85 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<script src="./javascripts/lodash.js"></script>
-<script type="module" src="./javascripts/app.js"></script>
-<script src="./javascripts/jquery-3.5.1.min.js"></script>
-<link rel="stylesheet" href="./stylesheets/style.css">
-<link rel="stylesheet" href="./stylesheets/bootstrap.min.css">
-<script src="https://kit.fontawesome.com/bda1266a15.js" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="./javascripts/lodash.js"></script>
+  <script type="module" src="./javascripts/app.js"></script>
+  <script src="./javascripts/jquery-3.5.1.min.js"></script>
+  <link rel="stylesheet" href="./stylesheets/style.css">
+  <link rel="stylesheet" href="./stylesheets/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/bda1266a15.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-    <div class="editmodal" id="editmodal">
-    </div>
-    <div class="addmodal" id="addmodal">
-    </div>
-    <table class="table">
-        <div class="row ml-5 my-3"><select id="sortmenu"  class="form-control w-25">
-            <option value="start">Order items by:</option>
-            <option value="">-----</option>
-            <option value="track">Track title (default)</option>
-            <option value="album">Album title</option>
-            <option value="yearasc">Year of original release (+)</option>
-            <option value="yeardesc">Year of original release (-)</option>
-          </select>
-        <input id="titlesearchinput"  class="ml-3 w-25" placeholder="Search by track title">
-        <button id="searchtitlebtn" class="btn btn-info">Search</button>
-        <input id="albumsearchinput" class="ml-3 w-25" placeholder="Search by album title">
-        <button id="searchalbumbtn" class="btn btn-info">Search</button>
-        <button id="loginshowbtn" class="ml-5 btn btn-secondary">Login</button>
+  <div class="editmodal" id="editmodal">
+  </div>
+  <div class="addmodal" id="addmodal">
+  </div>
+  <table class="table">
+    <div class="row ml-5 my-3"><select id="sortmenu" class="form-control w-25">
+        <option value="start">Order items by:</option>
+        <option value="">-----</option>
+        <option value="track">Track title (default)</option>
+        <option value="album">Album title</option>
+        <option value="yearasc">Year of original release (+)</option>
+        <option value="yeardesc">Year of original release (-)</option>
+      </select>
+      <input id="titlesearchinput" class="ml-3 w-25" placeholder="Search by track title">
+      <button id="searchtitlebtn" class="btn btn-info">Search</button>
+      <input id="albumsearchinput" class="ml-3 w-25" placeholder="Search by album title">
+      <button id="searchalbumbtn" class="btn btn-info">Search</button>
+      <button id="loginshowbtn" class="ml-5 btn btn-secondary">Login</button>
 
     </div>
-        <thead>
-            <tr id="mainrow" align="center">
-                <th scope="col" style="display:none" id="editcol">Edit</th>
-                <th scope="col">Title</th>
-                <th scope="col">Appears on</th>
-                <th scope="col" style="display:none"  id="reissuecol1">Reissue</th>
-                <th scope="col" style="display:none"  id="reissuecol2">Reissue</th>
+    <thead>
+      <tr id="mainrow" align="center">
+        <th scope="col" style="display:none" id="editcol">Edit</th>
+        <th scope="col">Title</th>
+        <th scope="col">Appears on</th>
+        <th scope="col" style="display:none" id="reissuecol1">Reissue</th>
+        <th scope="col" style="display:none" id="reissuecol2">Reissue</th>
 
-            </tr>
-        </thead>
-        <div class="row justify-content-center"><div class="pagination">
+      </tr>
+    </thead>
+    <div class="row justify-content-center">
+      <div class="pagination">
 
-          </div></div>
-        <tbody id="id_parent">
-            <div class="spinner">
-                <div class="bounce1"></div>
-                <div class="bounce2"></div>
-                <div class="bounce3"></div>
-            </div>
-        </tbody>
+      </div>
+    </div>
+    <tbody id="id_parent">
+      <div class="spinner">
+        <div class="bounce1"></div>
+        <div class="bounce2"></div>
+        <div class="bounce3"></div>
+      </div>
+    </tbody>
 
-    </table>
-    <button class="btn btn-info float-right mr-5" id="adminadd">ADD TRACK</button>
+  </table>
+  <button class="btn btn-info float-right mr-5" id="adminadd">ADD TRACK</button>
 
-<div id="usermodal" class="usermodal">
-      <div class="row ml-5 my-3">
-        <span class=""><b><p class="usermessage"></p></b></span>
+  <div id="usermodal" class="usermodal">
+    <div class="row ml-5 my-3">
+      <span class=""><b>
+          <p class="usermessage"></p>
+        </b></span>
 
       <form>
-      <label for="uname" class="ml-2" ><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" id="id_user_input" required>
-      <label for="psw"  class="ml-2" ><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" id="id_pass_input" required>
-  
-      <button type="submit" id="usersubmitbtn" class="btn btn-success">Login</button>
-    </form>
+        <label for="uname" class="ml-2"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" id="id_user_input" required>
+        <label for="psw" class="ml-2"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" id="id_pass_input" required>
+
+        <button type="submit" id="usersubmitbtn" class="btn btn-success">Login</button>
+      </form>
       <div class="offset-3">
-        <button type="button" class=" cancelloginbtn btn btn-danger"><i
-            class="fas fa-window-close"></i></button>
+        <button type="button" class=" cancelloginbtn btn btn-danger"><i class="fas fa-window-close"></i></button>
       </div>
-</div>
+    </div>
 
   </div>
   <div id="popupmodal">
     <div class="modal__window">
     </div>
   </div>
-  
+
 </body>
+
 </html>
