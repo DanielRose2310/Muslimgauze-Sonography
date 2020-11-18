@@ -17,6 +17,7 @@ export const doTable = async (_data, _page = 0) => {
 		$("#id_parent").empty();
 
 		_data.slice(_page * 10, _page * 10 + 10).map(async (item) => {
+			console.log(item)
 			let track = new Track(
 				item.title,
 				item.releases[0]?.albumtitle,

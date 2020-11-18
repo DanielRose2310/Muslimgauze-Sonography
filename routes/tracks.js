@@ -20,7 +20,7 @@ router.get('/', async (req, res) => {
 });
 
 router.get('/titlesearch/:str', async (req, res) => {
-  let searchstring = req.params.str;
+  let searchstring = req.params.str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   await tracksModel.find({
       title: {
         $regex: searchstring,
@@ -37,7 +37,7 @@ router.get('/titlesearch/:str', async (req, res) => {
 
 });
 router.get('/albumsearch/:str', async (req, res) => {
-  let searchstring = req.params.str;
+    let searchstring = req.params.str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   await tracksModel.find({
       "releases.albumtitle": {
         $regex: searchstring,

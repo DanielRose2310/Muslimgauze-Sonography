@@ -92,6 +92,8 @@ export const trackDel = (_id) => {
 };
 
 export const dbSearchTitle = (_string) => {
+	_string = _string.replace(/[\[\]\:]+/g, "");
+	_string = _string.replace(/[\/]+/g, " ");
 	fetch(
 		`https://muslimgauze-database.herokuapp.com/tracks/titlesearch/${_string}/`,
 		{
@@ -111,6 +113,8 @@ export const dbSearchTitle = (_string) => {
 };
 
 export const dbSearchAlbum = (_string) => {
+	_string = _string.replace(/[\[\]\:]+/g, "");
+	_string = _string.replace(/[\/]+/g, " ");
 	fetch(
 		`https://muslimgauze-database.herokuapp.com/tracks/albumsearch/${_string}/`,
 		{
