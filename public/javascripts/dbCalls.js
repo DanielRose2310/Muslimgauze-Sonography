@@ -15,14 +15,12 @@ export const getData = () => {
 };
 
 export async function getRelData(_ref) {
-	_ref = _ref.replace(/[\[\]\:\/]+/g, "");
+	_ref = _ref.replace(/[\[\]\:\\]+/g, "");
 	_ref = _ref.replace(/[\/]+/g, " ");
-
 	if (_ref.split(" ").length > 2) {
 		_ref = _ref.split(" ").splice(0, 2).join(" ");
 	}
 	let result;
-	console.log(_ref)
 	try {
 		const res = await axios.get(
 			`https://muslimgauze-database.herokuapp.com/albums/cataloguesearch/${_ref}/`,
@@ -92,7 +90,7 @@ export const trackDel = (_id) => {
 };
 
 export const dbSearchTitle = (_string) => {
-	_string = _string.replace(/[\[\]\:\/]+/g, "");
+	_string = _string.replace(/[\[\]\:\\]+/g, "");
 	_string = _string.replace(/[\/]+/g, " ");
 	fetch(
 		`https://muslimgauze-database.herokuapp.com/tracks/titlesearch/${_string}/`,
@@ -113,9 +111,8 @@ export const dbSearchTitle = (_string) => {
 };
 
 export const dbSearchAlbum = (_string) => {
-	_string = _string.replace(/[\[\]\:\/]+/g, "");
+	_string = _string.replace(/[\[\]\:\\]+/g, "");
 	_string = _string.replace(/[\/]+/g, " ");
-	console.log(_string)
 	fetch(
 		`https://muslimgauze-database.herokuapp.com/tracks/albumsearch/${_string}/`,
 		{

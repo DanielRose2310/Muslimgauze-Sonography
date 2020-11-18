@@ -35,61 +35,16 @@ export const doTable = async (_data, _page = 0) => {
 			);
 		});
 		let pages = Math.floor(_data.length / 10);
-		$(".pagination").empty();
-		console.log(_page)
-		if (_page > 0) {
-			$(".pagination").append(`<h5 class="pagin" data-num=0>&laquo;</h5>`);
-		}
-		if (_page > 3 && pages < _page + 3) {
-			$(".pagination").append(
-				`<h5 class="pagin" data-num=${_page - 4}>${_page - 3}</h5>`
+		$("#pagination").empty();
+		for (let i = 0; i < pages; i++) {
+			$("#pagination").append(
+				`<option class="pagin" value=${i}>${i + 1}</option>`
 			);
 		}
-		if (_page > 2 && pages < _page + 2) {
-			$(".pagination").append(
-				`<h5 class="pagin" data-num=${_page - 3}>${_page - 2}</h5>`
-			);
-		}
-		if (_page > 1) {
-			$(".pagination").append(
-				`<h5 class="pagin" data-num=${_page - 2}>${_page - 1}</h5>`
-			);
-		}
-		if (_page > 0) {
-			$(".pagination").append(
-				`<h5 class="pagin" data-num=${_page - 1}>${_page}</h5>`
-			);
-		}
-		$(".pagination").append(
-			`<h5 class="pagin" data-num=${_page}><u>${_page + 1}</u></h5>`
-		);
-		if (pages > _page + 1) {
-			$(".pagination").append(
-				`<h5 class="pagin" data-num=${_page + 1}>${_page + 2}</h5>`
-			);
-		}
-		if (pages > _page + 2) {
-			$(".pagination").append(
-				`<h5 class="pagin" data-num=${_page + 2}>${_page + 3}</h5>`
-			);
-		}
-		if (_page < 2 && pages > _page + 3) {
-			$(".pagination").append(
-				`<h5 class="pagin" data-num=${_page + 3}>${_page + 4}</h5>`
-			);
-		}
-		if (_page < 1 && pages > _page + 4) {
-			$(".pagination").append(
-				`<h5 class="pagin" data-num=${_page + 4}>${_page + 5}</h5>`
-			);
-		}
-		if (_page < pages) {
-			$(".pagination").append(
-				`<h5 class="pagin" data-num=${pages}> &raquo;</h5>`
-			);
-		}
-		$(".pagin").on("click", function () {
-			doTable(_data, $(this).data("num"));
+		$("#pagination").on("change", function(e){
+			doTable(_data, $(this).val());
+			e.stopImmediatePropagation();
 		});
+		$("#pagination").val(_page)
 	}
 };

@@ -12,7 +12,7 @@ body {
   overflow-x: hidden;
 }
 
-.pagination h5 {
+.pagin {
   color: black;
   float: left;
   padding: 8px 16px;
@@ -20,7 +20,7 @@ body {
   cursor: pointer;
 }
 
-.pagination h5:hover {
+.pagin:hover {
   transform: scale(1.1);
 }
 
