@@ -2,7 +2,7 @@ import { parseTracksData } from "./tracksManager.js";
 export let discogData=[];
 export let tracksData=[]
 export const doLogin = (_data) => {
-	fetch("https://muslimgauze-database.herokuapp.com/login/", {
+	fetch("http://muslimgauze-database.herokuapp.com/login/", {
 		method: "POST",
 		body: JSON.stringify(_data),
 		headers: {
@@ -39,7 +39,7 @@ export const doLogin = (_data) => {
 };
 
 export const getTracksData = () => {
-	fetch("https://muslimgauze-database.herokuapp.com/tracks", {
+	fetch("http://muslimgauze-database.herokuapp.com/tracks", {
 		headers: {
 			"Content-Type": "application/json",
 		},
@@ -53,7 +53,7 @@ export const getTracksData = () => {
 		});
 };
 export const getAlbumsData = () => {
-	fetch("https://muslimgauze-database.herokuapp.com/albums", {
+	fetch("http://muslimgauze-database.herokuapp.com/albums", {
 		headers: {
 			"Content-Type": "application/json",
 		},
@@ -67,7 +67,7 @@ export const getAlbumsData = () => {
 };
 
 export const trackEdit = (_data) => {
-	fetch("https://muslimgauze-database.herokuapp.com/tracks/edit", {
+	fetch("http://muslimgauze-database.herokuapp.com/tracks/edit", {
 		method: "PUT",
 		body: JSON.stringify(_data),
 		headers: {
@@ -84,7 +84,7 @@ export const trackEdit = (_data) => {
 		});
 };
 export const trackAdd = (_data) => {
-	fetch("https://muslimgauze-database.herokuapp.com/tracks/add", {
+	fetch("http://muslimgauze-database.herokuapp.com/tracks/add", {
 		method: "POST",
 		body: JSON.stringify(_data),
 		headers: {
@@ -102,7 +102,7 @@ export const trackAdd = (_data) => {
 };
 
 export const trackDel = (_id) => {
-	fetch(`https://muslimgauze-database.herokuapp.com/tracks/del/${_id}`, {
+	fetch(`http://muslimgauze-database.herokuapp.com/tracks/del/${_id}`, {
 		method: "DELETE",
 		headers: {
 			"content-type": "application/json",
@@ -122,7 +122,7 @@ export const dbSearchTitle = (_string) => {
 	_string = _string.replace(/[\[\]\:\\]+/g, "");
 	_string = _string.replace(/[\/]+/g, " ");
 	fetch(
-		`https://muslimgauze-database.herokuapp.com/tracks/titlesearch/${_string}/`,
+		`http://muslimgauze-database.herokuapp.com/tracks/titlesearch/${_string}/`,
 		{
 			headers: {
 				"Content-Type": "application/json",
@@ -143,7 +143,7 @@ export const dbSearchAlbum = (_string) => {
 	_string = _string.replace(/[\[\]\:\\]+/g, "");
 	_string = _string.replace(/[\/]+/g, " ");
 	fetch(
-		`https://muslimgauze-database.herokuapp.com/tracks/albumsearch/${_string}/`,
+		`http://muslimgauze-database.herokuapp.com/tracks/albumsearch/${_string}/`,
 		{
 			headers: {
 				"Content-Type": "application/json",
