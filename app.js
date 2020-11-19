@@ -33,13 +33,7 @@ app.use('/albums',albumsR);
 app.use(function(req, res, next) {
   next(createError(404));
 });
-cors_proxy.createServer({
-  originWhitelist: [], // Allow all origins
-  requireHeader: ['origin', 'x-requested-with'],
-  removeHeaders: ['cookie', 'cookie2']
-}).listen(port, host, function() {
-  console.log('Running CORS Anywhere on ' + host + ':' + port);
-});
+
 app.use(function(err, req, res, next) {
   res.locals.message = err.message;
   res.locals.error = req.app.get('env') === 'development' ? err : {};
