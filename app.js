@@ -19,7 +19,7 @@ app.all('*', function (req, res, next) {
   res.set('Access-Control-Allow-Headers', 'X-Requested-With,Content-Type,x-auth-token');
   next();
 });
-
+app.use(cors())
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
