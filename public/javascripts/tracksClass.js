@@ -2,7 +2,6 @@ import { admin } from "./app.js";
 import { trackEdit, trackDel } from "./dbCalls.js";
 import { getRelData } from "./albumManager.js";
 let editopen = false;
-
 export class Track {
 	constructor(
 		_title,
@@ -38,7 +37,6 @@ export class Track {
 		this.id = _id;
 		this.render();
 	}
-
 	async render() {
 		let album1box;
 		let album2box;
@@ -47,17 +45,17 @@ export class Track {
 		let rel2img;
 		let rel3href;
 		let rel3img;
-		let rel1data =  getRelData(this.release1title);
+		let rel1data = getRelData(this.release1title);
 		let rel1href = rel1data?.page;
 		let rel1img = rel1data?.src;
 		if (this.release2title) {
-			let rel2data =  getRelData(this.release2title);
+			let rel2data = getRelData(this.release2title);
 			rel2href = rel2data?.page;
 			rel2img = rel2data?.src;
 		}
 
 		if (this.release3title) {
-			let rel3data =  getRelData(this.release3title);
+			let rel3data = getRelData(this.release3title);
 			rel3href = rel3data?.page;
 			rel3img = rel3data?.src;
 		}
@@ -75,33 +73,33 @@ export class Track {
 		$(newTr).append(album1box);
 
 		if (this.release2title) {
+			$("#reissuecol1").show();
 			album2box = $(
 				`<td id="box2" align="center" class="align-middle"><i>${this.release2title}</i><br>${this.release2year}<br> ${this.release2format}<br>${this.release2catalogue} </td>`
 			);
 			$(newTr).append(album2box);
-			$("#reissuecol1").show();
-		}
+		} 
 		if (this.release3title) {
+			$("#reissuecol2").show();
 			album3box = $(
 				`<td id="box3" align="center" class="align-middle"></i>${this.release3title}</i><br>${this.release3year}<br> ${this.release3format}<br>${this.release3catalogue} </td>`
 			);
 			$(newTr).append(album3box);
-			$("#reissuecol2").show();
-		}
+		} 
 
 		if (rel1href) {
 			$(album1box).append(
-				`<br><a href=${rel1href}>LINK</a><br> <img style="width:100px" src=${rel1img}>`
+				`<br><a href=${rel1href}>LINK</a><br> <img style="width:150px" src=${rel1img}>`
 			);
 		}
 		if (rel2href) {
 			$(album2box).append(
-				`<br><a href=${rel2href}>LINK</a> <br><img style="width:100px" src=${rel2img}>`
+				`<br><a href=${rel2href}>LINK</a> <br><img style="width:150px" src=${rel2img}>`
 			);
 		}
 		if (rel3href) {
 			$(album3box).append(
-				`<br><a href=${rel3href}>LINK</a><br> <img style="width:100px" src=${rel3img}>`
+				`<br><a href=${rel3href}>LINK</a><br> <img style="width:150px" src=${rel3img}>`
 			);
 		}
 

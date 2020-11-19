@@ -3,6 +3,8 @@ import { admin } from "./app.js";
 let datacat;
 let pages;
 export const doTable = async (_data, _page = 0) => {
+	$("#reissuecol1").css('display','none');
+	$("#reissuecol2").css('display','none');
 	datacat=_data;
 	if (admin === true) {
 		$("#editcol").show();
