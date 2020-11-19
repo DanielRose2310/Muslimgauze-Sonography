@@ -58,6 +58,7 @@ export const declareViewEvents = () => {
 				user: $("#id_user_input").val(),
 				pass: $("#id_pass_input").val(),
 			};
+			console.log(dataBody)
 			doLogin(dataBody);
 		}
 	});
