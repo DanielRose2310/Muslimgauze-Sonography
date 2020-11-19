@@ -1,5 +1,6 @@
 import { admin } from "./app.js";
-import { getRelData, trackEdit, trackDel } from "./dbCalls.js";
+import { trackEdit, trackDel } from "./dbCalls.js";
+import { getRelData } from "./albumManager.js";
 let editopen = false;
 
 export class Track {
@@ -46,19 +47,19 @@ export class Track {
 		let rel2img;
 		let rel3href;
 		let rel3img;
-		let rel1data = await getRelData(this.release1title);
-		let rel1href = rel1data.data[0]?.page;
-		let rel1img = rel1data.data[0]?.src;
+		let rel1data =  getRelData(this.release1title);
+		let rel1href = rel1data?.page;
+		let rel1img = rel1data?.src;
 		if (this.release2title) {
-			let rel2data = await getRelData(this.release2title);
-			rel2href = rel2data.data[0]?.page;
-			rel2img = rel2data.data[0]?.src;
+			let rel2data =  getRelData(this.release2title);
+			rel2href = rel2data?.page;
+			rel2img = rel2data?.src;
 		}
 
 		if (this.release3title) {
-			let rel3data = await getRelData(this.release3title);
-			rel3href = rel3data.data[0]?.page;
-			rel3img = rel3data.data[0]?.src;
+			let rel3data =  getRelData(this.release3title);
+			rel3href = rel3data?.page;
+			rel3img = rel3data?.src;
 		}
 
 		let newTr = $("<tr></tr>");
@@ -182,6 +183,6 @@ export class Track {
 					$(".editmodal").empty();
 				});
 			});
-	}
+		}
 	}
 }

@@ -1,8 +1,9 @@
 import { declareViewEvents } from "./viewEvents.js";
-import { getData } from "./dbCalls.js";
+import { getTracksData,getAlbumsData } from "./dbCalls.js";
 
 window.onload = () => {
-	getData();
+	getTracksData();
+	getAlbumsData();
 	declareViewEvents();
 	doAdmin();	
 };

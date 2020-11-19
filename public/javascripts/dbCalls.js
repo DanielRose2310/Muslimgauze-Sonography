@@ -1,5 +1,6 @@
-import { parseData } from "./tracksManager.js";
-
+import { parseTracksData } from "./tracksManager.js";
+export let discogData=[];
+export let tracksData=[]
 export const doLogin = (_data) => {
 	fetch("https://muslimgauze-database.herokuapp.com/login/", {
 		method: "POST",
@@ -37,7 +38,7 @@ export const doLogin = (_data) => {
 		});
 };
 
-export const getData = () => {
+export const getTracksData = () => {
 	fetch("https://muslimgauze-database.herokuapp.com/tracks", {
 		headers: {
 			"Content-Type": "application/json",
@@ -46,33 +47,24 @@ export const getData = () => {
 		.then(function (response) {
 			return response.json();
 		})
-		.then(function (jsonData) {
-			parseData(jsonData, "title");
+		.then(function (data) {
+			tracksData=data
+			parseTracksData(tracksData, "title");
 		});
 };
-
-export async function getRelData(_ref) {
-	_ref = _ref.replace(/[\[\]\:\\]+/g, "");
-	_ref = _ref.replace(/[\/]+/g, " ");
-	if (_ref.split(" ").length > 2) {
-		_ref = _ref.split(" ").splice(0, 2).join(" ");
-	}
-	let result;
-	try {
-		const res = await axios.get(
-			`https://muslimgauze-database.herokuapp.com/albums/cataloguesearch/${_ref}/`,
-			{
-				headers: {
-					"Content-Type": "application/json",
-				},
-			}
-		);
-		result = res;
-	} catch (err) {
-		console.log(err);
-	}
-	return result;
-}
+export const getAlbumsData = () => {
+	fetch("https://muslimgauze-database.herokuapp.com/albums", {
+		headers: {
+			"Content-Type": "application/json",
+		},
+	})
+		.then(function (response) {
+			return response.json();
+		})
+		.then(function (jsonData) {
+			discogData = jsonData;
+		});
+};
 
 export const trackEdit = (_data) => {
 	fetch("https://muslimgauze-database.herokuapp.com/tracks/edit", {
@@ -141,7 +133,7 @@ export const dbSearchTitle = (_string) => {
 			return response.json();
 		})
 		.then(function (jsonData) {
-			parseData(jsonData, "title");
+			parseTracksData(jsonData, "title");
 		});
 	$("#titlesearchinput").val("");
 	$("#sortmenu").val("start").change();
@@ -162,7 +154,7 @@ export const dbSearchAlbum = (_string) => {
 			return response.json();
 		})
 		.then(function (jsonData) {
-			parseData(jsonData, "title");
+			parseTracksData(jsonData, "title");
 		});
 	$("#albumsearchinput").val("");
 	$("#sortmenu").val("start").change();

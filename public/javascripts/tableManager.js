@@ -42,7 +42,6 @@ export const doTable = async (_data, _page = 0) => {
 				`<option class="pagin" value=${i}>${i + 1}</option>`
 			);
 		}
-		console.log(_page,pages)
 		$("#pagination").on("change", function (e) {
 			_page = $(this).val();
 			doTable(datacat, _page);

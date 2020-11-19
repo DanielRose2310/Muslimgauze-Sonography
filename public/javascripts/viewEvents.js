@@ -1,29 +1,40 @@
-import { parseData, tracks } from "./tracksManager.js";
-import { dbSearchTitle, dbSearchAlbum, trackAdd, doLogin } from "./dbCalls.js";
+import { parseTracksData, tracks } from "./tracksManager.js";
+import { tracksData, trackAdd, doLogin } from "./dbCalls.js";
 export const declareViewEvents = () => {
 	let addopen;
+	let tracksfiltered;
 	document.querySelector("#sortmenu").addEventListener("change", () => {
 		if ($("#sortmenu").val() === "track") {
-			parseData(tracks, "title");
+			parseTracksData(tracks, "title");
 		}
 		if ($("#sortmenu").val() === "album") {
-			parseData(tracks, "album");
+			parseTracksData(tracks, "album");
 		}
 		if ($("#sortmenu").val() === "yearasc") {
-			parseData(tracks, "yearasc");
+			parseTracksData(tracks, "yearasc");
 		}
 		if ($("#sortmenu").val() === "yeardesc") {
-			parseData(tracks, "yeardesc");
+			parseTracksData(tracks, "yeardesc");
 		}
 	});
 	$("#searchtitlebtn").on("click", function () {
 		if ($("#titlesearchinput").val()) {
-			dbSearchTitle($("#titlesearchinput").val());
+			tracksfiltered = tracksData.filter((item) => {
+				return item.title
+					.toLowerCase()
+					.includes($("#titlesearchinput").val().toLowerCase());
+			});
+			parseTracksData(tracksfiltered, "title");
 		}
 	});
 	$("#searchalbumbtn").on("click", function () {
 		if ($("#albumsearchinput").val()) {
-			dbSearchAlbum($("#albumsearchinput").val());
+			tracksfiltered = tracksData.filter((item) => {
+				return item.releases[0].albumtitle
+					.toLowerCase()
+					.includes($("#albumsearchinput").val().toLowerCase());
+			});
+			parseTracksData(tracksfiltered, "title");
 		}
 	});
 	$("#loginshowbtn").on("click", function () {
