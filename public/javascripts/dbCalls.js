@@ -2,7 +2,7 @@ import { parseTracksData } from "./tracksManager.js";
 export let discogData=[];
 export let tracksData=[]
 export const doLogin = (_data) => {
-	fetch("https://muslimgauze-database.herokuapp.com/login/", {
+	fetch("https://muslimgauze-database.herokuapp.com/users/login/", {
 		method: "POST",
 		body: JSON.stringify(_data),
 		headers: {
