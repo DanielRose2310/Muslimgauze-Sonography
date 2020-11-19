@@ -15,7 +15,7 @@ export const doLogin = (_data) => {
 				localStorage.setItem("dbtoken", data.token);
 				$(".usermessage")
 					.show()
-					.html(`Welcome back ${dataBody.user}!`)
+					.html(`Welcome back ${_data.user}!`)
 					.css("color", "green")
 					.delay(2500)
 					.fadeOut();
