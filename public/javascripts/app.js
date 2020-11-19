@@ -2,9 +2,9 @@ import { declareViewEvents } from "./viewEvents.js";
 import { getData } from "./dbCalls.js";
 
 window.onload = () => {
-	declareViewEvents();
 	getData();
-	doAdmin();
+	declareViewEvents();
+	doAdmin();	
 };
 export let admin = false;
 const doAdmin = () => {

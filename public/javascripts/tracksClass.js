@@ -49,8 +49,6 @@ export class Track {
 		let rel1data = await getRelData(this.release1title);
 		let rel1href = rel1data.data[0]?.page;
 		let rel1img = rel1data.data[0]?.src;
-		console.log(this.title)
-
 		if (this.release2title) {
 			let rel2data = await getRelData(this.release2title);
 			rel2href = rel2data.data[0]?.page;

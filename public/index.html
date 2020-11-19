@@ -34,6 +34,15 @@
       <button id="loginshowbtn" class="ml-5 btn btn-secondary">Login</button>
 
     </div>
+    <div class="row justify-content-center align-items-center nav">
+      <i class="fas fa-angle-double-left mx-3" id="firstpage"></i>
+      <i class="fas fa-angle-left  mx-2" id="prevpage"></i><div class="row mx-2 align-items-center">
+    Page: &nbsp; <select id="pagination" class="form-control" style="width:80px">
+        </select></div>
+        <i class="fas fa-angle-right  mx-2" id="nextpage"></i>
+        <i class="fas fa-angle-double-right mx-3" id="lastpage"></i>
+      </div>
+    </div>
     <thead>
       <tr id="mainrow" align="center">
         <th scope="col" style="display:none" id="editcol">Edit</th>
@@ -44,10 +53,7 @@
 
       </tr>
     </thead>
-    <div class="row d-flex align-items-center justify-content-center" >Page: &nbsp;
-      <select id="pagination" class="form-control" style="width:80px">
-      </select>
-    </div>
+
     <tbody id="id_parent">
       <div class="spinner">
         <div class="bounce1"></div>
