@@ -8,9 +8,12 @@ window.onload = () => {
 	doAdmin();	
 };
 export let admin = false;
+
 const doAdmin = () => {
 	if (localStorage.getItem("dbtoken")) {
 		admin = true;
-		$(".adminedit").show();
+		$(".adminaddalbum").show();
+		$(".adminaddtrack").show();
+
 	}
 };
