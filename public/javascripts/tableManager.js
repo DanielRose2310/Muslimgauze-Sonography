@@ -8,7 +8,8 @@ export const doTable = async (_data, _page = 0) => {
 	datacat=_data;
 	if (admin === true) {
 		$("#editcol").show();
-		$("#adminadd").show();
+		$("#adminaddtrack").show();
+		$("#adminaddalbum").show();
 	}
 	$(".spinner").empty();
 	if (!datacat.length) {

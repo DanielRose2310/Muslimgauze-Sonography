@@ -23,7 +23,7 @@ export const doLogin = (_data) => {
 			} else if (Array.isArray(data)) {
 				$(".usermessage")
 					.show()
-					.html(data[0].message)
+					.html(data)
 					.css("color", "red")
 					.delay(2000)
 					.fadeOut();
@@ -77,26 +77,10 @@ export const trackEdit = (_data) => {
 		.then((resp) => resp.json())
 		.then((data) => {
 			if (data.ok) {
-				location.reload();
+				$("#submitedit")
+				.html(`Submitted!`)
 			} else {
-				alert(data[0].message);
-			}
-		});
-};
-export const trackAdd = (_data) => {
-	fetch("https://muslimgauze-database.herokuapp.com/tracks/add", {
-		method: "POST",
-		body: JSON.stringify(_data),
-		headers: {
-			"content-type": "application/json",
-		},
-	})
-		.then((resp) => resp.json())
-		.then((data) => {
-			if (data.ok) {
-				location.reload();
-			} else {
-				alert(data[0].message);
+				console.log(data);
 			}
 		});
 };
@@ -111,9 +95,9 @@ export const trackDel = (_id) => {
 		.then((resp) => resp.json())
 		.then((data) => {
 			if (data.ok) {
-				location.reload();
+				//location.reload();
 			} else {
-				alert(data[0].message);
+				console.log(data);
 			}
 		});
 };

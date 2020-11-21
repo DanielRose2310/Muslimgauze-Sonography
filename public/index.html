@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <script src="./javascripts/lodash.js"></script>
   <script type="module" src="./javascripts/app.js"></script>
@@ -36,12 +35,13 @@
     </div>
     <div class="row justify-content-center align-items-center nav">
       <i class="fas fa-angle-double-left mx-3" id="firstpage"></i>
-      <i class="fas fa-angle-left  mx-2" id="prevpage"></i><div class="row mx-2 align-items-center">
-    Page: &nbsp; <select id="pagination" class="form-control" style="width:80px">
+      <i class="fas fa-angle-left  mx-2" id="prevpage"></i>
+      <div class="row mx-2 align-items-center">
+        Page: &nbsp; <select id="pagination" class="form-control" style="width:80px">
         </select></div>
-        <i class="fas fa-angle-right  mx-2" id="nextpage"></i>
-        <i class="fas fa-angle-double-right mx-3" id="lastpage"></i>
-      </div>
+      <i class="fas fa-angle-right  mx-2" id="nextpage"></i>
+      <i class="fas fa-angle-double-right mx-3" id="lastpage"></i>
+    </div>
     </div>
     <thead>
       <tr id="mainrow" align="center">
@@ -63,8 +63,8 @@
     </tbody>
 
   </table>
-  <button class="btn btn-info float-right mr-5" id="adminadd">ADD TRACK</button>
-
+  <a class="btn btn-info float-right mr-5" href="addAlbum.html" target="_blank" id="adminaddalbum">ADD ALBUM</a>
+  <a class="btn btn-info float-right mr-5" href="addTrack.html" target="_blank" id="adminaddtrack">ADD TRACK</a>
   <div id="usermodal" class="usermodal">
     <div class="row ml-5 my-3">
       <span class=""><b>
