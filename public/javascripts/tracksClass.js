@@ -88,7 +88,6 @@ export class Track {
 			);
 			$(newTr).append(album3box);
 		} 
-
 		if (rel1href) {
 			$(album1box).append(
 				`<br><a href=${rel1href}>LINK</a><br> <img style="width:150px" src=${rel1img}>`

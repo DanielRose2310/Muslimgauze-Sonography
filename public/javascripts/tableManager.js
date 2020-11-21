@@ -15,7 +15,8 @@ export const doTable = async (_data, _page = 0) => {
 	if (!datacat.length) {
 		$("#popupmodal").hide().fadeIn().css("display", "flex");
 		$(".modal__window").html(`<h2>No matches found</h2>`);
-		$(window).click(function () {
+		$(window).on('click', function(e) {
+			e.stopImmediatePropagation()
 			$("#popupmodal").show().hide();
 		});
 	} else {

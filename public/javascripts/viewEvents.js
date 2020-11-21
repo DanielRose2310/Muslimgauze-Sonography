@@ -17,7 +17,8 @@ export const declareViewEvents = () => {
 			parseTracksData(tracks, "yeardesc");
 		}
 	});
-	$("#searchtitlebtn").on("click", function () {
+	$("#searchtitlebtn").on("click", function (e) {
+		e.stopPropagation();
 		if ($("#titlesearchinput").val()) {
 			tracksfiltered = tracksData.filter((item) => {
 				return item.title
@@ -27,7 +28,8 @@ export const declareViewEvents = () => {
 			parseTracksData(tracksfiltered, "title");
 		}
 	});
-	$("#searchalbumbtn").on("click", function () {
+	$("#searchalbumbtn").on("click", function (e) {
+		e.stopPropagation();
 		if ($("#albumsearchinput").val()) {
 			tracksfiltered = tracksData.filter((item) => {
 				return item.releases[0].albumtitle
