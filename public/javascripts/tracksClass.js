@@ -1,5 +1,5 @@
 import { admin } from "./app.js";
-import { trackEdit, trackDel } from "./dbCalls.js";
+import { trackEdit, trackDel,getYT } from "./dbCalls.js";
 import { getRelData } from "./albumManager.js";
 let editopen = false;
 export class Track {
@@ -38,6 +38,7 @@ export class Track {
 		this.render();
 	}
 	async render() {
+		let ytlink;
 		let album1box;
 		let album2box;
 		let album3box;
@@ -59,7 +60,8 @@ export class Track {
 			rel3href = rel3data?.page;
 			rel3img = rel3data?.src;
 		}
-
+		//ytlink = getYT(this.title)
+		//console.log(ytlink)
 		let newTr = $("<tr></tr>");
 
 		let rowtitle = $(

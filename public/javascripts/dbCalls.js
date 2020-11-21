@@ -1,6 +1,8 @@
 import { parseTracksData } from "./tracksManager.js";
-export let discogData=[];
-export let tracksData=[]
+export let discogData = [];
+export let tracksData = [];
+export let ytres;
+
 export const doLogin = (_data) => {
 	fetch("https://muslimgauze-database.herokuapp.com/users/login/", {
 		method: "POST",
@@ -48,7 +50,7 @@ export const getTracksData = () => {
 			return response.json();
 		})
 		.then(function (data) {
-			tracksData=data
+			tracksData = data;
 			parseTracksData(tracksData, "title");
 		});
 };
@@ -77,8 +79,7 @@ export const trackEdit = (_data) => {
 		.then((resp) => resp.json())
 		.then((data) => {
 			if (data.ok) {
-				$("#submitedit")
-				.html(`Submitted!`)
+				$("#submitedit").html(`Submitted!`);
 			} else {
 				console.log(data);
 			}
@@ -142,4 +143,25 @@ export const dbSearchAlbum = (_string) => {
 		});
 	$("#albumsearchinput").val("");
 	$("#sortmenu").val("start").change();
+};
+
+export const getYT = (_string) => {
+	let string = _string.replace("/s/g", "%20");
+
+	fetch(
+		`https://www.googleapis.com/youtube/v3/search?key=AIzaSyC6CIzYA_1Qu8arbhTaHrPqfezoJf_QczI&type=video&part=snippet&maxResults=1&q=muslimgauze%20${string}`,
+		{
+			headers: {
+				"Content-Type": "application/json",
+			},
+		}
+	)
+		.then(function (response) {
+			return response.json();
+		})
+		.then(function (data) {
+			ytres = data.items[0].id.videoId;
+		});
+	return ytres;
+
 };
