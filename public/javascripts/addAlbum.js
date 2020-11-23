@@ -14,14 +14,13 @@ $("#submitalbum").on("click", () => {
 				.removeClass("btn btn-warning")
 				.addClass("btn btn-success");
 		}, 2000);
-	}
-	let albumBody = {
+	}else {let albumBody = {
 		title: $("#albumtitleadd").val(),
 		page: $("#albumpageadd").val(),
 		src: $("#albumimageadd").val(),
 	};
 	console.log(albumBody);
-});
+}});
 
 
 export const trackAdd = (_data) => {

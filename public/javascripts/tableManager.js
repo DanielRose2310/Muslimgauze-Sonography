@@ -2,10 +2,12 @@ import { Track } from "./tracksClass.js";
 import { admin } from "./app.js";
 let datacat;
 let pages;
-export const doTable = async (_data, _page = 0) => {
-	$("#reissuecol1").css('display','none');
-	$("#reissuecol2").css('display','none');
-	datacat=_data;
+let itemsperpage;
+export const doTable = async (_data, _page = 0, _itemsperpage = 10) => {
+	itemsperpage = _itemsperpage;
+	$("#reissuecol1").css("display", "none");
+	$("#reissuecol2").css("display", "none");
+	datacat = _data;
 	if (admin === true) {
 		$("#editcol").show();
 		$("#adminaddtrack").show();
@@ -15,37 +17,44 @@ export const doTable = async (_data, _page = 0) => {
 	if (!datacat.length) {
 		$("#popupmodal").hide().fadeIn().css("display", "flex");
 		$(".modal__window").html(`<h2>No matches found</h2>`);
-		$(window).on('click', function(e) {
-			e.stopImmediatePropagation()
+		$(window).on("click", function (e) {
+			e.stopImmediatePropagation();
 			$("#popupmodal").show().hide();
 		});
 	} else {
 		$("#id_parent").empty();
-		datacat.slice(_page * 10, _page * 10 + 10).map(async (item) => {
-			let track = new Track(
-				item.title,
-				item.releases[0]?.albumtitle,
-				item.releases[0]?.albumyear,
-				item.releases[0]?.albumformat,
-				item.releases[0]?.albumcatalogue,
-				item?.releases[1]?.albumtitle,
-				item?.releases[1]?.albumyear,
-				item?.releases[1]?.albumformat,
-				item?.releases[1]?.albumcatalogue,
-				item?.releases[2]?.albumtitle,
-				item?.releases[2]?.albumyear,
-				item?.releases[2]?.albumformat,
-				item?.releases[2]?.albumcatalogue,
-				item._id
-			);
-		});
-		 pages = Math.floor(datacat.length / 10);
+		datacat
+			.slice(_page * itemsperpage, _page * itemsperpage + itemsperpage)
+			.map(async (item) => {
+				let track = new Track(
+					item.title,
+					item.releases[0]?.albumtitle,
+					item.releases[0]?.albumyear,
+					item.releases[0]?.albumformat,
+					item.releases[0]?.albumcatalogue,
+					item?.releases[1]?.albumtitle,
+					item?.releases[1]?.albumyear,
+					item?.releases[1]?.albumformat,
+					item?.releases[1]?.albumcatalogue,
+					item?.releases[2]?.albumtitle,
+					item?.releases[2]?.albumyear,
+					item?.releases[2]?.albumformat,
+					item?.releases[2]?.albumcatalogue,
+					item._id
+				);
+			});
+		pages = Math.floor(datacat.length / itemsperpage);
 		$("#pagination").empty();
 		for (let i = 0; i < pages + 1; i++) {
 			$("#pagination").append(
 				`<option class="pagin" value=${i}>${i + 1}</option>`
 			);
 		}
+		$("#itemsmenu").on("change", function (e) {
+			//_itemsperpage = $(this).val();
+			doTable(datacat, 0, $(this).val());
+			e.stopImmediatePropagation();
+		});
 		$("#pagination").on("change", function (e) {
 			_page = $(this).val();
 			doTable(datacat, _page);

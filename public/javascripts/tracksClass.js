@@ -60,8 +60,6 @@ export class Track {
 			rel3href = rel3data?.page;
 			rel3img = rel3data?.src;
 		}
-		//ytlink = getYT(this.title)
-		//console.log(ytlink)
 		let newTr = $("<tr></tr>");
 
 		let rowtitle = $(
@@ -90,17 +88,17 @@ export class Track {
 		} 
 		if (rel1href) {
 			$(album1box).append(
-				`<br><a href=${rel1href}>LINK</a><br> <img style="width:150px" src=${rel1img}>`
+				`<br><a href=${rel1href} target="_blank">LINK</a><br> <img style="width:150px" src=${rel1img}>`
 			);
 		}
 		if (rel2href) {
 			$(album2box).append(
-				`<br><a href=${rel2href}>LINK</a> <br><img style="width:150px" src=${rel2img}>`
+				`<br><a href=${rel2href} target="_blank">LINK</a> <br><img style="width:150px" src=${rel2img}>`
 			);
 		}
 		if (rel3href) {
 			$(album3box).append(
-				`<br><a href=${rel3href}>LINK</a><br> <img style="width:150px" src=${rel3img}>`
+				`<br><a href=${rel3href} target="_blank">LINK</a><br> <img style="width:150px" src=${rel3img}>`
 			);
 		}
 
