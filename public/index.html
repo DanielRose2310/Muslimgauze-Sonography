@@ -23,7 +23,9 @@
   <div class="addmodal" id="addmodal">
   </div>
   <table class="table">
-    <div class="row ml-5 my-3"><select id="sortmenu" class="form-control w-25">
+    <div class="row justify-content-around my-3 d-flex h-100">
+      <div class="mr-1"><a href="./index.html"><img src="./images/logo.png" style="width:100px"></a></div>
+      <select id="sortmenu" class="">
         <option value="start">Order items by:</option>
         <option value="">-----</option>
         <option value="track">Track title (default)</option>
@@ -31,15 +33,19 @@
         <option value="yearasc">Year of original release (+)</option>
         <option value="yeardesc">Year of original release (-)</option>
       </select>
-      <input id="titlesearchinput" class="ml-3 w-25" placeholder="Search by track title">
-      <button id="searchtitlebtn" class="btn btn-info">Search</button>
-      <input id="albumsearchinput" class="ml-3 w-25" placeholder="Search by album title">
-      <button id="searchalbumbtn" class="btn btn-info">Search</button>
-      <button id="loginshowbtn" class="ml-5 btn btn-secondary">Login</button>
-
+      <div class=" h-100"><input id="titlesearchinput" class="ml-1" placeholder="Search by track title">
+      <button id="searchtitlebtn" class="btn btn-info">Search</button></div>
+      <div class=" h-100"><input id="albumsearchinput" class="ml-1" placeholder="Search by album title">
+      <button id="searchalbumbtn" class=" btn btn-info">Search</button></div>
+      <select id="itemsmenu">
+        <option>Items per page:</option>
+        <option value=5>5</option>
+        <option value=10>10 (Default)</option>
+        <option value=20>20</option>
+        <option value=50>50</option>
+      </select>
     </div>
-    <div class="row justify-content-between align-items-center">
-      <div class="row offset-4  justify-content-center align-items-center nav">
+      <div class="row  justify-content-center align-items-center nav">
         <i class="fas fa-angle-double-left mx-3" id="firstpage"></i>
         <i class="fas fa-angle-left  mx-2" id="prevpage"></i>
         <div class="row mx-2 align-items-center">
@@ -49,14 +55,6 @@
         <i class="fas fa-angle-double-right mx-3" id="lastpage"></i>
       </div>
 
-      <select id="itemsmenu" class="form-control">
-        <option >Items per page:</option>
-        <option value=5>5</option>
-        <option value=10>10 (Default)</option>
-        <option value=20>20</option>
-        <option value=50>50</option>
-      </select>
-    </div>
     <thead>
       <tr id="mainrow" align="center">
         <th scope="col" style="display:none" id="editcol">Edit</th>
@@ -77,10 +75,12 @@
     </tbody>
 
   </table>
-  <a class="btn btn-info float-right mr-5" href="addAlbum.html" target="_blank" style="display:none"
-    id="adminaddalbum">ADD ALBUM</a>
-  <a class="btn btn-info float-right mr-5" href="addTrack.html" target="_blank" style="display:none"
-    id="adminaddtrack">ADD TRACK</a>
+  <div class="row"> <button id="loginshowbtn" class="ml-1 btn btn-secondary">Login</button>
+
+    <a class="btn btn-info float-right mr-5" href="addAlbum.html" target="_blank" style="display:none"
+      id="adminaddalbum">ADD ALBUM</a>
+    <a class="btn btn-info float-right mr-5" href="addTrack.html" target="_blank" style="display:none"
+      id="adminaddtrack">ADD TRACK</a> </div>
   <div id="usermodal" class="usermodal">
     <div class="row ml-5 my-3">
       <span class=""><b>

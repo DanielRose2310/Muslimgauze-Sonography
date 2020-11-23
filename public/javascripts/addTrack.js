@@ -1,4 +1,16 @@
-	$("#submittrack").on("click", () => {
+$("#submittrack").on("click", () => {
+	if (!$("#titleadd").val().length) {
+		$("#submittrack")
+			.html(`No title entered!`)
+			.removeClass("btn btn-success")
+			.addClass("btn btn-warning");
+		setTimeout(function () {
+			$("#submittrack")
+				.html("Submit track")
+				.removeClass("btn btn-warning")
+				.addClass("btn btn-success");
+		}, 2000);
+	} else {
 		let trackBody = {
 			title: $("#titleadd").val(),
 			releases: [
@@ -23,11 +35,10 @@
 			],
 		};
 		trackAdd(trackBody);
-    });
-    
-    
+	}
+});
+
 export const trackAdd = (_data) => {
-	console.log(_data)
 	fetch("https://muslimgauze-database.herokuapp.com/tracks/add", {
 		method: "POST",
 		body: JSON.stringify(_data),
@@ -37,9 +48,22 @@ export const trackAdd = (_data) => {
 	})
 		.then((resp) => resp.json())
 		.then((data) => {
-			if (data.ok) {
-				//location.reload();
+			if (Object.values(data[0]).indexOf(_data.title)) {
+				$("#submittrack").html(`Track submitted!`);
+				setTimeout(function () {
+					$("#submittrack").html("Submit track");
+				}, 2000);
 			} else {
+				$("#submittrack")
+				.html(`Track not submitted!`)
+				.removeClass("btn btn-success")
+				.addClass("btn btn-danger");
+			setTimeout(function () {
+				$("#submittrack")
+					.html("Submit track")
+					.removeClass("btn btn-danger")
+					.addClass("btn btn-success");
+			}, 2000);
 				console.log(data);
 			}
 		});

@@ -19,13 +19,13 @@ $("#submitalbum").on("click", () => {
 		page: $("#albumpageadd").val(),
 		src: $("#albumimageadd").val(),
 	};
-	console.log(albumBody);
+	albumAdd(albumBody);
 }});
 
 
-export const trackAdd = (_data) => {
+export const albumAdd = (_data) => {
 	console.log(_data)
-	fetch("https://muslimgauze-database.herokuapp.com/tracks/add", {
+	fetch("https://muslimgauze-database.herokuapp.com/albums/add", {
 		method: "POST",
 		body: JSON.stringify(_data),
 		headers: {
@@ -34,9 +34,22 @@ export const trackAdd = (_data) => {
 	})
 		.then((resp) => resp.json())
 		.then((data) => {
-			if (data.ok) {
-				//location.reload();
+			if (Object.values(data[0]).indexOf(_data.title)) {
+				$("#submitalbum").html(`Album submitted!`);
+				setTimeout(function () {
+					$("#submitalbum").html("Submit Album");
+				}, 2000);
 			} else {
+				$("#submitalbum")
+				.html(`Album not submitted!`)
+				.removeClass("btn btn-success")
+				.addClass("btn btn-danger");
+			setTimeout(function () {
+				$("#submitalbum")
+					.html("Submit album")
+					.removeClass("btn btn-danger")
+					.addClass("btn btn-success");
+			}, 2000);
 				console.log(data);
 			}
 		});
