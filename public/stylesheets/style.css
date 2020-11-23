@@ -12,7 +12,9 @@ body {
   overflow-x: hidden;
 }
 
-
+#itemsmenu{
+  width: 200px;
+}
 .nav i {
   cursor: pointer;
 }

@@ -23,8 +23,8 @@ export const doTable = async (_data, _page = 0, _itemsperpage = 10) => {
 		});
 	} else {
 		$("#id_parent").empty();
-		datacat
-			.slice(_page * itemsperpage, _page * itemsperpage + itemsperpage)
+	let cat=	datacat
+			.slice(_page * itemsperpage, (_page * itemsperpage) + itemsperpage)
 			.map(async (item) => {
 				let track = new Track(
 					item.title,
@@ -51,44 +51,46 @@ export const doTable = async (_data, _page = 0, _itemsperpage = 10) => {
 			);
 		}
 		$("#itemsmenu").on("change", function (e) {
-			//_itemsperpage = $(this).val();
-			doTable(datacat, 0, $(this).val());
-			e.stopImmediatePropagation();
+			if (Number($(this).val())) {
+				itemsperpage = Number($(this).val());
+				doTable(datacat, 0, itemsperpage);
+				e.stopImmediatePropagation();
+			}
 		});
 		$("#pagination").on("change", function (e) {
 			_page = $(this).val();
-			doTable(datacat, _page);
+			doTable(datacat, _page, itemsperpage);
 			e.stopImmediatePropagation();
 		});
 		$("#firstpage").on("click", (e) => {
 			if (_page > 0) {
 				_page = 0;
-				doTable(datacat, _page);
+				doTable(datacat, _page, itemsperpage);
 				e.stopImmediatePropagation();
 			}
 		});
 		$("#prevpage").on("click", (e) => {
 			if (_page > 0) {
 				_page--;
-				doTable(datacat, _page);
+				doTable(datacat, _page, itemsperpage);
 			}
 			e.stopImmediatePropagation();
 		});
 		$("#nextpage").on("click", (e) => {
 			if (_page < pages) {
 				_page++;
-				doTable(datacat, _page);
+				doTable(datacat, _page, itemsperpage);
 			}
 			e.stopImmediatePropagation();
 		});
 		$("#lastpage").on("click", (e) => {
 			if (_page < pages) {
 				_page = pages;
-				doTable(datacat, _page);
+				doTable(datacat, _page, itemsperpage);
 				e.stopImmediatePropagation();
 			}
 		});
-
 		$("#pagination").val(_page);
+		$("#itemsmenu").val(itemsperpage);
 	}
 };
