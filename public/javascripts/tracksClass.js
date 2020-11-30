@@ -88,17 +88,17 @@ export class Track {
 		} 
 		if (rel1href) {
 			$(album1box).append(
-				`<br><a href=${rel1href} target="_blank">LINK</a><br> <img style="width:150px" src=${rel1img}>`
+				`<br><a href=${rel1href} target="_blank"><img style="width:80px" src=${rel1img}></a>`
 			);
 		}
 		if (rel2href) {
 			$(album2box).append(
-				`<br><a href=${rel2href} target="_blank">LINK</a> <br><img style="width:150px" src=${rel2img}>`
+				`<br><a href=${rel2href} target="_blank"><img style="width:80px" src=${rel2img}></a>`
 			);
 		}
 		if (rel3href) {
 			$(album3box).append(
-				`<br><a href=${rel3href} target="_blank">LINK</a><br> <img style="width:150px" src=${rel3img}>`
+				`<br><a href=${rel3href} target="_blank"><img style="width:80px" src=${rel3img}></a>`
 			);
 		}
 
