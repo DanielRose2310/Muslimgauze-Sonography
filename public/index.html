@@ -24,7 +24,6 @@
   </div>
   <table class="table">
     <div class="row justify-content-around my-3 d-flex h-100">
-      <div class="mr-1  align-self-center"><a href="./index.html"><img src="./images/logo.png" style="width:150px"></a></div>
       <select id="sortmenu" class="">
         <option value="start">Order items by:</option>
         <option value="">-----</option>
@@ -33,8 +32,10 @@
         <option value="yearasc">Year of original release (+)</option>
         <option value="yeardesc">Year of original release (-)</option>
       </select>
-      <div class=""><input id="titlesearchinput" class="ml-1 form-group" placeholder="Search by track title">
+      <div class=""><input id="titlesearchinput" class="form-group" placeholder="Search by track title">
         <button id="searchtitlebtn" class="btn btn-info">Search</button></div>
+        <div class="align-self-center"><a href="./index.html"><img src="./images/logo2.png" style="width:150px"></a></div>
+
       <div class=""><input id="albumsearchinput" class="ml-1 form-group " placeholder="Search by album title">
         <button id="searchalbumbtn" class=" btn btn-info">Search</button></div>
       <select id="itemsmenu">
@@ -75,6 +76,9 @@
     </tbody>
 
   </table>
+  <div class="row justify-content-center align-self-center"><img src="./images/dividerBryn3(trans).gif"></div>
+  <p class="graphic-center"><img src="images/logo.png" alt="horizontal rule"></p>
+
   <div class="row"> <button id="loginshowbtn" class="ml-1 btn btn-secondary">Login</button>
 
     <a class="btn btn-info float-right mr-5" href="addAlbum.html" target="_blank" style="display:none"
@@ -93,8 +97,9 @@
         <label for="psw" class="ml-2"><b>Password</b></label>
         <input type="password" placeholder="Enter Password" name="psw" id="id_pass_input" required>
 
-        <button type="submit" id="usersubmitbtn" class="btn btn-success">Login</button>
       </form>
+      <button type="submit" id="usersubmitbtn" class="btn btn-success">Login</button>
+
       <div class="offset-3">
         <button type="button" class=" cancelloginbtn btn btn-danger"><i class="fas fa-window-close"></i></button>
       </div>
