@@ -44,9 +44,9 @@ export const doTable = async (_data, _page = 0, _itemsperpage = 10) => {
 				);
 			});
 		pages = Math.floor(datacat.length / itemsperpage);
-		$("#pagination").empty();
+		$(".pagination").empty();
 		for (let i = 0; i < pages + 1; i++) {
-			$("#pagination").append(
+			$(".pagination").append(
 				`<option class="pagin" value=${i}>${i + 1}</option>`
 			);
 		}
@@ -57,40 +57,40 @@ export const doTable = async (_data, _page = 0, _itemsperpage = 10) => {
 				e.stopImmediatePropagation();
 			}
 		});
-		$("#pagination").on("change", function (e) {
+		$(".pagination").on("change", function (e) {
 			_page = $(this).val();
 			doTable(datacat, _page, itemsperpage);
 			e.stopImmediatePropagation();
 		});
-		$("#firstpage").on("click", (e) => {
+		$(".firstpage").on("click", (e) => {
 			if (_page > 0) {
 				_page = 0;
 				doTable(datacat, _page, itemsperpage);
 				e.stopImmediatePropagation();
 			}
 		});
-		$("#prevpage").on("click", (e) => {
+		$(".prevpage").on("click", (e) => {
 			if (_page > 0) {
 				_page--;
 				doTable(datacat, _page, itemsperpage);
 			}
 			e.stopImmediatePropagation();
 		});
-		$("#nextpage").on("click", (e) => {
+		$(".nextpage").on("click", (e) => {
 			if (_page < pages) {
 				_page++;
 				doTable(datacat, _page, itemsperpage);
 			}
 			e.stopImmediatePropagation();
 		});
-		$("#lastpage").on("click", (e) => {
+		$(".lastpage").on("click", (e) => {
 			if (_page < pages) {
 				_page = pages;
 				doTable(datacat, _page, itemsperpage);
 				e.stopImmediatePropagation();
 			}
 		});
-		$("#pagination").val(_page);
+		$(".pagination").val(_page);
 		$("#itemsmenu").val(itemsperpage);
 	}
 };

@@ -22,9 +22,10 @@
   </div>
   <div class="addmodal" id="addmodal">
   </div>
+  <div class="row mb-3   align-self-center justify-content-center"><a href="./index.html"><img src="./images/logo2.png"></a></div>
   <table class="table">
     <div class="row justify-content-around my-3 d-flex h-100">
-      <select id="sortmenu" class="">
+      <select id="sortmenu" style="height:35px">
         <option value="start">Order items by:</option>
         <option value="">-----</option>
         <option value="track">Track title (default)</option>
@@ -32,13 +33,12 @@
         <option value="yearasc">Year of original release (+)</option>
         <option value="yeardesc">Year of original release (-)</option>
       </select>
-      <div class=""><input id="titlesearchinput" class="form-group" placeholder="Search by track title">
+      <div class=""><input id="titlesearchinput" class="form-group h-75" placeholder="Search by track title">
         <button id="searchtitlebtn" class="btn btn-info">Search</button></div>
-        <div class="align-self-center"><a href="./index.html"><img src="./images/logo2.png" style="width:150px"></a></div>
 
-      <div class=""><input id="albumsearchinput" class="ml-1 form-group " placeholder="Search by album title">
+      <div class=""><input id="albumsearchinput" class=" form-group h-75" placeholder="Search by album title">
         <button id="searchalbumbtn" class=" btn btn-info">Search</button></div>
-      <select id="itemsmenu">
+      <select id="itemsmenu"  style="height:35px">
         <option>Items per page:</option>
         <option value=5>5</option>
         <option value=10>10 (Default)</option>
@@ -47,13 +47,13 @@
       </select>
     </div>
     <div class="row  justify-content-center align-items-center nav">
-      <i class="fas fa-angle-double-left mx-3" id="firstpage"></i>
-      <i class="fas fa-angle-left  mx-2" id="prevpage"></i>
+      <i class="fas fa-angle-double-left mx-3 firstpage" id="firstpage"></i>
+      <i class="fas fa-angle-left  mx-2 prevpage" id="prevpage"></i>
       <div class="row mx-2 align-items-center">
-        Page: &nbsp; <select id="pagination" class="form-control" style="width:80px">
+        Page: &nbsp; <select class="pagination form-control" style="width:80px">
         </select></div>
-      <i class="fas fa-angle-right  mx-2" id="nextpage"></i>
-      <i class="fas fa-angle-double-right mx-3" id="lastpage"></i>
+      <i class="fas fa-angle-right  mx-2 nextpage" id="nextpage"></i>
+      <i class="fas fa-angle-double-right mx-3 lastpage" id="lastpage"></i>
     </div>
 
     <thead>
@@ -76,15 +76,28 @@
     </tbody>
 
   </table>
-  <div class="row justify-content-center align-self-center"><img src="./images/dividerBryn3(trans).gif"></div>
-  <p class="graphic-center"><img src="images/logo.png" alt="horizontal rule"></p>
+  
+  <div class="row  justify-content-center align-items-center nav">
+    <i class="fas fa-angle-double-left mx-3 firstpage" id="firstpage"></i>
+    <i class="fas fa-angle-left  mx-2 prevpage" id="prevpage"></i>
+    <div class="row mx-2 align-items-center">
+      Page: &nbsp; <select class="pagination form-control" style="width:80px">
+      </select></div>
+    <i class="fas fa-angle-right  mx-2 nextpage" id="nextpage"></i>
+    <i class="fas fa-angle-double-right mx-3 lastpage" id="lastpage"></i>
+  </div>
+  <div class="row justify-content-center align-self-center"><img src="./images/dividerBryn3(trans).gif">      <div id="scroll" class="offset-11 align-self-center" style="cursor:pointer"><img src="images/arrow5.png"></div>
+</div>
+  <div class="row justify-content-center align-self-center"><a href="http://www.muslimgauze.org/index.html"><img src="./images/logo.png"></a>
+</div>
 
-  <div class="row"> <button id="loginshowbtn" class="ml-1 btn btn-secondary">Login</button>
-
-    <a class="btn btn-info float-right mr-5" href="addAlbum.html" target="_blank" style="display:none"
+  <div class="row px-5 h-100 d-flex align-items-center"> 
+    <button id="loginshowbtn" class="mx-1 btn btn-secondary">Login</button>
+    <a class="btn btn-info float-right" href="addAlbum.html" target="_blank" style="display:none"
       id="adminaddalbum">ADD ALBUM</a>
-    <a class="btn btn-info float-right mr-5" href="addTrack.html" target="_blank" style="display:none"
-      id="adminaddtrack">ADD TRACK</a> </div>
+    <a class="btn btn-info float-right" href="addTrack.html" target="_blank" style="display:none"
+      id="adminaddtrack">ADD TRACK</a> 
+    </div>
   <div id="usermodal" class="usermodal">
     <div class="row ml-5 my-3">
       <span class=""><b>
