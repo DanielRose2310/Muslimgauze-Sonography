@@ -191,3 +191,830 @@ body {
   background-color: white;
   padding: 4em 2em;
 }
+
+
+a:link {
+	color: #888888;
+	background-color: transparent;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 16px;
+}
+
+a:visited {
+	color: #5b5b5b;
+	background-color: transparent;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 16px;
+}
+
+a:hover {
+	color: #708090;
+	background-color: transparent;
+	font-weight: 500;
+	font-style: italic;
+	font-size: 16px;
+}
+
+a:active {
+	color: #708090;
+	background-color: transparent;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 16px;
+}
+
+body {
+	background-image: url(images/backgrounds/white-gray-background.jpg);
+	font-family: akagi-pro, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	width: 95%;
+}
+
+div {
+	color: #000000;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 16px;
+	text-align: center;
+	text-transform: none;
+}
+
+h1 {
+	color: #800000;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 24px;
+	text-align: center;
+}
+
+h2 {
+	color: #800000;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 20px;
+	text-align: left;
+}
+
+h3 {
+	color: #000000;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 20px;
+	text-align: center;
+}
+
+h4 {
+	color: #808080;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 14px;
+	text-align: center;
+}
+
+h5 {
+	color: #800000;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 16px;
+	text-align: center;
+}
+
+h6 {
+	color: #708090;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 12px;
+	text-align: center;
+}
+
+ol {
+	color: #000000;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	list-style-position: outside;
+	list-style-type: decimal;
+	text-transform: none;
+}
+
+p {
+	color: #000000;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	text-indent: 5pt;
+	text-transform: none;
+}
+
+pre {
+	color: #000000;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 16px;
+	text-transform: none;
+}
+
+table {
+	margin-left: 3%;
+	margin-right: auto;
+	padding-left: 0px;
+	padding-right: 0px;
+	width: 95%;
+}
+
+ul {
+	color: #000000;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	list-style-position: inside;
+	list-style-image: url(images/site/dot3.gif);
+}
+
+ul ul {
+	color: #000000;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	list-style-position: inside;
+	list-style-image: url(images/site/circle2.gif);
+}
+
+.address-indent { margin-left: 38%; }
+
+.album-title {
+	color: #333333;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 20px;
+	text-align: left;
+}
+
+.album-sub-title {
+	color: #333333;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 14px;
+	text-align: left;
+}
+.another-site { text-align: center; vertical-align: middle; }
+
+.arrow { border: none; vertical-align: middle; }
+
+.articles-sub-head {
+	color: #000000;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 18px;
+}
+
+.articles-sub-head-center {
+	color: #000000;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 18px;
+	text-align: center;
+}
+.articles-sub-head-maroon {
+	color: #800000;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 18px;
+}
+
+.articles-sub-head-right {
+	color: #000000;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 18px;
+	text-indent: 65%;
+}
+
+.articles-sub-head-small {
+	color: #000000;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 14px;
+}
+
+.articles-sub-head-red {
+	color: #CC0000;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 16px;
+	text-align: center;
+}
+
+.articles-table { width: 95%; text-align: center; }
+
+.articles-table-txt { width: 100%; text-align: center; }
+
+.articles-title-center {
+	color: #000000;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 24px;
+	text-align: center;
+}
+
+.articles-title-left {
+	color: #000000;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 24px;
+	text-align: left;
+}
+
+.articles-title-maroon {
+	color: #800000;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 24px;
+	text-align: center;
+}
+
+.articles-title-olive {
+	color: #316400;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 24px;
+	text-align: left;
+}
+
+.articles-title-olive-small {
+	color: #316400;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 18px;
+	text-align: left;
+}
+.cadetblue-text {
+	color: #5F9EA0;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	text-align: center;
+}
+
+.column1 { text-align: center; vertical-align: top; width: 250px; }
+
+.column2 { text-align: left; vertical-align: top; width: 450px; }
+
+.column50-center { text-align: center; vertical-align: middle; width: 50%; }
+
+.column50-left { text-align: left; vertical-align: middle; width: 50%; }
+
+.column50-right { text-align: right; vertical-align: middle; width: 35%; }
+
+.column-auto {
+	text-align: center;
+	vertical-align: middle;
+	width: auto;
+}
+
+.column-auto-left { text-align: left; vertical-align: middle; width: auto; }
+
+.column-auto-right { text-align: right; vertical-align: middle; width: auto; }
+
+.column-auto-top { text-align: center; vertical-align: top; }
+
+.column-back { text-align: left; vertical-align: middle; width: 45%; }
+
+.column-left-indent {
+	text-align: left;
+	text-indent: 5%;
+	vertical-align: middle;
+	width: auto;
+}
+
+.column-links { text-align: center; vertical-align: middle; width: 28%; }
+
+.column-muslimgauze { text-align: right; vertical-align: middle; width: 40%; }
+
+.column-press1 { text-align: center; vertical-align: middle; width: 12%; }
+
+.column-press2 {
+	text-align: center;
+	vertical-align: middle;
+	width: auto;
+}
+
+.credits {
+	color: #000000;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 13px;
+	text-align: center;
+}
+
+.credits-repress {
+	color: #333333;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 13px;
+	text-align: center;
+}
+
+.darkblue-text {
+	color: #000066;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	text-align: center;
+}
+
+.date {
+	color: #333333;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 12px;
+	text-align: center;
+}
+
+.date-articles {
+	color: #000000;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 13px;
+}
+
+.date-right {
+	color: #333333;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 12px;
+	text-indent: 70%;
+}
+
+.disc {
+	color: #000000;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 12px;
+	text-align: left;
+	text-indent: 40px;
+}
+
+.disc-info {
+	color: #000000;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 13px;
+	text-align: left;
+}
+
+.disc-info-italic {
+	color: #000000;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 12px;
+	text-align: left;
+}
+
+.discography-indented {
+	font-family: akagi-pro, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	margin-left: 7%;
+	margin-right: 7%;
+}
+
+.discography-sub-title {
+	color: #000000;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 13px;
+	text-align: left;
+}
+
+.disc-title {
+	color: #000000;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 16px;
+}
+
+.ed {
+	color: #000000;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 12px;
+	text-align: left;
+}
+
+.facsimile-table { border: none; width: 95%; text-align: center; }
+
+.float-left { float: left; padding: 2%; }
+
+.float-right { float: right; }
+
+.graphic-center { text-align: center; border: none;  vertical-align: middle; }
+
+.graphic-indent { text-indent: 25%; text-align: left; border: none;  vertical-align: middle; }
+
+.graphic-indent-small { text-indent: 10%; text-align: left; border: none;  vertical-align: middle; }
+
+.graphic-left { text-align: left; border: none;  vertical-align: middle; }
+
+.graphic-right { text-align: right; border: none;  vertical-align: middle; }
+
+.header-graphic { text-align: center; }
+
+.index-c1 { width: 29%; text-align: center; vertical-align: middle; }
+
+.index-c2 { width: 45%; text-align: center; vertical-align: middle; }
+
+.index-c3 { width: 26%; text-align: center; vertical-align: middle; }
+
+.index-indent {
+	font-family: akagi-pro, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	margin-left: 30%;
+	font-size: 36px;
+}
+
+.index-table { width: 85%; text-indent: 5%; text-align: center; }
+
+.italic { font-style: italic; }
+
+.italic-indent { font-style: italic; margin-left: 5%;}
+
+.italic-small { font-style: italic; font-size: 10px; }
+
+.itunes { padding-left: 5%; vertical-align: baseline; }
+
+.left-indent { margin-left: 15%; }
+
+.memorials-table { width: 900px; text-align: center; }
+
+.oop {
+	color: #FF0000;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 12px;
+}
+
+.p-maroon {
+	color: #800040;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	text-indent: 5pt;
+	text-transform: none;
+}
+
+.pageheader-maroon {
+	color: #800040;
+	background-color: transparent;
+	text-align: left;
+}
+
+.page-heading {
+	color: #000000;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 28px;
+	text-align: center;
+}
+
+.people-header {
+	color: #800000;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 20px;
+	text-align: left;
+}
+
+.p-indented {
+	color: #000000;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	margin-left: 7%;
+	margin-right: 7%;
+}
+
+.p-italics {
+	color: #000000;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 16px;
+}
+
+.pre-small {
+	color: #333333;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 500;
+	font-style: italic;
+	font-size: 14px;
+	text-align: left;
+}
+
+.press-header {
+	color: #000000;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 16px;
+	text-decoration: underline;
+	text-transform: none;
+}
+
+.press-indent {
+	color: #880000;
+	background-color: transparent;
+	font-size: 18px;
+	font-weight: bolder;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.press-table { width: 90%; text-align: center; text-indent: 5%; }
+
+.p-underline {
+	color: #000000;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 16px;
+	text-align: left;
+	text-decoration: underline;
+}
+
+.p-very-small {
+	color: #000000;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 10px;
+	text-align: center;
+}
+
+.quote-indent { margin-left: 5%; font-style: oblique; }
+
+.rel-date {
+	color: #000000;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 12px;
+	text-align: center;
+}
+
+.releases-table { width: 95%; text-align: center; }
+
+.request-table { width: 900px; text-align: center; }
+
+.return-image {
+	color: #000000;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 12px;
+	text-align: center;
+}
+
+.reviewer {
+	font-family: akagi-pro, sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 16px;
+	text-align: center;
+}
+
+.site-table { width: 900px; text-align: center; }
+
+.sleeve-notes-header {
+	color: #333333;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 14px;
+	text-align: left;
+}
+
+.sleeve-notes {
+	color: #000000;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 12px;
+	text-align: left;
+}
+.sonography-text {
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 12px;
+	text-indent: 3%;
+}
+
+.strike-through {
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	text-decoration: line-through;
+}
+
+.strike-through-italic {
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	text-decoration: line-through;
+}
+
+.sub-title {
+	color: #000000;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 13px;
+	text-align: left;
+}
+
+.table { height: auto; text-align: left; width: auto; }
+
+.table-center {
+	height: auto;
+	text-align: center;
+	width: auto;
+	vertical-align: middle;
+}
+
+.time {
+	color: #000000;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 12px;
+	text-align: center;
+}
+
+
+.tracks {
+	color: #000000;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 12px;
+	text-align: left;
+	text-decoration: underline;
+	text-indent: 20px;
+}
+
+.underline {
+	color: #000000;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 16px;
+	text-decoration: underline;
+}
+
+.unknown-rel {
+	color: #800040;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 14px;
+}
+
+.warning {
+	color: #CC0000;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 14px;
+}
+.warning-ctr {
+	color: #CC0000;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 14px;
+	text-align: center;
+}
+
+.warning-lrg {
+	color: #CC0000;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 20px;
+}
+
+.warning-small {
+	color: #CC0000;
+	background-color: transparent;
+	font-family: akagi-pro, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 12px;
+}
