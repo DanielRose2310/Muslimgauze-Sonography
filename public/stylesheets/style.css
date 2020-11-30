@@ -225,14 +225,7 @@ a:active {
 	font-size: 16px;
 }
 
-body {
-	background-image: url(images/backgrounds/white-gray-background.jpg);
-	font-family: akagi-pro, sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	font-size: 16px;
-	width: 95%;
-}
+
 
 div {
 	color: #000000;
