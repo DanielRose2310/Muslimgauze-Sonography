@@ -68,21 +68,21 @@ export class Track {
 		newTr.append(rowtitle);
 		$("#id_parent").append(newTr);
 		album1box = $(
-			`<td align="center" id="album1box" class="align-middle"><i> ${this.release1title}</i><br>${this.release1year}<br> ${this.release1format}<br>${this.release1catalogue} </td>`
+			`<td align="center" id="album1box" class="align-middle"><i> ${this.release1title}</i> (${this.release1year})<br>${this.release1catalogue} - ${this.release1format}</td>`
 		);
 		$(newTr).append(album1box);
 
 		if (this.release2title) {
 			$("#reissuecol1").show();
 			album2box = $(
-				`<td id="box2" align="center" class="align-middle"><i>${this.release2title}</i><br>${this.release2year}<br> ${this.release2format}<br>${this.release2catalogue} </td>`
+				`<td id="box2" align="center" class="align-middle"><i>${this.release2title}</i> (${this.release2year})<br>${this.release2catalogue} - ${this.release2format}</td>`
 			);
 			$(newTr).append(album2box);
 		} 
 		if (this.release3title) {
 			$("#reissuecol2").show();
 			album3box = $(
-				`<td id="box3" align="center" class="align-middle"></i>${this.release3title}</i><br>${this.release3year}<br> ${this.release3format}<br>${this.release3catalogue} </td>`
+				`<td id="box3" align="center" class="align-middle"></i>${this.release3title}</i> (${this.release3year})<br>${this.release3catalogue} - ${this.release3format}</td>`
 			);
 			$(newTr).append(album3box);
 		} 

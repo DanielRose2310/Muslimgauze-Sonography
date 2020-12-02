@@ -1,17 +1,23 @@
-import { parseTracksData, tracks } from "./tracksManager.js";
-import { tracksData, doLogin } from "./dbCalls.js";
+import {
+	parseTracksData,
+	tracks
+} from "./tracksManager.js";
+import {
+	tracksData,
+	doLogin
+} from "./dbCalls.js";
 
 export const declareViewEvents = () => {
 
 	let scrollbtn = document.querySelector('#scroll');
-	scrollbtn.onclick = ()=> { 
-	  var smoothscroll = setInterval(function () {
-		window.scrollTo(0, window.scrollY - 100)
-		if (window.scrollY <= 0)
-		  clearInterval(smoothscroll)
-	  }, 20);
+	scrollbtn.onclick = () => {
+		var smoothscroll = setInterval(function () {
+			window.scrollTo(0, window.scrollY - 100)
+			if (window.scrollY <= 0)
+				clearInterval(smoothscroll)
+		}, 20);
 	}
-	
+
 
 	let tracksfiltered;
 	document.querySelector("#sortmenu").addEventListener("change", () => {
@@ -50,6 +56,9 @@ export const declareViewEvents = () => {
 			parseTracksData(tracksfiltered, "title");
 		}
 	});
+	if (localStorage.getItem("dbtoken"))  {
+		$("#loginshowbtn").html("Logout");
+	}
 	$("#loginshowbtn").on("click", function () {
 		if (!localStorage.getItem("dbtoken")) {
 			$("#usermodal").slideDown();
