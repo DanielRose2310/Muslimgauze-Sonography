@@ -1,14 +1,14 @@
-app.all('/', (req,res, next)=> {
+router.all('/', (req,res, next)=> {
     res.status(403).send({
        message: 'Access Forbidden'
     });
     // or whatever
 });
-app.use('/media',express.static(path.join(__dirname, 'media')));
-app.all('/', (req,res, next)=> {
+router.use('/media',express.static(path.join(__dirname, 'media')));
+router.all('/', (req,res, next)=> {
     res.status(403).send({
        message: 'Access Forbidden'
     });
     // or whatever
 });
-app.use('/media',express.static(path.join(__dirname, 'media')));
+router.use('/media',express.static(path.join(__dirname, 'media')));
