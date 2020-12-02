@@ -131,15 +131,4 @@ router.put("/edit", authToken, async (req, res) => {
 })
 
 
-router.post('/reset', async (req, res) => {
-  userModel.deleteMany({})
-    .then(data => {
-      res.json(data);
-    })
-    .catch(err => {
-      res.status(400).json(err);
-    })
-
-});
-
 module.exports = router;
