@@ -63,7 +63,7 @@ router.post("/login", async (req, res) => {
     try {
       
       let dataDB = await userModel.findOne({
-        user: req.user
+        user: req.body.user
       })
       if (dataDB) {
         
