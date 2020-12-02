@@ -68,6 +68,7 @@ router.post("/login", async (req, res) => {
       if (dataDB) {
         
         let validPass = await bcrypt.compare(req.body.pass, dataDB.pass)
+        console.log(req.body.pass, dataDB.pass)
         if (!validPass) {
           res.json({
             message: "INVALID PASSWORD"
