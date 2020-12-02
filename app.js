@@ -8,6 +8,7 @@ const mongodb = require('./dbs_connected/mongodb')
 const tracksR = require('./routes/tracks');
 const albumsR = require('./routes/albums');
 const usersR = require('./routes/users');
+const adminR = require('./routes/admin');
 const app = express();
 const cors = require('cors')
 app.set('views', path.join(__dirname, 'views'));
@@ -29,6 +30,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/tracks', tracksR);
 app.use('/users',usersR);
 app.use('/albums',albumsR);
+app.use('/addtrack',adminR);
+app.use('/addalbum',adminR);
 app.use(function(req, res, next) {
   next(createError(404));
 });
