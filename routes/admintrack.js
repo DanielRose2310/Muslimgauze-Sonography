@@ -15,7 +15,7 @@ router.get("/", authToken, async (req, res) => {
     
     let valid = validUser(req.body);
     if (!valid.error) {
-        res.send('in')
+        //res.send('in')
         res.sendFile(path.join(__dirname + '/../admin/addtrack.html'));
 
     } else {
