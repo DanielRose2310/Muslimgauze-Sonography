@@ -15,6 +15,8 @@ router.get("/", authToken, async (req, res) => {
     
     let valid = validUser(req.body);
     if (!valid.error) {
+        console.log('in')
+
         res.sendFile(path.join(__dirname + '/../admin/addalbum.html'));
 
     } else {
