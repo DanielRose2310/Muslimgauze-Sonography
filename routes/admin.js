@@ -11,13 +11,12 @@ const {
     genToken
 } = require("../models/models_users")
 
-router.get("/", authToken, async (req, res) => {
+router.get("/*", authToken, async (req, res) => {
     
     let valid = validUser(req.body);
     if (!valid.error) {
         //res.send(process.cwd())
-        res.sendFile(path.join(process.cwd() + '/public/admin/addTrack.html'));
-
+next();
     } else {
         res.status(403).send({
             message: 'Access Forbidden'

@@ -15,7 +15,7 @@ router.get("/", authToken, async (req, res) => {
     
     let valid = validUser(req.body);
     if (!valid.error) {
-        res.send(process.cwd())
+        //res.send(process.cwd())
         res.sendFile(path.join(process.cwd() + '/public/admin/addAlbum.html'));
 
     } else {
@@ -24,6 +24,7 @@ router.get("/", authToken, async (req, res) => {
         });
     }
 })
-
-
+router.get(/[\.]/, function( req, res, next ) {
+    res.send( "You are not supposed to be here." );
+  } );
 module.exports = router;
