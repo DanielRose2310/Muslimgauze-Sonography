@@ -16,7 +16,7 @@ router.get("/", authToken, async (req, res) => {
     let valid = validUser(req.body);
     if (!valid.error) {
         //res.send(process.cwd())
-        res.sendFile(path.join(process.cwd() + './public/admin/addtrack.html'));
+        res.sendFile(path.join(process.cwd() + './admin/addtrack.html'));
 
     } else {
         res.status(403).send({
