@@ -16,7 +16,7 @@ router.get("/", authToken, async (req, res) => {
     let valid = validUser(req.body);
     if (!valid.error) {
         //res.send('in')
-        res.sendFile(path.join(__dirname + '/../../admin/addalbum.html'));
+        res.sendFile(path.join(__dirname + '/admin/addalbum.html'));
 
     } else {
         res.status(403).send({
