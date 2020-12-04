@@ -13,7 +13,7 @@ const adminalbumR = require('./routes/adminalbum');
 const app = express();
 const cors = require('cors')
 
-app.set('views', path.join(__dirname, 'views'));
+app.set('views', path.join(process.cwd(), 'views'));
 app.set('view engine', 'jade');
 app.use(function (req, res, next) {
   res.header('Access-Control-Allow-Origin', req.headers.origin || "*");
@@ -29,7 +29,7 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(process.cwd())));
 
 app.use('/tracks', tracksR);
 app.use('/users',usersR);
