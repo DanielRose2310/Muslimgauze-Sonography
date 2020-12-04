@@ -29,7 +29,7 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(express.static(path.join(process.cwd())));
+app.use(express.static(path.join(process.cwd(), 'public')));
 
 app.use('/tracks', tracksR);
 app.use('/users',usersR);
