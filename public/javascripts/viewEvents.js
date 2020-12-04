@@ -9,6 +9,59 @@ import {
 
 export const declareViewEvents = () => {
 
+	$('#adminaddtrack').on('click', function () {
+		let url="/addtrack"
+		$.ajaxSetup({headers: {
+			Authorization: `Bearer ${localStorage.getItem('dbtoken')}`
+		}})
+		$.ajax({
+			url: url,
+			type: 'GET',
+			xhrFields: {
+				withCredentials: true
+			},
+			contentType: 'application/json',
+			dataType: "html",
+			headers: {
+				"Authorization": localStorage.getItem('dbtoken')
+			},
+			success: function (data) {
+				console.log(data)
+				$("body").html(data);
+			},
+			error: function (jqXHR, textStatus, errorThrown) {
+				console.log(errorThrown);
+			},
+
+			async: true
+		})
+	});
+	$('#adminaddalbum').on('click', function () {
+		let url="/addalbum"
+		$.ajaxSetup({headers: {
+			Authorization: `Bearer ${localStorage.getItem('dbtoken')}`
+		}})
+		$.ajax({
+			url: url,
+			type: 'GET',
+			xhrFields: {
+				withCredentials: true
+			},
+			contentType: 'application/json',
+			dataType: "html",
+			headers: {
+				"Authorization": localStorage.getItem('dbtoken')
+			},
+			success: function (data) {
+				$("body").html(data);
+			},
+			error: function (jqXHR, textStatus, errorThrown) {
+				console.log(errorThrown);
+			},
+			async: true
+		})
+	});
+
 	let scrollbtn = document.querySelector('#scroll');
 	scrollbtn.onclick = () => {
 		var smoothscroll = setInterval(function () {
@@ -56,7 +109,7 @@ export const declareViewEvents = () => {
 			parseTracksData(tracksfiltered, "title");
 		}
 	});
-	if (localStorage.getItem("dbtoken"))  {
+	if (localStorage.getItem("dbtoken")) {
 		$("#loginshowbtn").html("Logout");
 	}
 	$("#loginshowbtn").on("click", function () {

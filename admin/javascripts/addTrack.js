@@ -1,4 +1,5 @@
 $("#submittrack").on("click", () => {
+
 	if (!$("#titleadd").val().length) {
 		$("#submittrack")
 			.html(`No title entered!`)
@@ -66,12 +67,6 @@ export const trackCheck = (_data) => {
 					$(".dupmodal").fadeIn()
 					$("#dupinfo").append(`<li>
 				 ${item.title}, <i>${item.releases[0].albumtitle}</i> - ${item.releases[0].albumcatalogue}<br> ${item.releases[0].albumyear} - ${item.releases[0].albumformat}
-				 </li>
-				 <li>
-				 <i>${item.releases[1]?.albumtitle}</i> - ${item.releases[1]?.albumcatalogue}<br> ${item.releases[1]?.albumyear} - ${item.releases[1]?.albumformat}
-				 </li>
-				 <li>
-				 <i>${item.releases[2]?.albumtitle}</i> - ${item.releases[2]?.albumcatalogue}<br> ${item.releases[2]?.albumyear} - ${item.releases[2]?.albumformat}
 				 </li>
 				 `);
 

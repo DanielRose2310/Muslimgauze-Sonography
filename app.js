@@ -8,16 +8,20 @@ const mongodb = require('./dbs_connected/mongodb')
 const tracksR = require('./routes/tracks');
 const albumsR = require('./routes/albums');
 const usersR = require('./routes/users');
-const adminR = require('./routes/admin');
+const admintrackR = require('./routes/admintrack');
+const adminalbumR = require('./routes/adminalbum');
 const app = express();
 const cors = require('cors')
+
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
-app.all('*', function (req, res, next) {
-  if (!req.get('Origin')) return next();
-  res.set('Access-Control-Allow-Origin', '*');
-  res.header("Access-Control-Allow-Methods", "GET, PUT, POST, DELETE");
-  res.set('Access-Control-Allow-Headers', 'X-Requested-With,Content-Type,x-auth-token');
+app.use(function (req, res, next) {
+  res.header('Access-Control-Allow-Origin', req.headers.origin || "*");
+  res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, HEAD, DELETE, OPTIONS');
+  res.header("Access-Control-Allow-Headers", "Authorization, Origin, X-Requested-With, Content-Type, Accept");
+  if (req.method === 'OPTIONS') {
+      return res.end();
+  }
   next();
 });
 app.use(cors())
@@ -30,8 +34,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/tracks', tracksR);
 app.use('/users',usersR);
 app.use('/albums',albumsR);
-app.use('/addtrack',adminR);
-app.use('/addalbum',adminR);
+app.use('/addtrack',admintrackR);
+app.use('/addalbum',adminalbumR);
 app.use(function(req, res, next) {
   next(createError(404));
 });
@@ -43,5 +47,6 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
+
 
 module.exports = app;
