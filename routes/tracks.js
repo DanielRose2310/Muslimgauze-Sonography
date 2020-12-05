@@ -6,7 +6,7 @@ const {
   tracksModel,
   validTrack
 } = require("../models/models_tracks")
-//const authToken = require("../middleware/auth");
+const authToken = require("../middleware/auth");
 
 router.get('/', async (req, res) => {
   tracksModel.find({})
@@ -86,7 +86,7 @@ router.get('/years/:min/:max', async (req, res) => {
 });
 
 
-router.post("/add", (req, res) => {
+router.post("/add", authToken, (req, res) => {
   let valid = validTrack(req.body);
   if (!valid.error) {
     tracksModel.insertMany([req.body])
@@ -103,7 +103,7 @@ router.post("/add", (req, res) => {
   }
 })
 
-router.put("/edit", (req, res) => {
+router.put("/edit", authToken, (req, res) => {
   let valid = validTrack(req.body);
   if (!valid.error) {
     tracksModel.updateOne({
@@ -121,7 +121,7 @@ router.put("/edit", (req, res) => {
     res.status(400).json(valid.error.details);
   }
 })
-router.delete("/del/:idDel", (req, res) => {
+router.delete("/del/:idDel", authToken, (req, res) => {
   let idDel = req.params.idDel;
   tracksModel.deleteOne({
     _id: idDel

@@ -15,7 +15,7 @@ body {
 #itemsmenu{
   width: 200px;
 }
-.nav i {
+i {
   cursor: pointer;
 }
 

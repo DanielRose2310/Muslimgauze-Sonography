@@ -5,8 +5,9 @@ const authToken = (req, res, next) => {
   let token = req.header("Authorization");
 
   if (!token) {
-    return res.status(401).json({
+    return res.status(401).send({
       message: "Please login"
+      
     })
   }
   try {

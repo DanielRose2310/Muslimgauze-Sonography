@@ -15,6 +15,7 @@
 </head>
 
 <body>
+	<div class="row d-block ml-5"><a onclick="javascript:window.location.reload();"><i class="fas fa-arrow-left float-left"></a></i></div>
 
     <div class="addmodal-content mt-5">
         <h2 class="m-3">Submit track</h2>
@@ -46,8 +47,8 @@
             <ul id='dupinfo'></ul>
             <div class="row justify-content-center"><h3>Continue?</h2></div>
             <div class="row justify-content-around">
-                <i style="color:green; font-size: 36px;" class="fas fa-check"></i>
-                <i style="color:red; font-size: 36px;" class="fas fa-window-close"></i>
+                <i style="color:green; font-size: 36px;" id="confirmdupprompt" class="fas fa-check"></i>
+                <i style="color:red; font-size: 36px;" id="closedupprompt" class="fas fa-window-close"></i>
             </div>
         </div>
     </div>
@@ -55,9 +56,9 @@
 
 </html>
 <script>
+	let trackBody;
     $("#submittrack").on("click", () => {
 	console.log("click")
-
 	if (!$("#titleadd").val().length) {
 		$("#submittrack")
 			.html(`No title entered!`)
@@ -71,7 +72,7 @@
 		}, 2000);
 	} else {
 		console.log("ping")
-		let trackBody = {
+		 trackBody = {
 			title: $("#titleadd").val(),
 			releases: [{
 					albumtitle: $("#release1titleadd").val(),
@@ -127,12 +128,6 @@
 					$("#dupinfo").append(`<li>
 				 ${item.title}, <i>${item.releases[0].albumtitle}</i> - ${item.releases[0].albumcatalogue}<br> ${item.releases[0].albumyear} - ${item.releases[0].albumformat}
 				 </li>
-				 <li>
-				 <i>${item.releases[1]?.albumtitle}</i> - ${item.releases[1]?.albumcatalogue}<br> ${item.releases[1]?.albumyear} - ${item.releases[1]?.albumformat}
-				 </li>
-				 <li>
-				 <i>${item.releases[2]?.albumtitle}</i> - ${item.releases[2]?.albumcatalogue}<br> ${item.releases[2]?.albumyear} - ${item.releases[2]?.albumformat}
-				 </li>
 				 `);
 
 				})
@@ -140,7 +135,16 @@
 		})
 }
 
+$("#closedupprompt").on('click',function(){
+	$(".dupmodal").fadeOut();
+	$("#dupinfo").empty();
+})
 
+$("#confirmdupprompt").on('click',function(){
+	$(".dupmodal").fadeOut();
+	$("#dupinfo").empty();
+	console.log(trackBody)
+})
  const trackAdd = (_data) => {
 	fetch("https://muslimgauze-database.herokuapp.com/tracks/add", {
 			method: "POST",
