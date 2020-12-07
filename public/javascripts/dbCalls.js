@@ -74,6 +74,7 @@ export const trackEdit = (_data) => {
 		body: JSON.stringify(_data),
 		headers: {
 			"content-type": "application/json",
+			"Authorization": localStorage.getItem('dbtoken')
 		},
 	})
 		.then((resp) => resp.json())
