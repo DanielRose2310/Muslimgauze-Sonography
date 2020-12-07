@@ -14,14 +14,7 @@ export const doTable = async (_data, _page = 0, _itemsperpage = 10) => {
 		$("#adminaddalbum").show();
 	}
 	$(".spinner").empty();
-	if (!datacat.length) {
-		$("#popupmodal").hide().fadeIn().css("display", "flex");
-		$(".modal__window").html(`<h2>No matches found</h2>`);
-		$(window).on("click", function (e) {
-			e.stopImmediatePropagation();
-			$("#popupmodal").show().hide();
-		});
-	} else {
+
 		$("#id_parent").empty();
 	let cat=	datacat
 			.slice(_page * itemsperpage, (_page * itemsperpage) + itemsperpage)
@@ -92,5 +85,4 @@ export const doTable = async (_data, _page = 0, _itemsperpage = 10) => {
 		});
 		$(".pagination").val(_page);
 		$("#itemsmenu").val(itemsperpage);
-	}
-};
+	};

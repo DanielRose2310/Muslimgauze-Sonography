@@ -95,7 +95,15 @@ export const declareViewEvents = () => {
 					.toLowerCase()
 					.includes($("#titlesearchinput").val().toLowerCase());
 			});
-			parseTracksData(tracksfiltered, "title");
+			if (tracksfiltered.length){parseTracksData(tracksfiltered, "title");}
+			else{
+					$("#popupmodal").hide().fadeIn().css("display", "flex");
+					$(".modal__window").html(`<h2>No matches found</h2>`);
+					$(window).on("click", function (e) {
+						e.stopImmediatePropagation();
+						$("#popupmodal").show().hide();
+					});
+			}
 		}
 	});
 	$("#searchalbumbtn").on("click", function (e) {
@@ -106,7 +114,15 @@ export const declareViewEvents = () => {
 					.toLowerCase()
 					.includes($("#albumsearchinput").val().toLowerCase());
 			});
-			parseTracksData(tracksfiltered, "title");
+			if (tracksfiltered.length){parseTracksData(tracksfiltered, "title");}
+			else{
+				$("#popupmodal").hide().fadeIn().css("display", "flex");
+				$(".modal__window").html(`<h2>No matches found</h2>`);
+				$(window).on("click", function (e) {
+					e.stopImmediatePropagation();
+					$("#popupmodal").show().hide();
+				});
+		}
 		}
 	});
 	if (localStorage.getItem("dbtoken")) {
